@@ -1,0 +1,2802 @@
+[
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 0,
+        "test_result": [
+            171,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 0,
+        "test_result": [
+            184,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 0,
+        "test_result": [
+            183,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 0,
+        "test_result": [
+            166,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 0,
+        "test_result": [
+            166,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 0,
+        "test_result": [
+            187,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 6,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 6,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 6,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 6,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 0,
+        "test_result": [
+            166,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            180,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            180,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            180,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            180,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors": 0,
+        "test_result": [
+            196,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 10,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 0,
+        "test_result": [
+            167,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 10,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 6,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            221,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            179,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            221,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            178,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            171,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            221,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            218,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            221,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            178,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            221,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            179,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            212,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            221,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors": 0,
+        "test_result": [
+            220,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            192,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            86,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            86,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            88,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors": 0,
+        "test_result": [
+            86,
+            107
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            222,
+            222
+        ],
+        "has_todo": false,
+        "can_replace": true
+    }
+]

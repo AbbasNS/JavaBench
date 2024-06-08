@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly("org.jetbrains:annotations:22.0.0")
+
+    // Use JUnit Jupiter for testing.
+    testImplementation("org.junit.jupiter:junit-jupiter:5.7.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.7.2")
+}
+
+test {
+    timeout = Duration.ofMinutes(1)
+    useJUnitPlatform()
+}
+
+tasks.withType(AbstractTestTask) {
+    afterSuite { desc, result ->
+        if (desc.parent == null) { // will match the outermost suite
+            println "Results: ${result.resultType} (${result.testCount} tests, ${result.successfulTestCount} successes, ${result.failedTestCount} failures, ${result.skippedTestCount} skipped)"
+        }
+    }
+}

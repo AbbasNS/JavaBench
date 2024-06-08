@@ -1,0 +1,890 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 48
+    },
+    "baseComponent": {
+        "key": "PA21",
+        "name": "PA21",
+        "qualifier": "TRK",
+        "measures": []
+    },
+    "components": [
+        {
+            "key": "PA21:src/main/java/pa1/model/BoardElement.java",
+            "name": "BoardElement.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/BoardElement.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:build.gradle.kts",
+            "name": "build.gradle.kts",
+            "qualifier": "FIL",
+            "path": "build.gradle.kts",
+            "language": "kotlin",
+            "measures": [
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Cell.java",
+            "name": "Cell.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Cell.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/CellTest.java",
+            "name": "CellTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/CellTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:config/checkstyle/checkstyle.xml",
+            "name": "checkstyle.xml",
+            "qualifier": "FIL",
+            "path": "config/checkstyle/checkstyle.xml",
+            "language": "xml",
+            "measures": [
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Direction.java",
+            "name": "Direction.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Direction.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "9"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/DirectionTest.java",
+            "name": "DirectionTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/DirectionTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "18"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "7",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Entity.java",
+            "name": "Entity.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Entity.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/EntityCell.java",
+            "name": "EntityCell.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/EntityCell.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "12"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "7",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/EntityCellTest.java",
+            "name": "EntityCellTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/EntityCellTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "19"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/EntityTest.java",
+            "name": "EntityTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/EntityTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "13"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/ExtraLife.java",
+            "name": "ExtraLife.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/ExtraLife.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/ExtraLifeTest.java",
+            "name": "ExtraLifeTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/ExtraLifeTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/GameBoard.java",
+            "name": "GameBoard.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/GameBoard.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "58"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "76",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/controller/GameBoardController.java",
+            "name": "GameBoardController.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/controller/GameBoardController.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "21"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "25",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/controller/GameBoardControllerTest.java",
+            "name": "GameBoardControllerTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/controller/GameBoardControllerTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "82"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "76",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/GameBoardTest.java",
+            "name": "GameBoardTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/GameBoardTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "64"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "19",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/util/GameBoardUtils.java",
+            "name": "GameBoardUtils.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/util/GameBoardUtils.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "3",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/view/GameBoardView.java",
+            "name": "GameBoardView.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/view/GameBoardView.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "6",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/controller/GameController.java",
+            "name": "GameController.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/controller/GameController.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "8"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "6",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/controller/GameControllerTest.java",
+            "name": "GameControllerTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/controller/GameControllerTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "150"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "144",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/GameState.java",
+            "name": "GameState.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/GameState.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "23"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "4",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/util/GameStateSerializer.java",
+            "name": "GameStateSerializer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/util/GameStateSerializer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "29"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "21",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/util/GameStateSerializerTest.java",
+            "name": "GameStateSerializerTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/util/GameStateSerializerTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "26"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "22",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/GameStateTest.java",
+            "name": "GameStateTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/GameStateTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "108"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "87",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/view/GameView.java",
+            "name": "GameView.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/view/GameView.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "1",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Gem.java",
+            "name": "Gem.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Gem.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/GemTest.java",
+            "name": "GemTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/GemTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/InertiaTextGame.java",
+            "name": "InertiaTextGame.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/InertiaTextGame.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "18"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "27",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/Main.java",
+            "name": "Main.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/Main.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "3",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Mine.java",
+            "name": "Mine.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Mine.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/MineTest.java",
+            "name": "MineTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/MineTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/MoveResult.java",
+            "name": "MoveResult.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/MoveResult.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/MoveResultTest.java",
+            "name": "MoveResultTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/MoveResultTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "24"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/MoveStack.java",
+            "name": "MoveStack.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/MoveStack.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "1",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/MoveStackTest.java",
+            "name": "MoveStackTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/MoveStackTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "16"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Player.java",
+            "name": "Player.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Player.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/PlayerTest.java",
+            "name": "PlayerTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/PlayerTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Position.java",
+            "name": "Position.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Position.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "11"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "6",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/PositionOffset.java",
+            "name": "PositionOffset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/PositionOffset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/PositionOffsetTest.java",
+            "name": "PositionOffsetTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/PositionOffsetTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "9"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/PositionTest.java",
+            "name": "PositionTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/PositionTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "18"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/util/ReflectionUtils.java",
+            "name": "ReflectionUtils.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/util/ReflectionUtils.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:settings.gradle.kts",
+            "name": "settings.gradle.kts",
+            "qualifier": "FIL",
+            "path": "settings.gradle.kts",
+            "language": "kotlin",
+            "measures": [
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/StopCell.java",
+            "name": "StopCell.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/StopCell.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "10"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "4",
+                    "bestValue": false
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/StopCellTest.java",
+            "name": "StopCellTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/StopCellTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "18"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/main/java/pa1/model/Wall.java",
+            "name": "Wall.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/pa1/model/Wall.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        },
+        {
+            "key": "PA21:src/test/java/pa1/model/WallTest.java",
+            "name": "WallTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/pa1/model/WallTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                },
+                {
+                    "metric": "cognitive_complexity",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ]
+        }
+    ],
+    "metrics": [
+        {
+            "key": "cognitive_complexity",
+            "name": "Cognitive Complexity",
+            "description": "Cognitive complexity",
+            "domain": "Complexity",
+            "type": "INT",
+            "higherValuesAreBetter": false,
+            "qualitative": false,
+            "hidden": false,
+            "bestValue": "0"
+        },
+        {
+            "key": "complexity",
+            "name": "Cyclomatic Complexity",
+            "description": "Cyclomatic complexity",
+            "domain": "Complexity",
+            "type": "INT",
+            "higherValuesAreBetter": false,
+            "qualitative": false,
+            "hidden": false
+        }
+    ]
+}

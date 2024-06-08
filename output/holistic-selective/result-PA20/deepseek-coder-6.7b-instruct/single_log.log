@@ -1,0 +1,1284 @@
+==============================
+Task PA20/Archer.java, index: 1
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+MainTests > testPieceBelonging() FAILED
+    java.lang.UnsupportedOperationException at MainTests.java:36
+
+MainTests > testInitialBoard1() FAILED
+    java.lang.UnsupportedOperationException at MainTests.java:19
+Results: FAILURE (49 tests, 40 successes, 2 failures, 7 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/Archer.java, index: 4
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+MainTests > testPieceBelonging() FAILED
+    java.lang.UnsupportedOperationException at MainTests.java:36
+
+MainTests > testInitialBoard1() FAILED
+    java.lang.UnsupportedOperationException at MainTests.java:19
+Results: FAILURE (49 tests, 40 successes, 2 failures, 7 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/Knight.java, index: 20
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+IntegratedTestsWithArcherTests > testTieBreak() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithArcherTests.java:141
+
+FirstNMovesProtectionTests > testWithProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:47
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameTieBreakerTests.java:39
+
+KnightTests > testGetAvailableMovesOccupied() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:74
+
+KnightTests > testGetAvailableMovesBlocked() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:121
+Results: FAILURE (49 tests, 44 successes, 5 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/Knight.java, index: 24
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+IntegratedTestsWithArcherTests > testTieBreak() FAILED
+    org.opentest4j.AssertionFailedError at IntegratedTestsWithArcherTests.java:142
+
+IntegratedTestsWithoutArcherTests > testLeaveCentralPlaceWin() FAILED
+    org.opentest4j.AssertionFailedError at IntegratedTestsWithoutArcherTests.java:99
+
+IntegratedTestsWithoutArcherTests > testCaptureAllWin() FAILED
+    org.opentest4j.AssertionFailedError at IntegratedTestsWithoutArcherTests.java:73
+
+FirstNMovesProtectionTests > testWithProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:47
+
+GameMockPlayerIntegratedTests > testCentralPlaceWin() FAILED
+    org.opentest4j.AssertionFailedError at GameMockPlayerIntegratedTests.java:59
+
+GameMockPlayerIntegratedTests > testCaptureAndCentralPlaceWin() FAILED
+    org.opentest4j.AssertionFailedError at GameMockPlayerIntegratedTests.java:146
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    org.opentest4j.AssertionFailedError at GameTieBreakerTests.java:41
+
+KnightTests > testGetAvailableMovesSimple() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:45
+
+KnightTests > testGetAvailableMovesCapture() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:96
+
+KnightTests > testGetAvailableMovesOccupied() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:74
+
+KnightTests > testGetAvailableMovesBlocked() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:121
+Results: FAILURE (49 tests, 38 successes, 11 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ConsolePlayer.java, index: 40
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ConsolePlayerTests > testNextMoveInvalidInput1() FAILED
+    java.lang.NumberFormatException at ConsolePlayerTests.java:107
+Results: FAILURE (49 tests, 48 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ConsolePlayer.java, index: 41
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ConsolePlayerTests > testNextMoveInvalidInput4() FAILED
+    org.opentest4j.AssertionFailedError at ConsolePlayerTests.java:174
+Results: FAILURE (49 tests, 48 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ConsolePlayer.java, index: 42
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ConsolePlayerTests > testNextMoveInvalidInput1() FAILED
+    java.lang.NumberFormatException at ConsolePlayerTests.java:107
+Results: FAILURE (49 tests, 48 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ConsolePlayer.java, index: 43
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ConsolePlayerTests > testNextMoveInvalidInput1() FAILED
+    java.lang.NumberFormatException at ConsolePlayerTests.java:107
+Results: FAILURE (49 tests, 48 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ConsolePlayer.java, index: 44
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ConsolePlayerTests > testNextMoveInvalidInput4() FAILED
+    org.opentest4j.AssertionFailedError at ConsolePlayerTests.java:174
+Results: FAILURE (49 tests, 48 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/JesonMor.java, index: 81
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+IntegratedTestsWithArcherTests > testTieBreak() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithArcherTests.java:141
+
+IntegratedTestsWithArcherTests > testCaptureAllWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithArcherTests.java:73
+
+IntegratedTestsWithoutArcherTests > testLeaveCentralPlaceWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithoutArcherTests.java:98
+
+IntegratedTestsWithoutArcherTests > testCaptureAllWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithoutArcherTests.java:71
+
+GameMockPlayerIntegratedTests > testCentralPlaceWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameMockPlayerIntegratedTests.java:57
+
+GameMockPlayerIntegratedTests > testCaptureAllWinSingle() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameMockPlayerIntegratedTests.java:84
+
+GameMockPlayerIntegratedTests > testCaptureAndCentralPlaceWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameMockPlayerIntegratedTests.java:144
+
+GameMockPlayerIntegratedTests > testCaptureAllWinMultiple() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameMockPlayerIntegratedTests.java:113
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameTieBreakerTests.java:39
+
+GameUnitTests > testWinByCaptureAll() FAILED
+    org.opentest4j.AssertionFailedError at GameUnitTests.java:207
+Results: FAILURE (49 tests, 39 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/Main.java, index: 100
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+MainTests > testHalfArcher() FAILED
+    org.opentest4j.AssertionFailedError at MainTests.java:75
+
+MainTests > testPieceBelonging() FAILED
+    java.lang.NullPointerException at MainTests.java:44
+
+MainTests > testInitialBoard1() FAILED
+    org.opentest4j.AssertionFailedError at MainTests.java:25
+Results: FAILURE (49 tests, 46 successes, 3 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/Main.java, index: 102
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+MainTests > testHalfArcher() FAILED
+    org.opentest4j.AssertionFailedError at MainTests.java:75
+
+MainTests > testPieceBelonging() FAILED
+    java.lang.NullPointerException at MainTests.java:44
+
+MainTests > testInitialBoard1() FAILED
+    org.opentest4j.AssertionFailedError at MainTests.java:25
+Results: FAILURE (49 tests, 46 successes, 3 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/Main.java, index: 103
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+MainTests > testHalfArcher() FAILED
+    org.opentest4j.AssertionFailedError at MainTests.java:75
+
+MainTests > testPieceBelonging() FAILED
+    java.lang.NullPointerException at MainTests.java:44
+
+MainTests > testInitialBoard1() FAILED
+    org.opentest4j.AssertionFailedError at MainTests.java:25
+Results: FAILURE (49 tests, 46 successes, 3 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ArcherMoveRule.java, index: 122
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesSimple() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:46
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+Results: FAILURE (49 tests, 47 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ArcherMoveRule.java, index: 123
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesSimple() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:46
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+Results: FAILURE (49 tests, 47 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/ArcherMoveRule.java, index: 124
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesSimple() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:46
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+Results: FAILURE (49 tests, 47 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/FirstNMovesProtectionRule.java, index: 140
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+
+FirstNMovesProtectionTests > testWithThenWithoutProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:58
+
+FirstNMovesProtectionTests > testNoProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:37
+
+KnightTests > testGetAvailableMovesCapture() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:96
+Results: FAILURE (49 tests, 45 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/FirstNMovesProtectionRule.java, index: 141
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+
+FirstNMovesProtectionTests > testWithThenWithoutProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:58
+
+FirstNMovesProtectionTests > testNoProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:37
+
+KnightTests > testGetAvailableMovesCapture() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:96
+Results: FAILURE (49 tests, 45 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/FirstNMovesProtectionRule.java, index: 142
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+
+FirstNMovesProtectionTests > testWithThenWithoutProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:58
+
+FirstNMovesProtectionTests > testNoProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:37
+
+KnightTests > testGetAvailableMovesCapture() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:96
+Results: FAILURE (49 tests, 45 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/FirstNMovesProtectionRule.java, index: 143
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+
+FirstNMovesProtectionTests > testWithThenWithoutProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:58
+
+FirstNMovesProtectionTests > testNoProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:37
+
+KnightTests > testGetAvailableMovesCapture() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:96
+Results: FAILURE (49 tests, 45 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/FirstNMovesProtectionRule.java, index: 144
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:76
+
+FirstNMovesProtectionTests > testWithThenWithoutProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:58
+
+FirstNMovesProtectionTests > testNoProtection() FAILED
+    org.opentest4j.AssertionFailedError at FirstNMovesProtectionTests.java:37
+
+KnightTests > testGetAvailableMovesCapture() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:96
+Results: FAILURE (49 tests, 45 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightBlockRule.java, index: 160
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+IntegratedTestsWithArcherTests > testTieBreak() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithArcherTests.java:141
+
+IntegratedTestsWithArcherTests > testCaptureAllWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithArcherTests.java:73
+
+IntegratedTestsWithoutArcherTests > testLeaveCentralPlaceWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithoutArcherTests.java:98
+
+IntegratedTestsWithoutArcherTests > testCaptureAllWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at IntegratedTestsWithoutArcherTests.java:71
+
+FirstNMovesProtectionTests > testWithProtection() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at FirstNMovesProtectionTests.java:47
+
+FirstNMovesProtectionTests > testWithThenWithoutProtection() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at FirstNMovesProtectionTests.java:58
+
+FirstNMovesProtectionTests > testNoProtection() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at FirstNMovesProtectionTests.java:37
+
+GameMockPlayerIntegratedTests > testCentralPlaceWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameMockPlayerIntegratedTests.java:57
+
+GameMockPlayerIntegratedTests > testCaptureAndCentralPlaceWin() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameMockPlayerIntegratedTests.java:144
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameTieBreakerTests.java:39
+
+KnightTests > testGetAvailableMovesSimple() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at KnightTests.java:40
+
+KnightTests > testGetAvailableMovesBlocked() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:121
+Results: FAILURE (49 tests, 37 successes, 12 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightBlockRule.java, index: 161
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameTieBreakerTests.java:39
+
+KnightTests > testGetAvailableMovesBlocked() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:121
+Results: FAILURE (49 tests, 47 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightBlockRule.java, index: 162
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameTieBreakerTests.java:39
+
+KnightTests > testGetAvailableMovesBlocked() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:121
+Results: FAILURE (49 tests, 47 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightBlockRule.java, index: 163
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameTieBreakerTests.java:39
+
+KnightTests > testGetAvailableMovesBlocked() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:121
+Results: FAILURE (49 tests, 47 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightBlockRule.java, index: 164
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+GameTieBreakerTests > testMoveAndDeadlock() FAILED
+    java.lang.ArrayIndexOutOfBoundsException at GameTieBreakerTests.java:39
+
+KnightTests > testGetAvailableMovesBlocked() FAILED
+    org.opentest4j.AssertionFailedError at KnightTests.java:121
+Results: FAILURE (49 tests, 47 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightMoveRule.java, index: 180
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightMoveRule.java, index: 181
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 12s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightMoveRule.java, index: 182
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightMoveRule.java, index: 183
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/KnightMoveRule.java, index: 184
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 15s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/NilMoveRule.java, index: 200
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/NilMoveRule.java, index: 201
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 12s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/NilMoveRule.java, index: 202
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/NilMoveRule.java, index: 203
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/NilMoveRule.java, index: 204
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/OccupiedRule.java, index: 220
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:84
+Results: FAILURE (49 tests, 48 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/OccupiedRule.java, index: 223
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArcherTests > testGetAvailableMovesComplex() FAILED
+    org.opentest4j.AssertionFailedError at ArcherTests.java:84
+Results: FAILURE (49 tests, 48 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/OutOfBoundaryRule.java, index: 240
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 7s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/OutOfBoundaryRule.java, index: 241
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/OutOfBoundaryRule.java, index: 242
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 8s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/OutOfBoundaryRule.java, index: 243
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 8s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/OutOfBoundaryRule.java, index: 244
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/VacantRule.java, index: 260
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 8s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/VacantRule.java, index: 261
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/VacantRule.java, index: 262
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 8s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/VacantRule.java, index: 263
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9s
+3 actionable tasks: 3 executed
+
+==============================
+Task PA20/VacantRule.java, index: 264
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (49 tests, 49 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 8s
+3 actionable tasks: 3 executed
+

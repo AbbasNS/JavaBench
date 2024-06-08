@@ -1,0 +1,1457 @@
+==============================
+Task PA22/Move.java, index: 0
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+Results: FAILURE (70 tests, 69 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/Move.java, index: 1
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+Results: FAILURE (70 tests, 69 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/Move.java, index: 2
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+Results: FAILURE (70 tests, 69 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/Move.java, index: 3
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (70 tests, 70 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 29s
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/Move.java, index: 4
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+Results: FAILURE (70 tests, 69 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameMap.java, index: 20
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanGameFactoryTest > testLoadFromFile() FAILED
+    assignment.utils.NotImplementedException at SokobanGameFactoryTest.java:37
+
+SokobanTest > mainLoop() FAILED
+    assignment.utils.NotImplementedException at SokobanTest.java:29
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+AbstractSokobanGameTest > testMove() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:97
+
+AbstractSokobanGameTest > testPushOtherPlayerBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:204
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:160
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:225
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:247
+
+AbstractSokobanGameTest > testPushBoxAgainstWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:182
+
+AbstractSokobanGameTest > testCheckpointWhenNotNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:266
+
+AbstractSokobanGameTest > testHitAnotherPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:139
+
+AbstractSokobanGameTest > testHitWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:118
+
+GameMapTest > testBoxParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:75
+
+GameMapTest > testUndoLimitParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:124
+
+GameMapTest > testWidthForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:110
+
+GameMapTest > testTwoPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:192
+
+GameMapTest > testPlayerParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:66
+
+GameMapTest > testMapWithoutPlayer() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:160
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:160
+
+GameMapTest > testManyPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:214
+
+GameMapTest > testHeightForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:117
+
+GameMapTest > testDuplicatedPlayers() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:242
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:242
+
+GameMapTest > testHeightForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:44
+
+GameMapTest > testWidthForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:37
+
+GameMapTest > testGetDestinations() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:51
+
+GameMapTest > testWallParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:59
+
+GameMapTest > testGetEntity() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:91
+
+GameMapTest > testInsufficientDestinations() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:141
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:141
+
+GameMapTest > testInvalidUndoLimit() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:176
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:176
+
+GameMapTest > testEmptyCellParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:84
+
+GameStateTest > testWin() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:72
+
+GameStateTest > testMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:89
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:193
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:138
+
+GameStateTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:105
+
+GameStateTest > testGetUndoLimit() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:124
+
+GameStateTest > testAllPlayerIds() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:57
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:175
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:152
+
+TerminalRenderingEngineTest > testRender() FAILED
+    assignment.utils.NotImplementedException at TerminalRenderingEngineTest.java:46
+Results: FAILURE (70 tests, 31 successes, 39 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameMap.java, index: 21
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanGameFactoryTest > testLoadFromFile() FAILED
+    assignment.utils.NotImplementedException at SokobanGameFactoryTest.java:37
+
+SokobanTest > mainLoop() FAILED
+    assignment.utils.NotImplementedException at SokobanTest.java:29
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+AbstractSokobanGameTest > testExceedingUndoQuota() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+AbstractSokobanGameTest > testMove() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:97
+
+AbstractSokobanGameTest > testPushOtherPlayerBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:204
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:160
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:225
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:247
+
+AbstractSokobanGameTest > testPushBoxAgainstWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:182
+
+AbstractSokobanGameTest > testCheckpointWhenNotNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:266
+
+AbstractSokobanGameTest > testHitAnotherPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:139
+
+AbstractSokobanGameTest > testHitWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:118
+
+GameMapTest > testBoxParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:75
+
+GameMapTest > testUndoLimitParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:124
+
+GameMapTest > testWidthForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:110
+
+GameMapTest > testTwoPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:192
+
+GameMapTest > testPlayerParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:66
+
+GameMapTest > testMapWithoutPlayer() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:160
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:160
+
+GameMapTest > testManyPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:214
+
+GameMapTest > testHeightForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:117
+
+GameMapTest > testDuplicatedPlayers() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:242
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:242
+
+GameMapTest > testHeightForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:44
+
+GameMapTest > testWidthForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:37
+
+GameMapTest > testGetDestinations() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:51
+
+GameMapTest > testWallParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:59
+
+GameMapTest > testGetEntity() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:91
+
+GameMapTest > testInsufficientDestinations() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:141
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:141
+
+GameMapTest > testInvalidUndoLimit() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:176
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:176
+
+GameMapTest > testEmptyCellParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:84
+
+GameStateTest > testWin() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:72
+
+GameStateTest > testMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:89
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:193
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:138
+
+GameStateTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:105
+
+GameStateTest > testGetUndoLimit() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:124
+
+GameStateTest > testAllPlayerIds() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:57
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:175
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:152
+
+TerminalRenderingEngineTest > testRender() FAILED
+    assignment.utils.NotImplementedException at TerminalRenderingEngineTest.java:46
+Results: FAILURE (70 tests, 30 successes, 40 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameMap.java, index: 22
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanGameFactoryTest > testLoadFromFile() FAILED
+    assignment.utils.NotImplementedException at SokobanGameFactoryTest.java:37
+
+SokobanTest > mainLoop() FAILED
+    assignment.utils.NotImplementedException at SokobanTest.java:29
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+AbstractSokobanGameTest > testMove() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:97
+
+AbstractSokobanGameTest > testPushOtherPlayerBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:204
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:160
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:225
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:247
+
+AbstractSokobanGameTest > testPushBoxAgainstWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:182
+
+AbstractSokobanGameTest > testCheckpointWhenNotNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:266
+
+AbstractSokobanGameTest > testHitAnotherPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:139
+
+AbstractSokobanGameTest > testHitWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:118
+
+GameMapTest > testBoxParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:75
+
+GameMapTest > testUndoLimitParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:124
+
+GameMapTest > testWidthForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:110
+
+GameMapTest > testTwoPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:192
+
+GameMapTest > testPlayerParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:66
+
+GameMapTest > testMapWithoutPlayer() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:160
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:160
+
+GameMapTest > testManyPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:214
+
+GameMapTest > testHeightForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:117
+
+GameMapTest > testDuplicatedPlayers() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:242
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:242
+
+GameMapTest > testHeightForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:44
+
+GameMapTest > testWidthForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:37
+
+GameMapTest > testGetDestinations() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:51
+
+GameMapTest > testWallParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:59
+
+GameMapTest > testGetEntity() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:91
+
+GameMapTest > testInsufficientDestinations() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:141
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:141
+
+GameMapTest > testInvalidUndoLimit() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:176
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:176
+
+GameMapTest > testEmptyCellParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:84
+
+GameStateTest > testWin() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:72
+
+GameStateTest > testMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:89
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:193
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:138
+
+GameStateTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:105
+
+GameStateTest > testGetUndoLimit() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:124
+
+GameStateTest > testAllPlayerIds() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:57
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:175
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:152
+
+TerminalRenderingEngineTest > testRender() FAILED
+    assignment.utils.NotImplementedException at TerminalRenderingEngineTest.java:46
+Results: FAILURE (70 tests, 31 successes, 39 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameMap.java, index: 23
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanGameFactoryTest > testLoadFromFile() FAILED
+    assignment.utils.NotImplementedException at SokobanGameFactoryTest.java:37
+
+SokobanTest > mainLoop() FAILED
+    assignment.utils.NotImplementedException at SokobanTest.java:29
+
+AbstractSokobanGameTest > testMove() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:97
+
+AbstractSokobanGameTest > testPushOtherPlayerBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:204
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:160
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:225
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:247
+
+AbstractSokobanGameTest > testPushBoxAgainstWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:182
+
+AbstractSokobanGameTest > testCheckpointWhenNotNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:266
+
+AbstractSokobanGameTest > testHitAnotherPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:139
+
+AbstractSokobanGameTest > testHitWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:118
+
+GameMapTest > testBoxParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:75
+
+GameMapTest > testUndoLimitParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:124
+
+GameMapTest > testWidthForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:110
+
+GameMapTest > testTwoPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:192
+
+GameMapTest > testPlayerParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:66
+
+GameMapTest > testMapWithoutPlayer() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:160
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:160
+
+GameMapTest > testManyPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:214
+
+GameMapTest > testHeightForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:117
+
+GameMapTest > testDuplicatedPlayers() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:242
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:242
+
+GameMapTest > testHeightForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:44
+
+GameMapTest > testWidthForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:37
+
+GameMapTest > testGetDestinations() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:51
+
+GameMapTest > testWallParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:59
+
+GameMapTest > testGetEntity() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:91
+
+GameMapTest > testInsufficientDestinations() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:141
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:141
+
+GameMapTest > testInvalidUndoLimit() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:176
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:176
+
+GameMapTest > testEmptyCellParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:84
+
+GameStateTest > testWin() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:72
+
+GameStateTest > testMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:89
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:193
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:138
+
+GameStateTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:105
+
+GameStateTest > testGetUndoLimit() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:124
+
+GameStateTest > testAllPlayerIds() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:57
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:175
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:152
+
+TerminalRenderingEngineTest > testRender() FAILED
+    assignment.utils.NotImplementedException at TerminalRenderingEngineTest.java:46
+Results: FAILURE (70 tests, 32 successes, 38 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameMap.java, index: 24
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanGameFactoryTest > testLoadFromFile() FAILED
+    assignment.utils.NotImplementedException at SokobanGameFactoryTest.java:37
+
+SokobanTest > mainLoop() FAILED
+    assignment.utils.NotImplementedException at SokobanTest.java:29
+
+AbstractSokobanGameTest > testMove() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:97
+
+AbstractSokobanGameTest > testPushOtherPlayerBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:204
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:160
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:225
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:247
+
+AbstractSokobanGameTest > testPushBoxAgainstWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:182
+
+AbstractSokobanGameTest > testCheckpointWhenNotNeed() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:266
+
+AbstractSokobanGameTest > testHitAnotherPlayer() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:139
+
+AbstractSokobanGameTest > testHitWall() FAILED
+    assignment.utils.NotImplementedException at AbstractSokobanGameTest.java:118
+
+GameMapTest > testBoxParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:75
+
+GameMapTest > testUndoLimitParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:124
+
+GameMapTest > testWidthForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:110
+
+GameMapTest > testTwoPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:192
+
+GameMapTest > testPlayerParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:66
+
+GameMapTest > testMapWithoutPlayer() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:160
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:160
+
+GameMapTest > testManyPlayersMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:214
+
+GameMapTest > testHeightForNonRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:117
+
+GameMapTest > testDuplicatedPlayers() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:242
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:242
+
+GameMapTest > testHeightForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:44
+
+GameMapTest > testWidthForRectangularMap() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:37
+
+GameMapTest > testGetDestinations() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:51
+
+GameMapTest > testWallParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:59
+
+GameMapTest > testGetEntity() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:91
+
+GameMapTest > testInsufficientDestinations() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:141
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:141
+
+GameMapTest > testInvalidUndoLimit() FAILED
+    org.opentest4j.AssertionFailedError at GameMapTest.java:176
+        Caused by: assignment.utils.NotImplementedException at GameMapTest.java:176
+
+GameMapTest > testEmptyCellParsing() FAILED
+    assignment.utils.NotImplementedException at GameMapTest.java:84
+
+GameStateTest > testWin() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:72
+
+GameStateTest > testMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:89
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:193
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:138
+
+GameStateTest > testPushBox() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:105
+
+GameStateTest > testGetUndoLimit() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:124
+
+GameStateTest > testAllPlayerIds() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:57
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:175
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    assignment.utils.NotImplementedException at GameStateTest.java:152
+
+TerminalRenderingEngineTest > testRender() FAILED
+    assignment.utils.NotImplementedException at TerminalRenderingEngineTest.java:46
+Results: FAILURE (70 tests, 32 successes, 38 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalInputEngine.java, index: 41
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[2] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[3] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[4] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[5] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[6] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[7] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[8] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testUndo(String, int) > assignment.tui.TerminalInputEngineTest.testUndo(String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:58
+Results: FAILURE (70 tests, 60 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalInputEngine.java, index: 42
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[2] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[3] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[4] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[5] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[6] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[7] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[8] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testUndo(String, int) > assignment.tui.TerminalInputEngineTest.testUndo(String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:58
+Results: FAILURE (70 tests, 60 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalInputEngine.java, index: 43
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[2] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[3] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[4] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[5] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[6] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[7] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[8] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testUndo(String, int) > assignment.tui.TerminalInputEngineTest.testUndo(String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:58
+Results: FAILURE (70 tests, 60 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalInputEngine.java, index: 44
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[2] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[3] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[4] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[5] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[6] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[7] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testMove(String, String, int) > assignment.tui.TerminalInputEngineTest.testMove(String, String, int)[8] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:82
+
+TerminalInputEngineTest > testUndo(String, int) > assignment.tui.TerminalInputEngineTest.testUndo(String, int)[1] FAILED
+    org.opentest4j.AssertionFailedError at TerminalInputEngineTest.java:58
+Results: FAILURE (70 tests, 60 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalRenderingEngine.java, index: 80
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanTest > mainLoop() FAILED
+    java.lang.UnsupportedOperationException at SokobanTest.java:29
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+TerminalRenderingEngineTest > testMessage() FAILED
+    org.opentest4j.AssertionFailedError at TerminalRenderingEngineTest.java:30
+
+TerminalRenderingEngineTest > testRender() FAILED
+    java.lang.UnsupportedOperationException at TerminalRenderingEngineTest.java:50
+Results: FAILURE (70 tests, 66 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalRenderingEngine.java, index: 81
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanTest > mainLoop() FAILED
+    java.lang.UnsupportedOperationException at SokobanTest.java:29
+
+TerminalRenderingEngineTest > testMessage() FAILED
+    org.opentest4j.AssertionFailedError at TerminalRenderingEngineTest.java:30
+
+TerminalRenderingEngineTest > testRender() FAILED
+    java.lang.UnsupportedOperationException at TerminalRenderingEngineTest.java:50
+Results: FAILURE (70 tests, 67 successes, 3 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalRenderingEngine.java, index: 82
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanTest > mainLoop() FAILED
+    java.lang.UnsupportedOperationException at SokobanTest.java:29
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+TerminalRenderingEngineTest > testMessage() FAILED
+    org.opentest4j.AssertionFailedError at TerminalRenderingEngineTest.java:30
+
+TerminalRenderingEngineTest > testRender() FAILED
+    java.lang.UnsupportedOperationException at TerminalRenderingEngineTest.java:50
+Results: FAILURE (70 tests, 66 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalRenderingEngine.java, index: 83
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanTest > mainLoop() FAILED
+    java.lang.UnsupportedOperationException at SokobanTest.java:29
+
+TerminalRenderingEngineTest > testMessage() FAILED
+    org.opentest4j.AssertionFailedError at TerminalRenderingEngineTest.java:30
+
+TerminalRenderingEngineTest > testRender() FAILED
+    java.lang.UnsupportedOperationException at TerminalRenderingEngineTest.java:50
+Results: FAILURE (70 tests, 67 successes, 3 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/TerminalRenderingEngine.java, index: 84
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+SokobanTest > mainLoop() FAILED
+    java.lang.UnsupportedOperationException at SokobanTest.java:29
+
+TerminalRenderingEngineTest > testMessage() FAILED
+    org.opentest4j.AssertionFailedError at TerminalRenderingEngineTest.java:30
+
+TerminalRenderingEngineTest > testRender() FAILED
+    java.lang.UnsupportedOperationException at TerminalRenderingEngineTest.java:50
+Results: FAILURE (70 tests, 67 successes, 3 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/AbstractSokobanGame.java, index: 100
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testExceedingUndoQuota() FAILED
+    org.opentest4j.AssertionFailedError at AbstractSokobanGameTest.java:42
+
+AbstractSokobanGameTest > testUndoUnlimited() FAILED
+    org.opentest4j.AssertionFailedError at AbstractSokobanGameTest.java:69
+
+AbstractSokobanGameTest > testPushOtherPlayerBox() FAILED
+    org.opentest4j.AssertionFailedError at AbstractSokobanGameTest.java:210
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    org.mockito.exceptions.verification.WantedButNotInvoked at AbstractSokobanGameTest.java:168
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    org.mockito.exceptions.verification.WantedButNotInvoked at AbstractSokobanGameTest.java:259
+
+AbstractSokobanGameTest > testHitAnotherPlayer() FAILED
+    org.opentest4j.AssertionFailedError at AbstractSokobanGameTest.java:145
+Results: FAILURE (70 tests, 64 successes, 6 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/AbstractSokobanGame.java, index: 103
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testExceedingUndoQuota() FAILED
+    org.opentest4j.AssertionFailedError at AbstractSokobanGameTest.java:42
+
+AbstractSokobanGameTest > testUndoUnlimited() FAILED
+    org.opentest4j.AssertionFailedError at AbstractSokobanGameTest.java:69
+
+AbstractSokobanGameTest > testPushOtherPlayerBox() FAILED
+    org.opentest4j.AssertionFailedError at AbstractSokobanGameTest.java:210
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    org.mockito.exceptions.verification.WantedButNotInvoked at AbstractSokobanGameTest.java:168
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    java.lang.NullPointerException at AbstractSokobanGameTest.java:229
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    org.mockito.exceptions.verification.WantedButNotInvoked at AbstractSokobanGameTest.java:259
+
+AbstractSokobanGameTest > testHitAnotherPlayer() FAILED
+    assignment.utils.ShouldNotReachException at AbstractSokobanGameTest.java:143
+Results: FAILURE (70 tests, 63 successes, 7 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameState.java, index: 120
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testShouldStopWhenWin() FAILED
+    java.util.concurrent.TimeoutException at TimeoutExceptionFactory.java:29
+
+AbstractSokobanGameTest > testMove() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:101
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:164
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    java.util.NoSuchElementException at AbstractSokobanGameTest.java:229
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:257
+
+AbstractSokobanGameTest > testCheckpointWhenNotNeed() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:276
+
+GameStateTest > testWin() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:80
+
+GameStateTest > testMove() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:98
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    java.util.EmptyStackException at GameStateTest.java:201
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:146
+
+GameStateTest > testPushBox() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:114
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:183
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:160
+Results: FAILURE (70 tests, 57 successes, 13 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameState.java, index: 122
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    java.util.NoSuchElementException at AbstractSokobanGameTest.java:229
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    java.util.EmptyStackException at GameStateTest.java:201
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:146
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    java.util.EmptyStackException at GameStateTest.java:185
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:165
+Results: FAILURE (70 tests, 65 successes, 5 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameState.java, index: 123
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    java.util.NoSuchElementException at AbstractSokobanGameTest.java:229
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    java.util.EmptyStackException at GameStateTest.java:201
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    java.util.EmptyStackException at GameStateTest.java:185
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:165
+Results: FAILURE (70 tests, 66 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+
+==============================
+Task PA22/GameState.java, index: 124
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+AbstractSokobanGameTest > testMove() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:101
+
+AbstractSokobanGameTest > testPushBox() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:164
+
+AbstractSokobanGameTest > testMoveNonExistingPlayer() FAILED
+    java.util.NoSuchElementException at AbstractSokobanGameTest.java:229
+
+AbstractSokobanGameTest > testCheckpointWhenNeed() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:257
+
+AbstractSokobanGameTest > testCheckpointWhenNotNeed() FAILED
+    java.lang.IllegalArgumentException at AbstractSokobanGameTest.java:276
+
+GameStateTest > testWin() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:80
+
+GameStateTest > testMove() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:98
+
+GameStateTest > testUndoWhenThereIsNoMove() FAILED
+    java.lang.IllegalStateException at GameStateTest.java:201
+
+GameStateTest > testGetUndoUnlimited() FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:146
+
+GameStateTest > testPushBox() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:114
+
+GameStateTest > testGetUndoLimit() FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:132
+
+GameStateTest > testMapCopying() FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:48
+
+GameStateTest > testUndoWhenThereIsMoveButNoCheckpoint() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:183
+
+GameStateTest > testUndoWhenThereIsCheckpoint() FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:160
+Results: FAILURE (70 tests, 56 successes, 14 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 executed
+

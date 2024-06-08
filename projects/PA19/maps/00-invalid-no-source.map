@@ -1,0 +1,11 @@
+# An example of an invalid map due to the lack of a sink tile.
+
+4
+4
+
+5
+
+WWWW
+W..W
+W..>
+WWWW

@@ -1,0 +1,1902 @@
+==============================
+Task PA21/GameBoardController.java, index: 0
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameBoardControllerTest > Make Move - Move to Adjacent StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:239
+
+GameBoardControllerTest > Make Move - Move passes Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:322
+
+GameBoardControllerTest > Make Move - Move passes ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:416
+
+GameBoardControllerTest > Make Move - Move to StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:277
+
+GameBoardControllerTest > Make Move - Move passing multiple entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:514
+
+GameBoardControllerTest > Make Move - Move lands on ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:466
+
+GameBoardControllerTest > Make Move - Move hits Mine FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:555
+
+GameBoardControllerTest > Make Move - Move to Wall FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:194
+
+GameBoardControllerTest > Make Move - Move lands on Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:369
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move hits Mine while picking up entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:602
+
+GameControllerTest > Make Move - Move passing ExtraLife > pa1.controller.GameControllerTest.testMakeValidMovePassingExtraLives(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:456
+
+GameControllerTest > Make Move - Move passing different entities > pa1.controller.GameControllerTest.testMakeValidMovePassingEntities(boolean)[1] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:507
+
+GameControllerTest > Make Move - Move passing different entities > pa1.controller.GameControllerTest.testMakeValidMovePassingEntities(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:506
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move passing Gems > pa1.controller.GameControllerTest.testMakeValidMovePassingGems(boolean)[1] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:408
+
+GameControllerTest > Make Move - Move passing Gems > pa1.controller.GameControllerTest.testMakeValidMovePassingGems(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:408
+Results: FAILURE (222 tests, 189 successes, 27 failures, 6 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameBoardController.java, index: 3
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameBoardControllerTest > Make Move - Move to Adjacent StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:232
+
+GameBoardControllerTest > Make Move - Move passes Gem FAILED
+    java.lang.NullPointerException at GameBoardControllerTest.java:315
+
+GameBoardControllerTest > Make Move - Move to Adjacent Border > pa1.controller.GameBoardControllerTest.testMakeMoveToBorder(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:96
+
+GameBoardControllerTest > Make Move - Move to Adjacent Border > pa1.controller.GameBoardControllerTest.testMakeMoveToBorder(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:96
+
+GameBoardControllerTest > Make Move - Move passes ExtraLives FAILED
+    java.lang.NullPointerException at GameBoardControllerTest.java:409
+
+GameBoardControllerTest > Make Move - Move to StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:277
+
+GameBoardControllerTest > Make Move - Move passing multiple entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:514
+
+GameBoardControllerTest > Make Move - Move lands on ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:466
+
+GameBoardControllerTest > Make Move - Move hits Mine FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:555
+
+GameBoardControllerTest > Make Move - Move to Wall FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:187
+
+GameBoardControllerTest > Make Move - Move lands on Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:369
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameBoardControllerTest.java:140
+
+GameBoardControllerTest > Make Move - Move hits Mine while picking up entities FAILED
+    java.lang.NullPointerException at GameBoardControllerTest.java:600
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move passing ExtraLife > pa1.controller.GameControllerTest.testMakeValidMovePassingExtraLives(boolean)[1] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:449
+
+GameControllerTest > Make Move - Move passing ExtraLife > pa1.controller.GameControllerTest.testMakeValidMovePassingExtraLives(boolean)[2] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:449
+
+GameControllerTest > Make Move - Move passing different entities > pa1.controller.GameControllerTest.testMakeValidMovePassingEntities(boolean)[1] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:507
+
+GameControllerTest > Make Move - Move passing different entities > pa1.controller.GameControllerTest.testMakeValidMovePassingEntities(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:506
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move passing Gems > pa1.controller.GameControllerTest.testMakeValidMovePassingGems(boolean)[1] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:401
+
+GameControllerTest > Make Move - Move passing Gems > pa1.controller.GameControllerTest.testMakeValidMovePassingGems(boolean)[2] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:401
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move hitting Mine while picking up entities > pa1.controller.GameControllerTest.testMakeValidMoveToMineCrossingOtherPickUps(boolean)[1] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:642
+
+GameControllerTest > Make Move - Move hitting Mine while picking up entities > pa1.controller.GameControllerTest.testMakeValidMoveToMineCrossingOtherPickUps(boolean)[2] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:642
+
+GameControllerTest > Make Move - Move hitting Mine while picking up last gem FAILED
+    java.lang.NullPointerException at GameControllerTest.java:693
+Results: FAILURE (222 tests, 182 successes, 37 failures, 3 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameController.java, index: 20
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move hitting Mine and Losing FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:590
+
+GameControllerTest > Undo Move - Undoes only one move > pa1.controller.GameControllerTest.testUndoMoveUndoesOne(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:1042
+
+GameControllerTest > Undo Move - Single Move > pa1.controller.GameControllerTest.testUndoMoveTrivial(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:804
+
+GameControllerTest > Make Move - Move passing ExtraLife > pa1.controller.GameControllerTest.testMakeValidMovePassingExtraLives(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:456
+
+GameControllerTest > Make Move - Move passing different entities > pa1.controller.GameControllerTest.testMakeValidMovePassingEntities(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:506
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Undo Move - Restores Gems > pa1.controller.GameControllerTest.testUndoMoveRestoresGems(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:858
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move hitting Mine > pa1.controller.GameControllerTest.testMakeValidMoveToMine(boolean)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:545
+
+GameControllerTest > Make Move - Move hitting Mine > pa1.controller.GameControllerTest.testMakeValidMoveToMine(boolean)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:545
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move hitting Mine while picking up entities > pa1.controller.GameControllerTest.testMakeValidMoveToMineCrossingOtherPickUps(boolean)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:642
+
+GameControllerTest > Make Move - Move hitting Mine while picking up entities > pa1.controller.GameControllerTest.testMakeValidMoveToMineCrossingOtherPickUps(boolean)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:642
+
+GameControllerTest > Make Move - Move hitting Mine while picking up last gem FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:693
+Results: FAILURE (222 tests, 195 successes, 27 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameController.java, index: 22
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move hitting Mine and Losing FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:590
+
+GameControllerTest > Undo Move - Undoes only one move > pa1.controller.GameControllerTest.testUndoMoveUndoesOne(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:1042
+
+GameControllerTest > Undo Move - Single Move > pa1.controller.GameControllerTest.testUndoMoveTrivial(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:804
+
+GameControllerTest > Make Move - Move passing ExtraLife > pa1.controller.GameControllerTest.testMakeValidMovePassingExtraLives(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:456
+
+GameControllerTest > Make Move - Move to Stop Cell > pa1.controller.GameControllerTest.testMakeValidMoveToStopCell(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:366
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:215
+
+GameControllerTest > Undo Move - Restores Gems > pa1.controller.GameControllerTest.testUndoMoveRestoresGems(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:858
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:263
+
+GameControllerTest > Make Move - Move hitting Mine > pa1.controller.GameControllerTest.testMakeValidMoveToMine(boolean)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:545
+
+GameControllerTest > Make Move - Move hitting Mine > pa1.controller.GameControllerTest.testMakeValidMoveToMine(boolean)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:545
+
+GameControllerTest > Make Move - Move to Wall > pa1.controller.GameControllerTest.testMakeValidMoveToWall(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:320
+
+GameControllerTest > Make Move - Move passing Gems > pa1.controller.GameControllerTest.testMakeValidMovePassingGems(boolean)[2] FAILED
+    org.opentest4j.AssertionFailedError at GameControllerTest.java:414
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[3] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[4] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move hitting Mine while picking up entities > pa1.controller.GameControllerTest.testMakeValidMoveToMineCrossingOtherPickUps(boolean)[1] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:642
+
+GameControllerTest > Make Move - Move hitting Mine while picking up entities > pa1.controller.GameControllerTest.testMakeValidMoveToMineCrossingOtherPickUps(boolean)[2] FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:642
+
+GameControllerTest > Make Move - Move hitting Mine while picking up last gem FAILED
+    java.lang.IllegalArgumentException at GameControllerTest.java:693
+Results: FAILURE (222 tests, 193 successes, 29 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Entity.java, index: 40
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 33s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Entity.java, index: 41
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 28s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Entity.java, index: 42
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 28s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Entity.java, index: 43
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 29s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Entity.java, index: 44
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 29s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/EntityCell.java, index: 60
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameBoardControllerTest > Make Move - Move to Adjacent StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:238
+
+GameBoardControllerTest > Undo Move - Restores Entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:692
+
+GameBoardControllerTest > Make Move - Move passes Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:330
+
+GameBoardControllerTest > Undo Move - Simple FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:651
+
+GameBoardControllerTest > Make Move - Move passes ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:424
+
+GameBoardControllerTest > Make Move - Move to StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:283
+
+GameBoardControllerTest > Make Move - Move passing multiple entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:522
+
+GameBoardControllerTest > Make Move - Move lands on ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:473
+
+GameBoardControllerTest > Make Move - Move to Wall FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:193
+
+GameBoardControllerTest > Make Move - Move lands on Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:376
+Results: FAILURE (222 tests, 212 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/EntityCell.java, index: 61
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameBoardControllerTest > Make Move - Move to Adjacent StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:238
+
+GameBoardControllerTest > Undo Move - Restores Entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:692
+
+GameBoardControllerTest > Make Move - Move passes Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:330
+
+GameBoardControllerTest > Undo Move - Simple FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:651
+
+GameBoardControllerTest > Make Move - Move passes ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:424
+
+GameBoardControllerTest > Make Move - Move to StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:283
+
+GameBoardControllerTest > Make Move - Move passing multiple entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:522
+
+GameBoardControllerTest > Make Move - Move lands on ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:473
+
+GameBoardControllerTest > Make Move - Move to Wall FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:193
+
+GameBoardControllerTest > Make Move - Move lands on Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:376
+Results: FAILURE (222 tests, 212 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/EntityCell.java, index: 62
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameBoardControllerTest > Make Move - Move to Adjacent StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:238
+
+GameBoardControllerTest > Undo Move - Restores Entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:692
+
+GameBoardControllerTest > Make Move - Move passes Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:330
+
+GameBoardControllerTest > Undo Move - Simple FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:651
+
+GameBoardControllerTest > Make Move - Move passes ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:424
+
+GameBoardControllerTest > Make Move - Move to StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:283
+
+GameBoardControllerTest > Make Move - Move passing multiple entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:522
+
+GameBoardControllerTest > Make Move - Move lands on ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:473
+
+GameBoardControllerTest > Make Move - Move to Wall FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:193
+
+GameBoardControllerTest > Make Move - Move lands on Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:376
+Results: FAILURE (222 tests, 212 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/EntityCell.java, index: 63
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.NullPointerException at GameStateTest.java:595
+
+GameStateTest > Lives Increase - Unlimited Lives FAILED
+    java.lang.NullPointerException at GameStateTest.java:222
+
+GameStateTest > Increment Number of Moves FAILED
+    java.lang.NullPointerException at GameStateTest.java:379
+
+GameStateTest > Test Lose Condition FAILED
+    java.lang.NullPointerException at GameStateTest.java:199
+
+GameStateTest > Instance Creation - Unlimited Lives using One-Arg constructor FAILED
+    java.lang.NullPointerException at GameStateTest.java:84
+
+GameStateTest > Instance Creation - Unlimited Lives using Two-Arg constructor FAILED
+    java.lang.NullPointerException at GameStateTest.java:114
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    java.lang.NullPointerException at GameStateTest.java:468
+
+GameStateTest > Get Score - Initial Always Zero FAILED
+    java.lang.NullPointerException at GameStateTest.java:427
+
+GameStateTest > Lives Increase - Limited Lives FAILED
+    java.lang.NullPointerException at GameStateTest.java:248
+
+GameStateTest > Get Score - Moves Deducts Points FAILED
+    java.lang.NullPointerException at GameStateTest.java:523
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.NullPointerException at GameStateTest.java:559
+
+GameStateTest > Lives Decrease - Unlimited Lives FAILED
+    java.lang.NullPointerException at GameStateTest.java:274
+
+GameStateTest > Increment Number of Deaths FAILED
+    java.lang.NullPointerException at GameStateTest.java:403
+
+GameStateTest > Instance Creation - Limited Lives FAILED
+    java.lang.NullPointerException at GameStateTest.java:144
+
+GameStateTest > Test Win Condition FAILED
+    java.lang.NullPointerException at GameStateTest.java:174
+
+GameStateTest > Lives Decrement - Limited Lives FAILED
+    java.lang.NullPointerException at GameStateTest.java:352
+
+GameStateTest > Lives Decrease - Limited Lives FAILED
+    java.lang.NullPointerException at GameStateTest.java:300
+
+GameStateTest > Lives Decrement - Unlimited Lives FAILED
+    java.lang.NullPointerException at GameStateTest.java:326
+
+EntityCellTest > Instance Creation - Position and Null Entity FAILED
+    java.lang.NullPointerException at EntityCellTest.java:71
+
+GameBoardControllerTest > Make Move - Move to Adjacent StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:238
+
+GameBoardControllerTest > Undo Move - Restores Entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:692
+
+GameBoardControllerTest > Make Move - Move passes Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:330
+
+GameBoardControllerTest > Undo Move - Simple FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:651
+
+GameBoardControllerTest > Make Move - Move passes ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:424
+
+GameBoardControllerTest > Make Move - Move to StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:283
+
+GameBoardControllerTest > Make Move - Move passing multiple entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:522
+
+GameBoardControllerTest > Make Move - Move lands on ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:473
+
+GameBoardControllerTest > Make Move - Move to Wall FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:193
+
+GameBoardControllerTest > Make Move - Move lands on Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:376
+
+GameControllerTest > Undo Move - No moves > pa1.controller.GameControllerTest.testUndoFromEmptyStack(boolean)[1] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:730
+
+GameControllerTest > Undo Move - No moves > pa1.controller.GameControllerTest.testUndoFromEmptyStack(boolean)[2] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:730
+
+GameControllerTest > Make Move - Move hitting Mine while picking up last gem FAILED
+    java.lang.NullPointerException at GameControllerTest.java:678
+Results: FAILURE (222 tests, 190 successes, 32 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/EntityCell.java, index: 64
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameBoardControllerTest > Make Move - Move to Adjacent StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:238
+
+GameBoardControllerTest > Undo Move - Restores Entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:692
+
+GameBoardControllerTest > Make Move - Move passes Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:330
+
+GameBoardControllerTest > Undo Move - Simple FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:651
+
+GameBoardControllerTest > Make Move - Move passes ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:424
+
+GameBoardControllerTest > Make Move - Move to StopCell FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:283
+
+GameBoardControllerTest > Make Move - Move passing multiple entities FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:522
+
+GameBoardControllerTest > Make Move - Move lands on ExtraLives FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:473
+
+GameBoardControllerTest > Make Move - Move to Wall FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:193
+
+GameBoardControllerTest > Make Move - Move lands on Gem FAILED
+    org.opentest4j.AssertionFailedError at GameBoardControllerTest.java:376
+Results: FAILURE (222 tests, 212 successes, 10 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/ExtraLife.java, index: 80
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 25s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/ExtraLife.java, index: 81
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 25s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/ExtraLife.java, index: 82
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 20s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/ExtraLife.java, index: 83
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 19s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/ExtraLife.java, index: 84
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 19s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameBoard.java, index: 102
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameBoardTest > Instance Creation - Unreachable Gem in Corner FAILED
+    org.opentest4j.AssertionFailedError at GameBoardTest.java:176
+
+GameBoardTest > Instance Creation - Unreachable Gem in Linear Path FAILED
+    org.opentest4j.AssertionFailedError at GameBoardTest.java:203
+
+GameBoardTest > Get Column FAILED
+    java.lang.ClassCastException at GameBoardTest.java:266
+
+GameBoardTest > Get Row FAILED
+    java.lang.ClassCastException at GameBoardTest.java:227
+
+GameBoardControllerTest > Undo Move - Restores Entities FAILED
+    java.lang.NullPointerException at GameBoardControllerTest.java:678
+
+GameBoardControllerTest > Undo Move - Simple FAILED
+    java.lang.NullPointerException at GameBoardControllerTest.java:637
+
+GameBoardControllerTest > Make Move - Move to Adjacent Border > pa1.controller.GameBoardControllerTest.testMakeMoveToBorder(Direction)[2] FAILED
+    java.lang.NullPointerException at GameBoardControllerTest.java:92
+
+GameBoardControllerTest > Make Move - Move to Adjacent Border > pa1.controller.GameBoardControllerTest.testMakeMoveToBorder(Direction)[4] FAILED
+    java.lang.NullPointerException at GameBoardControllerTest.java:92
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[1] FAILED
+    java.lang.ClassCastException at GameBoardControllerTest.java:122
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[2] FAILED
+    java.lang.ClassCastException at GameBoardControllerTest.java:122
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[3] FAILED
+    java.lang.ClassCastException at GameBoardControllerTest.java:122
+
+GameBoardControllerTest > Make Move - Move to Adjacent Wall > pa1.controller.GameBoardControllerTest.testMakeMoveToAdjacentWall(Direction)[4] FAILED
+    java.lang.ClassCastException at GameBoardControllerTest.java:122
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[2] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Border, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderLimitedLives(Direction)[4] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:167
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[1] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:192
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[2] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:192
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[3] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:192
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallUnlimitedLives(Direction)[4] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:192
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[1] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:240
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[2] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:240
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[3] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:240
+
+GameControllerTest > Make Move - Move to Adjacent Wall, Limited Lives > pa1.controller.GameControllerTest.testMakeMoveToAdjacentWallLimitedLives(Direction)[4] FAILED
+    java.lang.ClassCastException at GameControllerTest.java:240
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[2] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:111
+
+GameControllerTest > Make Move - Move to Adjacent Border, Unlimited Lives > pa1.controller.GameControllerTest.testMakeMoveToBorderUnlimitedLives(Direction)[4] FAILED
+    java.lang.NullPointerException at GameControllerTest.java:111
+Results: FAILURE (222 tests, 198 successes, 24 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameState.java, index: 120
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:477
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:570
+Results: FAILURE (222 tests, 220 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameState.java, index: 121
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:477
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:570
+Results: FAILURE (222 tests, 220 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameState.java, index: 122
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:477
+Results: FAILURE (222 tests, 221 successes, 1 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameState.java, index: 123
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:477
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:570
+Results: FAILURE (222 tests, 220 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/GameState.java, index: 124
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:477
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    org.opentest4j.AssertionFailedError at GameStateTest.java:570
+Results: FAILURE (222 tests, 220 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Gem.java, index: 140
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 11s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Gem.java, index: 141
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 9s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Gem.java, index: 142
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Gem.java, index: 143
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 8s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Gem.java, index: 144
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Mine.java, index: 160
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Mine.java, index: 161
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Mine.java, index: 162
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Mine.java, index: 163
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Mine.java, index: 164
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 8s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/MoveResult.java, index: 183
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/MoveStack.java, index: 200
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 8s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/MoveStack.java, index: 201
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/MoveStack.java, index: 202
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 6s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/MoveStack.java, index: 203
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/MoveStack.java, index: 204
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Player.java, index: 220
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Player.java, index: 221
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Player.java, index: 222
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 5s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Player.java, index: 223
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Player.java, index: 224
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 4s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Position.java, index: 240
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:583
+
+GameStateTest > Lives Increase - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:212
+
+GameStateTest > Increment Number of Moves FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:369
+
+GameStateTest > Test Lose Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:189
+
+GameStateTest > Instance Creation - Unlimited Lives using One-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:74
+
+GameStateTest > Instance Creation - Unlimited Lives using Two-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:104
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:456
+
+GameStateTest > Get Score - Initial Always Zero FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:417
+
+GameStateTest > Lives Increase - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:238
+
+GameStateTest > Get Score - Moves Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:511
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:547
+
+GameStateTest > Lives Decrease - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:264
+
+GameStateTest > Increment Number of Deaths FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:393
+
+GameStateTest > Instance Creation - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:134
+
+GameStateTest > Test Win Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:164
+
+GameStateTest > Lives Decrement - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:342
+
+GameStateTest > Lives Decrease - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:290
+
+GameStateTest > Lives Decrement - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:316
+Requesting stop of task ':test' as it has exceeded its configured timeout of 1m.
+Results: FAILURE (107 tests, 88 successes, 18 failures, 1 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Position.java, index: 241
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:583
+
+GameStateTest > Lives Increase - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:212
+
+GameStateTest > Increment Number of Moves FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:369
+
+GameStateTest > Test Lose Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:189
+
+GameStateTest > Instance Creation - Unlimited Lives using One-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:74
+
+GameStateTest > Instance Creation - Unlimited Lives using Two-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:104
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:456
+
+GameStateTest > Get Score - Initial Always Zero FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:417
+
+GameStateTest > Lives Increase - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:238
+
+GameStateTest > Get Score - Moves Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:511
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:547
+
+GameStateTest > Lives Decrease - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:264
+
+GameStateTest > Increment Number of Deaths FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:393
+
+GameStateTest > Instance Creation - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:134
+
+GameStateTest > Test Win Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:164
+
+GameStateTest > Lives Decrement - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:342
+
+GameStateTest > Lives Decrease - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:290
+
+GameStateTest > Lives Decrement - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:316
+Requesting stop of task ':test' as it has exceeded its configured timeout of 1m.
+Results: FAILURE (107 tests, 88 successes, 18 failures, 1 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Position.java, index: 242
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:583
+
+GameStateTest > Lives Increase - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:212
+
+GameStateTest > Increment Number of Moves FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:369
+
+GameStateTest > Test Lose Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:189
+
+GameStateTest > Instance Creation - Unlimited Lives using One-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:74
+
+GameStateTest > Instance Creation - Unlimited Lives using Two-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:104
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:456
+
+GameStateTest > Get Score - Initial Always Zero FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:417
+
+GameStateTest > Lives Increase - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:238
+
+GameStateTest > Get Score - Moves Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:511
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:547
+
+GameStateTest > Lives Decrease - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:264
+
+GameStateTest > Increment Number of Deaths FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:393
+
+GameStateTest > Instance Creation - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:134
+
+GameStateTest > Test Win Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:164
+
+GameStateTest > Lives Decrement - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:342
+
+GameStateTest > Lives Decrease - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:290
+
+GameStateTest > Lives Decrement - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:316
+Requesting stop of task ':test' as it has exceeded its configured timeout of 1m.
+Results: FAILURE (107 tests, 88 successes, 18 failures, 1 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Position.java, index: 243
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:583
+
+GameStateTest > Lives Increase - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:212
+
+GameStateTest > Increment Number of Moves FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:369
+
+GameStateTest > Test Lose Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:189
+
+GameStateTest > Instance Creation - Unlimited Lives using One-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:74
+
+GameStateTest > Instance Creation - Unlimited Lives using Two-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:104
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:456
+
+GameStateTest > Get Score - Initial Always Zero FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:417
+
+GameStateTest > Lives Increase - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:238
+
+GameStateTest > Get Score - Moves Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:511
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:547
+
+GameStateTest > Lives Decrease - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:264
+
+GameStateTest > Increment Number of Deaths FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:393
+
+GameStateTest > Instance Creation - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:134
+
+GameStateTest > Test Win Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:164
+
+GameStateTest > Lives Decrement - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:342
+
+GameStateTest > Lives Decrease - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:290
+
+GameStateTest > Lives Decrement - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:316
+Requesting stop of task ':test' as it has exceeded its configured timeout of 1m.
+Results: FAILURE (107 tests, 88 successes, 18 failures, 1 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/Position.java, index: 244
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:583
+
+GameStateTest > Lives Increase - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:212
+
+GameStateTest > Increment Number of Moves FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:369
+
+GameStateTest > Test Lose Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:189
+
+GameStateTest > Instance Creation - Unlimited Lives using One-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:74
+
+GameStateTest > Instance Creation - Unlimited Lives using Two-Arg constructor FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:104
+
+GameStateTest > Get Score - Score Increases When Gem Picked Up FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:456
+
+GameStateTest > Get Score - Initial Always Zero FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:417
+
+GameStateTest > Lives Increase - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:238
+
+GameStateTest > Get Score - Moves Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:511
+
+GameStateTest > Get Score - Death Deducts Points FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:547
+
+GameStateTest > Lives Decrease - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:264
+
+GameStateTest > Increment Number of Deaths FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:393
+
+GameStateTest > Instance Creation - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:134
+
+GameStateTest > Test Win Condition FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:164
+
+GameStateTest > Lives Decrement - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:342
+
+GameStateTest > Lives Decrease - Limited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:290
+
+GameStateTest > Lives Decrement - Unlimited Lives FAILED
+    java.lang.IllegalArgumentException at GameStateTest.java:316
+Requesting stop of task ':test' as it has exceeded its configured timeout of 1m.
+Results: FAILURE (107 tests, 88 successes, 18 failures, 1 skipped)
+
+> Task :test FAILED
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/StopCell.java, index: 260
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/StopCell.java, index: 261
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/StopCell.java, index: 262
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/StopCell.java, index: 263
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA21/StopCell.java, index: 264
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (222 tests, 222 successes, 0 failures, 0 skipped)
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+

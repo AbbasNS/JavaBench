@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0e083a8-d33d-4ed7-8e88-8d8d81569652" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../app/test_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../app/test_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA18/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA18/src/main/java/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA18/src/main/java/Map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA18/src/main/java/Map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA18/src/main/java/Map/Occupiable/DestTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA18/src/main/java/Map/Occupiable/DestTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA18/src/main/java/Map/Occupiable/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA18/src/main/java/Map/Occupiable/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19/src/main/java/game/CellStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19/src/main/java/game/CellStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19/src/main/java/game/DelayBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19/src/main/java/game/DelayBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19/src/main/java/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19/src/main/java/game/PipeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19/src/main/java/game/PipeQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19/src/main/java/game/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19/src/main/java/game/map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19/src/main/java/game/map/cells/FillableCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19/src/main/java/game/map/cells/FillableCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PA20/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA20/src/main/java/assignment/JesonMor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA20/src/main/java/assignment/JesonMor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA20/src/main/java/assignment/piece/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA20/src/main/java/assignment/piece/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA20/src/main/java/assignment/piece/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA20/src/main/java/assignment/piece/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA20/src/main/java/assignment/player/ConsolePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA20/src/main/java/assignment/player/ConsolePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA20/src/main/java/assignment/player/RandomPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA20/src/main/java/assignment/player/RandomPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21-Context/src/main/java/pa1/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21-Context/src/main/java/pa1/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21-Context/src/main/java/pa1/model/PositionOffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21-Context/src/main/java/pa1/model/PositionOffset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/controller/GameBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/controller/GameBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/MoveResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/MoveResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/MoveStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/MoveStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/PositionOffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21/src/main/java/pa1/model/PositionOffset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA22/src/main/java/assignment/game/AbstractSokobanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA22/src/main/java/assignment/game/AbstractSokobanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA22/src/main/java/assignment/game/GameMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA22/src/main/java/assignment/game/GameMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA22/src/main/java/assignment/game/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA22/src/main/java/assignment/game/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA22/src/main/java/assignment/tui/TerminalInputEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA22/src/main/java/assignment/tui/TerminalInputEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA22/src/main/java/assignment/tui/TerminalRenderingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA22/src/main/java/assignment/tui/TerminalRenderingEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA22/src/main/java/assignment/tui/TerminalSokobanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA22/src/main/java/assignment/tui/TerminalSokobanGame.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PA20-Todo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XkuZwm3R7JQFT9O97guElruRK8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.IntegratedTestsWithoutArcher.executor": "Run",
+    "Gradle.IntegratedTestsWithoutArcher.testCaptureAllWin.executor": "Run",
+    "Gradle.IntegratedTestsWithoutArcher.testLeaveCentralPlaceWin.executor": "Run",
+    "Gradle.Tests in 'PA20.test'.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/cpunisher/Projects/pre-coder-research/projects/PA21-Todo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/assignment/piece" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle test" />
+      <command value="gradle :compileTestJava" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'PA20.test'">
+    <configuration name="IntegratedTestsWithoutArcher" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;assignment.IntegratedTestsWithoutArcher&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntegratedTestsWithoutArcher.testCaptureAllWin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;assignment.IntegratedTestsWithoutArcher.testCaptureAllWin&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntegratedTestsWithoutArcher.testLeaveCentralPlaceWin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;assignment.IntegratedTestsWithoutArcher.testLeaveCentralPlaceWin&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PA20 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'PA20.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'PA20.test'" />
+        <item itemvalue="Gradle.IntegratedTestsWithoutArcher.testLeaveCentralPlaceWin" />
+        <item itemvalue="Gradle.IntegratedTestsWithoutArcher" />
+        <item itemvalue="Gradle.IntegratedTestsWithoutArcher.testCaptureAllWin" />
+        <item itemvalue="Gradle.PA20 [test]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-249ae16d76d6-a9d69ced" />
+        <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-b9b76bbb" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0e083a8-d33d-4ed7-8e88-8d8d81569652" name="Changes" comment="" />
+      <created>1699185457317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699185457317</updated>
+      <workItem from="1699185458343" duration="1173000" />
+      <workItem from="1699187304050" duration="735000" />
+      <workItem from="1699190015000" duration="39000" />
+      <workItem from="1699257328465" duration="7000" />
+      <workItem from="1699774886175" duration="753000" />
+      <workItem from="1702206497718" duration="40000" />
+      <workItem from="1702206599207" duration="12000" />
+      <workItem from="1702208860453" duration="89000" />
+      <workItem from="1702209556679" duration="3470000" />
+      <workItem from="1702281448795" duration="14000" />
+      <workItem from="1702282692429" duration="35000" />
+      <workItem from="1703312523316" duration="855000" />
+      <workItem from="1703313495708" duration="223000" />
+      <workItem from="1703313841780" duration="15000" />
+      <workItem from="1703314099507" duration="74000" />
+      <workItem from="1703337142026" duration="180000" />
+      <workItem from="1703337362001" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

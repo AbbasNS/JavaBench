@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e73bc365-7d5e-49a4-a5a4-c0d82161ef64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PA21-Solution/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PA21-Solution/.idea/modules/COMP3021-2021Fall-PA1.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/out/production/main/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/out/production/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/out/production/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/out/test/test/game/map/cells/TerminationCellTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/out/test/test/game/map/cells/TerminationCellTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/src/test/java/game/map/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/src/test/java/game/map/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/src/test/java/game/map/cells/TerminationCellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/src/test/java/game/map/cells/TerminationCellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA19-Solution/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PA19-Solution/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PA21-Solution/src/main/java/pa1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PA21-Solution/src/main/java/pa1/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PA20-Solution" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2WT9H9QEi84VTGbINpkAK9abGAk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Tests in 'COMP3021-2020Fall-PA'.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/cpunisher/Projects/pre-coder-research/projects/PA22-Solution",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="assignment.test" />
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'COMP3021-2020Fall-PA'">
+    <configuration name="PA20-Solution [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PA20-Solution [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PA20-Solution [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'COMP3021-2020Fall-PA'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="All in COMP3021-2020Fall-PA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP3021-2020Fall-PA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'COMP3021-2020Fall-PA'" />
+        <item itemvalue="Gradle.PA20-Solution [test]" />
+        <item itemvalue="Gradle.PA20-Solution [dependencies]" />
+        <item itemvalue="JUnit.All in COMP3021-2020Fall-PA" />
+        <item itemvalue="Gradle.PA20-Solution [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-86fc8109" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e73bc365-7d5e-49a4-a5a4-c0d82161ef64" name="Changes" comment="" />
+      <created>1696745613066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696745613066</updated>
+      <workItem from="1696745614428" duration="374000" />
+      <workItem from="1696747367249" duration="17000" />
+      <workItem from="1697261040815" duration="5933000" />
+      <workItem from="1697873529025" duration="211000" />
+      <workItem from="1699171768396" duration="247000" />
+      <workItem from="1699174089789" duration="21000" />
+      <workItem from="1699184780833" duration="641000" />
+      <workItem from="1699186449744" duration="1584000" />
+      <workItem from="1699271370518" duration="1927000" />
+      <workItem from="1699774903336" duration="741000" />
+      <workItem from="1699867759589" duration="79000" />
+      <workItem from="1702012780246" duration="32000" />
+      <workItem from="1702206542822" duration="943000" />
+      <workItem from="1702208858669" duration="1154000" />
+      <workItem from="1702210430778" duration="14000" />
+      <workItem from="1702211078088" duration="13000" />
+      <workItem from="1702212174618" duration="43000" />
+      <workItem from="1703314984731" duration="719000" />
+      <workItem from="1710047989626" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PA20_Solution$Tests_in__COMP3021_2020Fall_PA_.ic" NAME="Tests in 'COMP3021-2020Fall-PA' Coverage Results" MODIFIED="1699271464862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

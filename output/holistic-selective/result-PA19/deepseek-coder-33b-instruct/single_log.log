@@ -1,0 +1,1007 @@
+==============================
+Task PA19/Cell.java, index: 0
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameTest > givenGame_ifPipeCannotBePlaced_stepCountDoesNotChange() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:67
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:67
+
+GameTest > givenGame_ifUndoPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:50
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:50
+
+GameTest > givenGame_ifSkipPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:35
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:35
+
+GameTest > givenGame_ifPipeCanBePlaced_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:20
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:20
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:74
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:74
+
+MapTest > notWon() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:127
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:127
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:104
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:104
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:24
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:24
+
+MapTest > givenFirstPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:49
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:49
+
+CellTest > givenCellChar_whenCreateCellFromCharWithTerminationType_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:51
+
+CellTest > givenTerminationCellChar_whenCreateCellFromCharWithParams_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:59
+
+CellTest > givenCellChar_whenCreateCellFromChar_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:43
+Results: FAILURE (55 tests, 43 successes, 12 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Cell.java, index: 1
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameTest > givenGame_ifPipeCannotBePlaced_stepCountDoesNotChange() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:67
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:67
+
+GameTest > givenGame_ifUndoPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:50
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:50
+
+GameTest > givenGame_ifSkipPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:35
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:35
+
+GameTest > givenGame_ifPipeCanBePlaced_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:20
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:20
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:74
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:74
+
+MapTest > notWon() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:127
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:127
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:104
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:104
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:24
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:24
+
+MapTest > givenFirstPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:49
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:49
+
+CellTest > givenCellChar_whenCreateCellFromCharWithTerminationType_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:51
+
+CellTest > givenTerminationCellChar_whenCreateCellFromCharWithParams_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:59
+
+CellTest > givenCellChar_whenCreateCellFromChar_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:43
+Results: FAILURE (55 tests, 43 successes, 12 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Cell.java, index: 2
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameTest > givenGame_ifPipeCannotBePlaced_stepCountDoesNotChange() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:67
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:67
+
+GameTest > givenGame_ifUndoPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:50
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:50
+
+GameTest > givenGame_ifSkipPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:35
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:35
+
+GameTest > givenGame_ifPipeCanBePlaced_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:20
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:20
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:74
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:74
+
+MapTest > notWon() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:127
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:127
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:104
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:104
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:24
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:24
+
+MapTest > givenFirstPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:49
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:49
+
+CellTest > givenCellChar_whenCreateCellFromCharWithTerminationType_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:51
+
+CellTest > givenTerminationCellChar_whenCreateCellFromCharWithParams_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:59
+
+CellTest > givenCellChar_whenCreateCellFromChar_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:43
+Results: FAILURE (55 tests, 43 successes, 12 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Cell.java, index: 3
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameTest > givenGame_ifPipeCannotBePlaced_stepCountDoesNotChange() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:67
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:67
+
+GameTest > givenGame_ifUndoPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:50
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:50
+
+GameTest > givenGame_ifSkipPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:35
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:35
+
+GameTest > givenGame_ifPipeCanBePlaced_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:20
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:20
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:74
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:74
+
+MapTest > notWon() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:127
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:127
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:104
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:104
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:24
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:24
+
+MapTest > givenFirstPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:49
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:49
+
+CellTest > givenCellChar_whenCreateCellFromCharWithTerminationType_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:51
+
+CellTest > givenTerminationCellChar_whenCreateCellFromCharWithParams_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:59
+
+CellTest > givenCellChar_whenCreateCellFromChar_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:43
+Results: FAILURE (55 tests, 43 successes, 12 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Cell.java, index: 4
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+GameTest > givenGame_ifPipeCannotBePlaced_stepCountDoesNotChange() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:67
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:67
+
+GameTest > givenGame_ifUndoPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:50
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:50
+
+GameTest > givenGame_ifSkipPipe_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:35
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:35
+
+GameTest > givenGame_ifPipeCanBePlaced_stepCountIncreases() FAILED
+    org.opentest4j.AssertionFailedError at GameTest.java:20
+        Caused by: java.lang.IllegalArgumentException at GameTest.java:20
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:74
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:74
+
+MapTest > notWon() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:127
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:127
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:104
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:104
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:24
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:24
+
+MapTest > givenFirstPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:49
+        Caused by: java.lang.IllegalArgumentException at MapTest.java:49
+
+CellTest > givenCellChar_whenCreateCellFromCharWithTerminationType_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:51
+
+CellTest > givenTerminationCellChar_whenCreateCellFromCharWithParams_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:59
+
+CellTest > givenCellChar_whenCreateCellFromChar_assertCorrectType() FAILED
+    org.opentest4j.AssertionFailedError at CellTest.java:43
+Results: FAILURE (55 tests, 43 successes, 12 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/FillableCell.java, index: 5
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 12s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/FillableCell.java, index: 6
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/FillableCell.java, index: 7
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/FillableCell.java, index: 8
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 21s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/FillableCell.java, index: 9
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/TerminationCell.java, index: 10
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 13s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/TerminationCell.java, index: 11
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+TerminationCellTest > givenFilledCell_assertSingleCharRepresentation() FAILED
+    org.opentest4j.AssertionFailedError at TerminationCellTest.java:52
+
+TerminationCellTest > givenCell_assertSingleCharRepresentation() FAILED
+    org.opentest4j.AssertionFailedError at TerminationCellTest.java:35
+Results: FAILURE (55 tests, 53 successes, 2 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/TerminationCell.java, index: 12
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/TerminationCell.java, index: 13
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 8s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/TerminationCell.java, index: 14
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Wall.java, index: 15
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 12s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Wall.java, index: 16
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 4s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Wall.java, index: 17
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Wall.java, index: 18
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Wall.java, index: 19
+Starting a Gradle Daemon, 8 busy and 22 stopped Daemons could not be reused, use --status for details
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 49s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Pipe.java, index: 25
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:83
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:113
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:33
+
+PipeTest > connection() FAILED
+    org.opentest4j.AssertionFailedError at PipeTest.java:15
+Results: FAILURE (55 tests, 51 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Pipe.java, index: 26
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:83
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:113
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:33
+
+PipeTest > connection() FAILED
+    org.opentest4j.AssertionFailedError at PipeTest.java:15
+Results: FAILURE (55 tests, 51 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Pipe.java, index: 27
+Starting a Gradle Daemon, 8 busy and 30 stopped Daemons could not be reused, use --status for details
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:83
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:113
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:33
+
+PipeTest > connection() FAILED
+    org.opentest4j.AssertionFailedError at PipeTest.java:15
+Results: FAILURE (55 tests, 51 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Pipe.java, index: 28
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:83
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:113
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:33
+
+PipeTest > connection() FAILED
+    org.opentest4j.AssertionFailedError at PipeTest.java:15
+Results: FAILURE (55 tests, 51 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/Pipe.java, index: 29
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:83
+
+MapTest > givenSubsequentPipe_ifCanFillPipeFromIncorrectDirection_thenFail() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:113
+
+MapTest > givenFirstPipe_ifCanFillPipeFromCorrectDirection_thenSuccess() FAILED
+    org.opentest4j.AssertionFailedError at MapTest.java:33
+
+PipeTest > connection() FAILED
+    org.opentest4j.AssertionFailedError at PipeTest.java:15
+Results: FAILURE (55 tests, 51 successes, 4 failures, 0 skipped)
+
+> Task :test FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/CellStack.java, index: 30
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/CellStack.java, index: 32
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 12s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/CellStack.java, index: 33
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/CellStack.java, index: 34
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 15s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/DelayBar.java, index: 35
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 13s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/DelayBar.java, index: 36
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/DelayBar.java, index: 37
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 24s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/DelayBar.java, index: 38
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9s
+4 actionable tasks: 4 executed
+
+==============================
+Task PA19/DelayBar.java, index: 39
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+Results: SUCCESS (55 tests, 55 successes, 0 failures, 0 skipped)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9s
+4 actionable tasks: 4 executed
+

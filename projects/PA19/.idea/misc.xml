@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../PA1 javadoc" />
+    <option name="OPTION_SCOPE" value="private" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/school/大三中/scala/example" value="1459491174000" />
+        <entry key="$USER_HOME$/school/大三中/scala/forcomp" value="1462288012000" />
+        <entry key="$USER_HOME$/school/大三中/scala/funsets" value="1462291040000" />
+        <entry key="$USER_HOME$/school/大三中/scala/objsets" value="1462294046000" />
+        <entry key="$USER_HOME$/school/大三中/scala/patmat" value="1462351264000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+</project>

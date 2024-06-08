@@ -1,0 +1,574 @@
+{
+    "PA20/IntegratedTestsWithoutArcherTests": [
+        {
+            "test_id": "PA20/IntegratedTestsWithoutArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithoutArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithoutArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithoutArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithoutArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/FirstNMovesProtectionTests": [
+        {
+            "test_id": "PA20/FirstNMovesProtectionTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/FirstNMovesProtectionTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/FirstNMovesProtectionTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/FirstNMovesProtectionTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/FirstNMovesProtectionTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/GameTieBreakerTests": [
+        {
+            "test_id": "PA20/GameTieBreakerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/GameTieBreakerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameTieBreakerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameTieBreakerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameTieBreakerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/MainTests": [
+        {
+            "test_id": "PA20/MainTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/MainTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/MainTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/MainTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/MainTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/GameMockPlayerIntegratedTests": [
+        {
+            "test_id": "PA20/GameMockPlayerIntegratedTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/GameMockPlayerIntegratedTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameMockPlayerIntegratedTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameMockPlayerIntegratedTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameMockPlayerIntegratedTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/ConsolePlayerTests": [
+        {
+            "test_id": "PA20/ConsolePlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/ConsolePlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/ConsolePlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/ConsolePlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/ConsolePlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/KnightTests": [
+        {
+            "test_id": "PA20/KnightTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/KnightTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/KnightTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/KnightTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/KnightTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/RandomPlayerTests": [
+        {
+            "test_id": "PA20/RandomPlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/RandomPlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/RandomPlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/RandomPlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/RandomPlayerTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/IntegratedTestsWithArcherTests": [
+        {
+            "test_id": "PA20/IntegratedTestsWithArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/IntegratedTestsWithArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/ArcherTests": [
+        {
+            "test_id": "PA20/ArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/ArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/ArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/ArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/ArcherTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ],
+    "PA20/GameUnitTests": [
+        {
+            "test_id": "PA20/GameUnitTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA20/GameUnitTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameUnitTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameUnitTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        },
+        {
+            "test_id": "PA20/GameUnitTests",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": true,
+            "can_replace": false
+        }
+    ]
+}
