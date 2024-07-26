@@ -8,12 +8,12 @@ import os
 
 PA = ["PA19", "PA20", "PA21", "PA22"]
 models = [
-    "gpt-3.5-turbo-1106",
-    # "gpt-4-0125-preview",
-    "Phind-CodeLlama-34B-v2",
     "WizardCoder-15B-V1.0",
     "deepseek-coder-6.7b-instruct",
     "deepseek-coder-33b-instruct",
+    "Phind-CodeLlama-34B-v2",
+    "gpt-3.5-turbo-1106",
+    "gpt-4o-2024-05-13",
 ]
 
 def estimate_pass_at_k(n, c, k):
@@ -236,7 +236,7 @@ def join_all(A, B, C, D, E, orders = ['Model', 'Context', 'Method']):
     order_map = {
         "Context": ["maximum", "minimum", "selective"],
         "Method": ["holistic", "independent", "incremental", "incremental_rev", "incremental_random"],
-        "Model": ["WizardCoder-15B-V1.0", "deepseek-coder-6.7b-instruct", "deepseek-coder-33b-instruct", "Phind-CodeLlama-34B-v2", "gpt-3.5-turbo-1106"]
+        "Model": models
     }
 
     merge_keys = list(order_map.keys())
