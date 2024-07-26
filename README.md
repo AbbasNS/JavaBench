@@ -49,11 +49,13 @@ pip install -r requirements.txt
 
 We provide `inference.py` to generate code snippets based on the trained models. The following is an example of generating code snippets using the WizardCoder-Python-34B-V1.0 model.
 
+We recommend that sample numbers should be set to 5 or more for precise evaluation results.
+
 ```bash
 python inference.py \
     --model-path WizardLM/WizardCoder-Python-34B-V1.0 \
-    --num-sample 20 \
-    --out-dir output/result-PA19/WizardCoder-Python-34B-V1.0 \
+    --num-sample 5 \
+    --output output/result-PA19/WizardCoder-Python-34B-V1.0/samples.jsonl \
     --data datasets/selective-context/data-PA19.jsonl \
     --mode holistic
 ```
@@ -135,7 +137,7 @@ For example:
 ```bash
 python evaluation.py test-wise \
     --output output/result-PA19/gpt-3.5-turbo/result-full.json \
-    --tests data/dataset/testcase/test-PA19.jsonl \
+    --test dataset/testcase/test-PA19.jsonl \
     output/result-PA19/gpt-3.5-turbo/samples.jsonl
 ```
 
