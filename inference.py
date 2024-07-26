@@ -9,14 +9,11 @@ from app.prompt.template import complete_template
 from app.static_analyzer.class_compose_tool import get_todo_methods, replace_method, retain_todo_method
 from app.util.io import extract_code, stream_jsonl, write_jsonl
 from langchain_openai.chat_models import ChatOpenAI
-from vllm import LLM, SamplingParams
 
 def inference(args):
-    is_openai = args.model_path == "gpt-3.5-turbo-1106" or args.model_path == "gpt-4-0125-preview"
+    is_openai = args.model_path.startswith("gpt")
     if is_openai:
         model = ChatOpenAI(model=args.model_path, temperature=args.temperature)
-    elif args.vllm:
-        model = LLM(model=args.model_path)
     else:
         model, tokenizer = load_model(
             args.model_path,
@@ -38,19 +35,6 @@ def inference(args):
         if is_openai:
             prompt = lc_messages[0].content + "\n" + lc_messages[1].content
             outputs = model.invoke(lc_messages).content
-        elif args.vllm:
-            conv = get_conversation_template(args.model_path)
-            conv.system_message = lc_messages[0].content
-            conv.append_message(conv.roles[0], lc_messages[1].content)
-            conv.append_message(conv.roles[1], None)
-            prompt = conv.get_prompt()
-
-            outputs = model.generate(prompt, sampling_params=SamplingParams(
-                temperature=args.temperature,
-                repetition_penalty=args.repetition_penalty,
-                max_tokens=args.max_new_tokens
-            ))
-            outputs = outputs[0].outputs[0].text
         else:
             conv = get_conversation_template(args.model_path)
             if "{system_message}" in conv.system_template:
@@ -120,7 +104,6 @@ def inference(args):
             result = task["code"]
             mediate = []
 
-
             todo_methods = get_todo_methods(result)
             if args.incremental_mode == "rev":
                 todo_methods = reversed(todo_methods)
@@ -147,7 +130,7 @@ def inference(args):
                 completion=result,
                 mediate=mediate,
             ))
-        write_jsonl(output_file, samples)
+        write_jsonl(args.output, samples)
 
 
 if __name__ == "__main__":
@@ -156,7 +139,6 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     add_model_args(parser)
-    parser.add_argument("--vllm", action="store_true")
     parser.add_argument(
         "--mode", 
         type=str,

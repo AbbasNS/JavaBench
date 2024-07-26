@@ -45,29 +45,17 @@ application {
     mainClass.set("pa1.Main")
 }
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(16))
-    }
-}
-
 checkstyle {
     toolVersion = "9.0"
 }
 
 tasks {
     withType<JavaCompile> {
-        options.compilerArgs = listOf("--enable-preview")
+        // options.compilerArgs = listOf("--enable-preview")
         options.encoding = "UTF-8"
     }
-    withType<Javadoc> {
-        (options as? CoreJavadocOptions)?.apply {
-            addStringOption("source", java.toolchain.languageVersion.get().toString())
-            addBooleanOption("-enable-preview", true)
-        }
-    }
     withType<JavaExec> {
-        jvmArgs("--enable-preview")
+        // jvmArgs("--enable-preview")
     }
     withType<Jar> {
         manifest {
@@ -86,7 +74,7 @@ tasks {
             "junit.jupiter.execution.timeout.testable.method.default" to "2000 ms"
         )
 
-        jvmArgs("--enable-preview")
+        // jvmArgs("--enable-preview")
     }
 
     create<Test>("testSanity") {

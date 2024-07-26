@@ -59,7 +59,7 @@ class TestEnv:
             cwd=self.root,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.PIPE,
-            env={"LANG": "en_US.UTF-8"},
+            # env={"LANG": "en_US.UTF-8"},
         )
         _, err = process.communicate()
         errors1 = CompilerError.parse_errors(err_string=err.decode("utf-8"))
@@ -70,7 +70,7 @@ class TestEnv:
             cwd=self.root,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.PIPE,
-            env={"LANG": "en_US.UTF-8"},
+            # env={"LANG": "en_US.UTF-8"},
         )
         _, err = process.communicate()
         errors2 = CompilerError.parse_errors(err_string=err.decode("utf-8"))
@@ -85,14 +85,14 @@ class TestEnv:
             args,
             cwd=self.root,
             stdout=subprocess.PIPE,
-            stderr=subprocess.DEVNULL,
-            env={"LANG": "en_US.UTF-8"},
+            stderr=subprocess.PIPE,
+            # env={"LANG": "en_US.UTF-8"},
         )
-        out, _ = process.communicate()
-        out = out.decode()
+        out, err = process.communicate()
+        out, err = out.decode(), err.decode()
         match = re.search(
             r"Results: (\w+) \((\d+) tests, (\d+) successes, (\d+) failures, (\d+) skipped\)",
-            out,
+            out + err,
         )
         return (int(match.group(3)), int(match.group(2))), out
     

@@ -16,12 +16,6 @@ repositories {
     mavenCentral()
 }
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(18))
-    }
-}
-
 application {
     mainClass.set("assignment.Sokoban")
 }
@@ -56,18 +50,12 @@ checkstyle {
 
 tasks {
     withType<JavaCompile> {
-        options.compilerArgs = listOf("--enable-preview")
+        // options.compilerArgs = listOf("--enable-preview")
         options.encoding = "UTF-8"
-    }
-    withType<Javadoc> {
-        (options as? CoreJavadocOptions)?.apply {
-            addStringOption("source", java.toolchain.languageVersion.get().toString())
-            addBooleanOption("-enable-preview", true)
-        }
     }
     withType<JavaExec> {
         standardInput = System.`in`
-        jvmArgs("--enable-preview")
+        // jvmArgs("--enable-preview")
     }
     withType<Jar> {
         manifest {
@@ -94,7 +82,7 @@ tasks {
             "junit.jupiter.execution.timeout.testable.method.default" to "2000 ms"
         )
 
-        jvmArgs("--enable-preview")
+        // jvmArgs("--enable-preview")
     }
 
     register<JavaExec>("grade") {
@@ -107,7 +95,7 @@ tasks {
         dependsOn(testClasses)
         classpath = sourceSets.test.get().runtimeClasspath
         main = "assignment.utils.Grader"
-        jvmArgs("--enable-preview")
+        // jvmArgs("--enable-preview")
     }
 
 
