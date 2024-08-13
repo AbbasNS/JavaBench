@@ -1,0 +1,2504 @@
+[
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 98,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position gemPosition : validMove.collectedGems) {\n                                             ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 102,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position extraLifePosition : validMove.collectedExtraLives) {\n                                                   ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 98,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position gemPosition : validMove.collectedGems) {\n                                             ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 102,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position extraLifePosition : validMove.collectedExtraLives) {\n                                                   ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(newPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            gameBoard.getPlayer().setPosition(move.origPosition);\n                                 ^\n  symbol:   method setPosition(@org.jetbrains.annotations.NotNull Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(newPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            gameBoard.getPlayer().setPosition(move.origPosition);\n                                 ^\n  symbol:   method setPosition(@org.jetbrains.annotations.NotNull Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 51,
+                "message": "error: cannot find symbol",
+                "content": "        Position playerPosition = gameBoard.getPlayer().getPosition();\n                                                       ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 51,
+                "message": "error: cannot find symbol",
+                "content": "        Position playerPosition = gameBoard.getPlayer().getPosition();\n                                                       ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "            return new MoveResult.Invalid(gameBoard.getPlayer().getPosition());\n                                                               ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "        MoveResult.Valid validMove = new MoveResult.Valid(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                            ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 67,
+                "message": "error: incompatible types: @org.jetbrains.annotations.Nullable Entity cannot be converted to StopCell",
+                "content": "        } else if (newCell.getEntity() instanceof StopCell) {\n                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "            return new MoveResult.Invalid(gameBoard.getPlayer().getPosition());\n                                                               ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "        MoveResult.Valid validMove = new MoveResult.Valid(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                            ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 67,
+                "message": "error: incompatible types: @org.jetbrains.annotations.Nullable Entity cannot be converted to StopCell",
+                "content": "        } else if (newCell.getEntity() instanceof StopCell) {\n                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "            validMove = new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition());\n                                                                                     ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            for (Position gemPosition : validMove.collectedGems) {\n                                                 ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 96,
+                "message": "error: cannot find symbol",
+                "content": "            for (Position extraLifePosition : validMove.collectedExtraLives) {\n                                                       ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            for (Position gemPosition : validMove.collectedGems) {\n                                                 ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 96,
+                "message": "error: cannot find symbol",
+                "content": "            for (Position extraLifePosition : validMove.collectedExtraLives) {\n                                                       ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return new MoveResult.Invalid(gameBoard.getPlayer().getPosition());\n                                                               ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "            return new MoveResult.Valid.Dead(newPosition, gameBoard.getPlayer().getPosition());\n                                                                               ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "        return new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition(), collectedGems, collectedExtraLives);\n                                                                            ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return new MoveResult.Invalid(gameBoard.getPlayer().getPosition());\n                                                               ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "            return new MoveResult.Valid.Dead(newPosition, gameBoard.getPlayer().getPosition());\n                                                                               ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "        return new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition(), collectedGems, collectedExtraLives);\n                                                                            ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "        return new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition(), collectedGems, collectedExtraLives);\n                                                                            ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                EntityCell currentCell = gameBoard.getEntityCell(gameBoard.getPlayer().getPosition());\n                                                                                      ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 103,
+                "message": "error: cannot find symbol",
+                "content": "                EntityCell currentCell = gameBoard.getEntityCell(gameBoard.getPlayer().getPosition());\n                                                                                      ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "        return new MoveResult.Valid.Alive(newPosition, gameBoard.getPlayer().getPosition(), collectedGems, collectedExtraLives);\n                                                                            ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                EntityCell currentCell = gameBoard.getEntityCell(gameBoard.getPlayer().getPosition());\n                                                                                      ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 103,
+                "message": "error: cannot find symbol",
+                "content": "                EntityCell currentCell = gameBoard.getEntityCell(gameBoard.getPlayer().getPosition());\n                                                                                      ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(newPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 100,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(validMove.origPosition);\n                             ^\n  symbol:   method setPosition(@org.jetbrains.annotations.NotNull Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(newPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 100,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(validMove.origPosition);\n                             ^\n  symbol:   method setPosition(@org.jetbrains.annotations.NotNull Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 100,
+                "message": "error: cannot find symbol",
+                "content": "            EntityCell oldCell = gameBoard.getEntityCell(gameBoard.getPlayer().getPosition());\n                                                                              ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 100,
+                "message": "error: cannot find symbol",
+                "content": "            EntityCell oldCell = gameBoard.getEntityCell(gameBoard.getPlayer().getPosition());\n                                                                              ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 103,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position pos : validMove.collectedGems) {\n                                     ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 108,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position pos : validMove.collectedExtraLives) {\n                                     ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 103,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position pos : validMove.collectedGems) {\n                                     ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 108,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position pos : validMove.collectedExtraLives) {\n                                     ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 124,
+                "message": "error: cannot find symbol",
+                "content": "        currentCell.setEntity(validMove.newEntity);\n                                       ^\n  symbol:   variable newEntity\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 124,
+                "message": "error: cannot find symbol",
+                "content": "        currentCell.setEntity(validMove.newEntity);\n                                       ^\n  symbol:   variable newEntity\n  location: variable validMove of type Valid"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 12,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(newPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 102,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(oldPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 106,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position gemPosition : validMove.collectedGems) {\n                                             ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 111,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position extraLifePosition : validMove.collectedExtraLives) {\n                                                   ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(newPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 102,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoard.getPlayer().setPosition(oldPosition);\n                             ^\n  symbol:   method setPosition(Position)\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 106,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position gemPosition : validMove.collectedGems) {\n                                             ^\n  symbol:   variable collectedGems\n  location: variable validMove of type Valid"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 111,
+                "message": "error: cannot find symbol",
+                "content": "        for (Position extraLifePosition : validMove.collectedExtraLives) {\n                                                   ^\n  symbol:   variable collectedExtraLives\n  location: variable validMove of type Valid"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        Position newPosition = gameBoard.getPlayer().getPosition().offsetBy(direction.getRowOffset(), direction.getColOffset());\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Position oldPosition = gameBoard.getPlayer().getPosition();\n                                                    ^\n  symbol:   method getPosition()\n  location: class @org.jetbrains.annotations.NotNull Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 10,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        this.gameBoardController = new GameBoardController(gameState.getGameBoard());\n            ^\n  symbol: variable gameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        MoveResult moveResult = gameBoardController.makeMove(direction);\n                                ^\n  symbol:   variable gameBoardController\n  location: class GameController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "        gameState.increaseNumMoves();\n                 ^\n  symbol:   method increaseNumMoves()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.increaseNumDeaths();\n                     ^\n  symbol:   method increaseNumDeaths()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoardController.undoMove(prevMove);\n        ^\n  symbol:   variable gameBoardController\n  location: class GameController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        this.gameBoardController = new GameBoardController(gameState.getGameBoard());\n            ^\n  symbol: variable gameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        MoveResult moveResult = gameBoardController.makeMove(direction);\n                                ^\n  symbol:   variable gameBoardController\n  location: class GameController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "        gameState.increaseNumMoves();\n                 ^\n  symbol:   method increaseNumMoves()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.increaseNumDeaths();\n                     ^\n  symbol:   method increaseNumDeaths()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "        gameBoardController.undoMove(prevMove);\n        ^\n  symbol:   variable gameBoardController\n  location: class GameController"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.increaseNumMoves();\n                     ^\n  symbol:   method increaseNumMoves()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.decrementNumMoves();\n                     ^\n  symbol:   method decrementNumMoves()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.increaseNumMoves();\n                     ^\n  symbol:   method increaseNumMoves()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.decrementNumMoves();\n                     ^\n  symbol:   method decrementNumMoves()\n  location: variable gameState of type GameState"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 74,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        this.player = (Player) entityCell.getEntity();\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 83,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 74,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        this.player = (Player) entityCell.getEntity();\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 83,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 78,
+                "message": "error: cannot find symbol",
+                "content": "                        if (!isGemReachable(gemPosition)) {\n                             ^\n  symbol:   method isGemReachable(Position)\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 78,
+                "message": "error: cannot find symbol",
+                "content": "                        if (!isGemReachable(gemPosition)) {\n                             ^\n  symbol:   method isGemReachable(Position)\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "        validate();\n        ^\n  symbol:   method validate()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "        validate();\n        ^\n  symbol:   method validate()\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "        if (countGems() == 0) {\n            ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "        if (!canReachAllGems()) {\n             ^\n  symbol:   method canReachAllGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 188,
+                "message": "error: cannot find symbol",
+                "content": "        return countGems();\n               ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "        if (countGems() == 0) {\n            ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "        if (!canReachAllGems()) {\n             ^\n  symbol:   method canReachAllGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 188,
+                "message": "error: cannot find symbol",
+                "content": "        return countGems();\n               ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 78,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        player = (Player) entityCell.getEntity();\n                        ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 87,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 78,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        player = (Player) entityCell.getEntity();\n                        ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 87,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "        if (!canReachAllGems()) {\n             ^\n  symbol:   method canReachAllGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "        if (!canReachAllGems()) {\n             ^\n  symbol:   method canReachAllGems()\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "        validateBoard();\n        ^\n  symbol:   method validateBoard()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 177,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                if (board[i][j] instanceof Gem) {\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "        validateBoard();\n        ^\n  symbol:   method validateBoard()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 177,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                if (board[i][j] instanceof Gem) {\n                            ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 77,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        player = (Player) entityCell.getEntity();\n                        ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 86,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 77,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        player = (Player) entityCell.getEntity();\n                        ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 86,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 74,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        player = (Player) entityCell.getEntity();\n                        ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 83,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 74,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        player = (Player) entityCell.getEntity();\n                        ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 83,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = (Player) getEntityCell(findPlayer());\n                                             ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = (Player) getEntityCell(findPlayer());\n                                             ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer(cells);\n                      ^\n  symbol:   method findPlayer(Cell[][])\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer(cells);\n                      ^\n  symbol:   method findPlayer(Cell[][])\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 102,
+                "message": "error: cannot find symbol",
+                "content": "        if (!isGemReachable(cells[player.getOwner().getPosition().row()][player.getOwner().getPosition().col()])) {\n             ^\n  symbol:   method isGemReachable(Cell)\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 102,
+                "message": "error: cannot find symbol",
+                "content": "        if (!isGemReachable(cells[player.getOwner().getPosition().row()][player.getOwner().getPosition().col()])) {\n             ^\n  symbol:   method isGemReachable(Cell)\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 73,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        this.player = (Player) entityCell.getEntity();\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 82,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 73,
+                "message": "error: variable player might be assigned in loop",
+                "content": "                        this.player = (Player) entityCell.getEntity();\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 82,
+                "message": "error: variable player might not have been initialized",
+                "content": "    }\n    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "        validate();\n        ^\n  symbol:   method validate()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "        validate();\n        ^\n  symbol:   method validate()\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 82,
+                "message": "error: cannot find symbol",
+                "content": "                        if (!isGemReachable(gemPosition)) {\n                             ^\n  symbol:   method isGemReachable(Position)\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 82,
+                "message": "error: cannot find symbol",
+                "content": "                        if (!isGemReachable(gemPosition)) {\n                             ^\n  symbol:   method isGemReachable(Position)\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "        if (countGems() == 0) {\n            ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "        if (!canReachAllGems()) {\n             ^\n  symbol:   method canReachAllGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 185,
+                "message": "error: cannot find symbol",
+                "content": "        return countGems();\n               ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        this.player = findPlayer();\n                      ^\n  symbol:   method findPlayer()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "        if (countGems() == 0) {\n            ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "        if (!canReachAllGems()) {\n             ^\n  symbol:   method canReachAllGems()\n  location: class GameBoard"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 185,
+                "message": "error: cannot find symbol",
+                "content": "        return countGems();\n               ^\n  symbol:   method countGems()\n  location: class GameBoard"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 61,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 79,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 61,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 79,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 61,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 79,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 61,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/13093-single_class/PA21/GameState/src/main/java/pa1/model/GameState.java",
+                "line": 79,
+                "message": "error: cannot assign a value to final variable moveStack",
+                "content": "        this.moveStack = new MoveStack();\n            ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

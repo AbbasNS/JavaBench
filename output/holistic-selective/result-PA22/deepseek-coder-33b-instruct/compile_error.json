@@ -1,0 +1,374 @@
+[
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 47,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 47,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 47,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 47,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 41,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 49,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 41,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 49,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = new HashSet<>(state.getAllPlayerPositions());\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = new HashSet<>(state.getAllPlayerPositions());\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 41,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = new HashSet<>(state.getAllPlayerPositions());\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 49,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 41,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = new HashSet<>(state.getAllPlayerPositions());\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 49,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/51169-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

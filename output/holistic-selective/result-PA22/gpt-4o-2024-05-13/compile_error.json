@@ -1,0 +1,665 @@
+[
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 34,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/actions/Move.java",
+                "line": 10,
+                "message": "error: class Action is public, should be declared in a file named Action.java",
+                "content": "public abstract class Action {\n                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameState.java",
+                "line": 3,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 3,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 7,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 6,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 83,
+                "message": "error: cannot find symbol",
+                "content": "    private ActionResult processOneStepMove(@NotNull Position playerPosition, @NotNull Move move) {\n                                                                                       ^\n  symbol:   class Move\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n              ^\n  symbol:   class Move\n  location: class GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                 ^\n  symbol:   class Move\n  location: class GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                                   ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "        if (action instanceof Move move) {\n                              ^\n  symbol:   class Move\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 56,
+                "message": "error: package Move does not exist",
+                "content": "                case \"W\", \"K\" -> new Move.Up(playerId);\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 57,
+                "message": "error: package Move does not exist",
+                "content": "                case \"A\", \"H\" -> new Move.Left(playerId);\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 58,
+                "message": "error: package Move does not exist",
+                "content": "                case \"S\", \"J\" -> new Move.Down(playerId);\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 59,
+                "message": "error: package Move does not exist",
+                "content": "                case \"D\", \"L\" -> new Move.Right(playerId);\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/actions/Move.java",
+                "line": 10,
+                "message": "error: class Action is public, should be declared in a file named Action.java",
+                "content": "public abstract class Action {\n                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameState.java",
+                "line": 3,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 3,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 7,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 6,
+                "message": "error: cannot find symbol",
+                "content": "import assignment.actions.Move;\n                         ^\n  symbol:   class Move\n  location: package assignment.actions"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 83,
+                "message": "error: cannot find symbol",
+                "content": "    private ActionResult processOneStepMove(@NotNull Position playerPosition, @NotNull Move move) {\n                                                                                       ^\n  symbol:   class Move\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n              ^\n  symbol:   class Move\n  location: class GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                 ^\n  symbol:   class Move\n  location: class GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                                   ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: package Move does not exist",
+                "content": "        final Move[] moves = new Move[]{new Move.Down(-1), new Move.Up(-1), new Move.Left(-1), new Move.Right(-1)};\n                                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "        if (action instanceof Move move) {\n                              ^\n  symbol:   class Move\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 56,
+                "message": "error: package Move does not exist",
+                "content": "                case \"W\", \"K\" -> new Move.Up(playerId);\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 57,
+                "message": "error: package Move does not exist",
+                "content": "                case \"A\", \"H\" -> new Move.Left(playerId);\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 58,
+                "message": "error: package Move does not exist",
+                "content": "                case \"S\", \"J\" -> new Move.Down(playerId);\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/Move/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 59,
+                "message": "error: package Move does not exist",
+                "content": "                case \"D\", \"L\" -> new Move.Right(playerId);\n                                         ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(StringResources.WIN_MESSAGE);\n                                        ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(StringResources.WIN_MESSAGE);\n                                        ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "            renderingEngine.message(StringResources.WIN_MESSAGE);\n                                    ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "            renderingEngine.message(StringResources.WIN_MESSAGE);\n                                    ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(StringResources.WIN_MESSAGE);\n                                        ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(StringResources.WIN_MESSAGE);\n                                        ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                    renderingEngine.message(StringResources.WIN_MESSAGE);\n                                            ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(StringResources.WIN_MESSAGE);\n                                        ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        Set<Position> playerPositions = gameState.getAllPlayerPositions();\n            ^\n  symbol:   class Position\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 48,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_READY_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(StringResources.WIN_MESSAGE);\n                                        ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "        renderingEngine.message(StringResources.GAME_EXIT_MESSAGE);\n                                ^\n  symbol:   variable StringResources\n  location: class TerminalSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return new ActionResult.Failed(action, INVALID_INPUT_MESSAGE);\n                                                   ^\n  symbol:   variable INVALID_INPUT_MESSAGE\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 96,
+                "message": "error: cannot find symbol",
+                "content": "        Optional<Integer> undoQuota = state.getUndoQuota();\n        ^\n  symbol:   class Optional\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return new ActionResult.Failed(action, INVALID_INPUT_MESSAGE);\n                                                   ^\n  symbol:   variable INVALID_INPUT_MESSAGE\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 96,
+                "message": "error: cannot find symbol",
+                "content": "        Optional<Integer> undoQuota = state.getUndoQuota();\n        ^\n  symbol:   class Optional\n  location: class AbstractSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 97,
+                "message": "error: cannot find symbol",
+                "content": "        Optional<Integer> undoQuota = state.getUndoQuota();\n        ^\n  symbol:   class Optional\n  location: class AbstractSokobanGame"
+            },
+            {
+                "source": "/private/tmp/pre-coder/5583-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 97,
+                "message": "error: cannot find symbol",
+                "content": "        Optional<Integer> undoQuota = state.getUndoQuota();\n        ^\n  symbol:   class Optional\n  location: class AbstractSokobanGame"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

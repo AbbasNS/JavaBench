@@ -105,8 +105,24 @@ def evaluate_single_class(
             src=f"projects/{project_id}-Solution",
         )
         replace_result = test_env.replace(sample["target"], extract_code(sample["completion"]))
+
+        # errors = test_env.compile()
+        # result.append(
+        #     dict(
+        #         task_id=sample["task_id"],
+        #         compile_errors_count=len(errors),
+        #         compile_errors=[
+        #             {
+        #                 "source": error.source,
+        #                 "line": error.line,
+        #                 "message": error.message,
+        #                 "content": error.content,
+        #             } for error in errors
+        #         ],
+        #     )
+        # )
+
         compile_result = len(test_env.compile())
-        
         test_result = None
         if compile_result == 0:
             test_result, out = test_env.run_test(None)

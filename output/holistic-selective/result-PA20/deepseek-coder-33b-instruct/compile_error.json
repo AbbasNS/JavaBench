@@ -1,0 +1,794 @@
+[
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] pieceMoves = piece.getAvailableMoves(this, new Place(piece.getX(), piece.getY()));\n                                                                                     ^\n  symbol:   method getX()\n  location: variable piece of type Piece"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] pieceMoves = piece.getAvailableMoves(this, new Place(piece.getX(), piece.getY()));\n                                                                                                   ^\n  symbol:   method getY()\n  location: variable piece of type Piece"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] pieceMoves = piece.getAvailableMoves(this, new Place(piece.getX(), piece.getY()));\n                                                                                     ^\n  symbol:   method getX()\n  location: variable piece of type Piece"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] pieceMoves = piece.getAvailableMoves(this, new Place(piece.getX(), piece.getY()));\n                                                                                                   ^\n  symbol:   method getY()\n  location: variable piece of type Piece"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 14,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 13,
+                "message": "error: class JesonMor is public, should be declared in a file named JesonMor.java",
+                "content": "public class JesonMor extends Game {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/JesonMor.java",
+                "line": 10,
+                "message": "error: duplicate class: assignment.JesonMor",
+                "content": "public class JesonMor extends Game {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "    public Player getWinner(Player lastPlayer, Piece lastPiece, Move lastMove) {\n                                                                ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 34,
+                "message": "error: cannot find symbol",
+                "content": "    public void updateScore(Player player, Piece piece, Move move) {\n                                                        ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 39,
+                "message": "error: cannot find symbol",
+                "content": "    public void movePiece(Move move) {\n                          ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 44,
+                "message": "error: cannot find symbol",
+                "content": "    public Move[] getAvailableMoves(Player player) {\n           ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 46,
+                "message": "error: cannot find symbol",
+                "content": "        return new Move[0];\n                   ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 13,
+                "message": "error: class JesonMor is public, should be declared in a file named JesonMor.java",
+                "content": "public class JesonMor extends Game {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/JesonMor.java",
+                "line": 10,
+                "message": "error: duplicate class: assignment.JesonMor",
+                "content": "public class JesonMor extends Game {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "    public Player getWinner(Player lastPlayer, Piece lastPiece, Move lastMove) {\n                                                                ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 34,
+                "message": "error: cannot find symbol",
+                "content": "    public void updateScore(Player player, Piece piece, Move move) {\n                                                        ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 39,
+                "message": "error: cannot find symbol",
+                "content": "    public void movePiece(Move move) {\n                          ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 44,
+                "message": "error: cannot find symbol",
+                "content": "    public Move[] getAvailableMoves(Player player) {\n           ^\n  symbol:   class Move\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/Main/src/main/java/assignment/Main.java",
+                "line": 46,
+                "message": "error: cannot find symbol",
+                "content": "        return new Move[0];\n                   ^\n  symbol:   class Move\n  location: class JesonMor"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 15,
+                "message": "error: class Archer is public, should be declared in a file named Archer.java",
+                "content": "public class Archer extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/Archer.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 15,
+                "message": "error: class Archer is public, should be declared in a file named Archer.java",
+                "content": "public class Archer extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/Archer.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 15,
+                "message": "error: class Archer is public, should be declared in a file named Archer.java",
+                "content": "public class Archer extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/Archer.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 15,
+                "message": "error: class Archer is public, should be declared in a file named Archer.java",
+                "content": "public class Archer extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/Archer.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 14,
+                "message": "error: class Knight is public, should be declared in a file named Knight.java",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/Knight.java",
+                "line": 17,
+                "message": "error: duplicate class: assignment.piece.Knight",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 16,
+                "message": "error: cannot find symbol",
+                "content": "    private final Player player;\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: cannot find symbol",
+                "content": "    public Knight(Player player) {\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: constructor Piece in class Piece cannot be applied to given types;",
+                "content": "    public Knight(Player player) {\n                                 ^\n  required: Player\n  found:    no arguments\n  reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "                    if (newX >= 0 && newX < game.getConfiguration().getBoardSize() && newY >= 0 && newY < game.getConfiguration().getBoardSize()) {\n                                                                   ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "                    if (newX >= 0 && newX < game.getConfiguration().getBoardSize() && newY >= 0 && newY < game.getConfiguration().getBoardSize()) {\n                                                                                                                                 ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                new KnightMoveRule(),\n                    ^\n  symbol:   class KnightMoveRule\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 14,
+                "message": "error: class Knight is public, should be declared in a file named Knight.java",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/Knight.java",
+                "line": 17,
+                "message": "error: duplicate class: assignment.piece.Knight",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 16,
+                "message": "error: cannot find symbol",
+                "content": "    private final Player player;\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: cannot find symbol",
+                "content": "    public Knight(Player player) {\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: constructor Piece in class Piece cannot be applied to given types;",
+                "content": "    public Knight(Player player) {\n                                 ^\n  required: Player\n  found:    no arguments\n  reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "                    if (newX >= 0 && newX < game.getConfiguration().getBoardSize() && newY >= 0 && newY < game.getConfiguration().getBoardSize()) {\n                                                                   ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "                    if (newX >= 0 && newX < game.getConfiguration().getBoardSize() && newY >= 0 && newY < game.getConfiguration().getBoardSize()) {\n                                                                                                                                 ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                new KnightMoveRule(),\n                    ^\n  symbol:   class KnightMoveRule\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 12,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 14,
+                "message": "error: class Knight is public, should be declared in a file named Knight.java",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/Knight.java",
+                "line": 17,
+                "message": "error: duplicate class: assignment.piece.Knight",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 16,
+                "message": "error: cannot find symbol",
+                "content": "    private final Player player;\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: cannot find symbol",
+                "content": "    public Knight(Player player) {\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: constructor Piece in class Piece cannot be applied to given types;",
+                "content": "    public Knight(Player player) {\n                                 ^\n  required: Player\n  found:    no arguments\n  reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                new KnightMoveRule(),\n                    ^\n  symbol:   class KnightMoveRule\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 14,
+                "message": "error: class Knight is public, should be declared in a file named Knight.java",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/Knight.java",
+                "line": 17,
+                "message": "error: duplicate class: assignment.piece.Knight",
+                "content": "public class Knight extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 16,
+                "message": "error: cannot find symbol",
+                "content": "    private final Player player;\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: cannot find symbol",
+                "content": "    public Knight(Player player) {\n                  ^\n  symbol:   class Player\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/piece/KnightMoveRule.java",
+                "line": 18,
+                "message": "error: constructor Piece in class Piece cannot be applied to given types;",
+                "content": "    public Knight(Player player) {\n                                 ^\n  required: Player\n  found:    no arguments\n  reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                new KnightMoveRule(),\n                    ^\n  symbol:   class KnightMoveRule\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] moves = piece.getAvailableMoves(this, piece.getPlace());\n                                                                      ^\n  symbol:   method getPlace()\n  location: variable piece of type Piece"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] moves = piece.getAvailableMoves(this, piece.getPlace());\n                                                                      ^\n  symbol:   method getPlace()\n  location: variable piece of type Piece"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] moves = piece.getAvailableMoves(this, piece.getPlace());\n                                                                      ^\n  symbol:   method getPlace()\n  location: variable piece of type Piece"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "                    Move[] moves = piece.getAvailableMoves(this, piece.getPlace());\n                                                                      ^\n  symbol:   method getPlace()\n  location: variable piece of type Piece"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 15,
+                "message": "error: class Archer is public, should be declared in a file named Archer.java",
+                "content": "public class Archer extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/Archer.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 15,
+                "message": "error: class Archer is public, should be declared in a file named Archer.java",
+                "content": "public class Archer extends Piece {\n       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/Archer.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/ArcherMoveRule/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                new ArcherMoveRule(),\n                    ^\n  symbol:   class ArcherMoveRule\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "            if (x >= 0 && x < game.getConfiguration().getBoardSize() && y >= 0 && y < game.getConfiguration().getBoardSize()) {\n                                                     ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "            if (x >= 0 && x < game.getConfiguration().getBoardSize() && y >= 0 && y < game.getConfiguration().getBoardSize()) {\n                                                                                                             ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "            if (x >= 0 && x < game.getConfiguration().getBoardSize() && y >= 0 && y < game.getConfiguration().getBoardSize()) {\n                                                     ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            },
+            {
+                "source": "/private/tmp/pre-coder/81361-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "            if (x >= 0 && x < game.getConfiguration().getBoardSize() && y >= 0 && y < game.getConfiguration().getBoardSize()) {\n                                                                                                             ^\n  symbol:   method getBoardSize()\n  location: class Configuration"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

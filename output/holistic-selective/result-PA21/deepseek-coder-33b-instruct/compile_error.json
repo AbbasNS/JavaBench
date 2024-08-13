@@ -1,0 +1,1154 @@
+[
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "        Entity entity = newCell.getEntity();\n        ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "        Entity entity = newCell.getEntity();\n        ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            Entity entity = ((EntityCell) newCell).getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "        newCell.setEntity(gameBoard.getPlayer());\n               ^\n  symbol:   method setEntity(@org.jetbrains.annotations.NotNull Player)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            Entity prevEntity = prevCell.getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            Entity entity = ((EntityCell) newCell).getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "        newCell.setEntity(gameBoard.getPlayer());\n               ^\n  symbol:   method setEntity(@org.jetbrains.annotations.NotNull Player)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            Entity prevEntity = prevCell.getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 11,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 85,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 100,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 114,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 129,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 63,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 75,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 88,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 122,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 137,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 151,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 166,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 11,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 85,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 100,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 114,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 129,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 63,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 75,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 88,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 122,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 137,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 151,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 166,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[row][col] instanceof Player) {\n                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 76,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                    player = (Player) cells[row][col];\n                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 77,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[row][col] instanceof Gem) {\n                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 204,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                if (board[row][col] instanceof Gem) {\n                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 72,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[row][col] instanceof Player) {\n                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 76,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                    player = (Player) cells[row][col];\n                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 77,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[row][col] instanceof Gem) {\n                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 204,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                if (board[row][col] instanceof Gem) {\n                              ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 43,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[i][j] instanceof Player) {\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 47,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                    player = (Player) cells[i][j];\n                                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 48,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[i][j] instanceof Gem) {\n                                   ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 43,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[i][j] instanceof Player) {\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 47,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                    player = (Player) cells[i][j];\n                                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 48,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[i][j] instanceof Gem) {\n                                   ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 33,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 43,
+                "message": "error: cannot find symbol",
+                "content": "        Entity entity = newCell.getEntity();\n        ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 33,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 43,
+                "message": "error: cannot find symbol",
+                "content": "        Entity entity = newCell.getEntity();\n        ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "            Entity entity = ((EntityCell) newCell).getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                newCell.setOwner(gameBoard.getPlayer().getOwner());\n                       ^\n  symbol:   method setOwner(@org.jetbrains.annotations.Nullable EntityCell)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 84,
+                "message": "error: cannot find symbol",
+                "content": "                newCell.setOwner(gameBoard.getPlayer().getOwner());\n                       ^\n  symbol:   method setOwner(@org.jetbrains.annotations.Nullable EntityCell)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "                newCell.setOwner(gameBoard.getPlayer().getOwner());\n                       ^\n  symbol:   method setOwner(@org.jetbrains.annotations.Nullable EntityCell)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 120,
+                "message": "error: cannot find symbol",
+                "content": "            Entity currentEntity = currentCell.getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "            currentCell.setOwner(null);\n                       ^\n  symbol:   method setOwner(<null>)\n  location: variable currentCell of type EntityCell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "            previousCell.setOwner(gameBoard.getPlayer());\n                        ^\n  symbol:   method setOwner(@org.jetbrains.annotations.NotNull Player)\n  location: variable previousCell of type EntityCell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "            Entity entity = ((EntityCell) newCell).getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                newCell.setOwner(gameBoard.getPlayer().getOwner());\n                       ^\n  symbol:   method setOwner(@org.jetbrains.annotations.Nullable EntityCell)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 84,
+                "message": "error: cannot find symbol",
+                "content": "                newCell.setOwner(gameBoard.getPlayer().getOwner());\n                       ^\n  symbol:   method setOwner(@org.jetbrains.annotations.Nullable EntityCell)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "                newCell.setOwner(gameBoard.getPlayer().getOwner());\n                       ^\n  symbol:   method setOwner(@org.jetbrains.annotations.Nullable EntityCell)\n  location: variable newCell of type Cell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 120,
+                "message": "error: cannot find symbol",
+                "content": "            Entity currentEntity = currentCell.getEntity();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "            currentCell.setOwner(null);\n                       ^\n  symbol:   method setOwner(<null>)\n  location: variable currentCell of type EntityCell"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "            previousCell.setOwner(gameBoard.getPlayer());\n                        ^\n  symbol:   method setOwner(@org.jetbrains.annotations.NotNull Player)\n  location: variable previousCell of type EntityCell"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoardController.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "        Entity entity = newCell.getEntity();\n        ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 80,
+                "message": "error: Valid(@org.jetbrains.annotations.NotNull Position,@org.jetbrains.annotations.NotNull Position) has private access in Valid",
+                "content": "            return new MoveResult.Valid(newPosition, currentPosition);\n                   ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 99,
+                "message": "error: cannot find symbol",
+                "content": "            Entity currentEntity = gameBoard.getPlayer();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 50,
+                "message": "error: cannot find symbol",
+                "content": "        PositionOffset offset = direction.getOffset();\n        ^\n  symbol:   class PositionOffset\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "        Entity entity = newCell.getEntity();\n        ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 80,
+                "message": "error: Valid(@org.jetbrains.annotations.NotNull Position,@org.jetbrains.annotations.NotNull Position) has private access in Valid",
+                "content": "            return new MoveResult.Valid(newPosition, currentPosition);\n                   ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoardController/src/main/java/pa1/controller/GameBoardController.java",
+                "line": 99,
+                "message": "error: cannot find symbol",
+                "content": "            Entity currentEntity = gameBoard.getPlayer();\n            ^\n  symbol:   class Entity\n  location: class GameBoardController"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "        gameState.decrementNumMoves();\n                 ^\n  symbol:   method decrementNumMoves()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.incrementNumLives();\n                     ^\n  symbol:   method incrementNumLives()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.decrementNumDeaths();\n                     ^\n  symbol:   method decrementNumDeaths()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "        gameState.decrementNumMoves();\n                 ^\n  symbol:   method decrementNumMoves()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.incrementNumLives();\n                     ^\n  symbol:   method incrementNumLives()\n  location: variable gameState of type GameState"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameController/src/main/java/pa1/controller/GameController.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "            gameState.decrementNumDeaths();\n                     ^\n  symbol:   method decrementNumDeaths()\n  location: variable gameState of type GameState"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameController.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Entity.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 11,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 85,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 100,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 114,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 129,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 63,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 75,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 88,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 122,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 137,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 151,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 166,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 11,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 85,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 100,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 114,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 129,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 63,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 75,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 88,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 122,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 137,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 151,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 166,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/EntityCell.java",
+        "compile_errors_count": 11,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 85,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 100,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 114,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/StopCellTest.java",
+                "line": 129,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 63,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 75,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 88,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 122,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 137,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(player, cell.entity);\n                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 151,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertNull(cell.entity);\n                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/EntityCell/src/test/java/pa1/model/EntityCellTest.java",
+                "line": 166,
+                "message": "error: entity has private access in EntityCell",
+                "content": "        assertSame(newPlayer, cell.entity);\n                                  ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/ExtraLife.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 43,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[i][j] instanceof Player) {\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 48,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[i][j] instanceof Gem) {\n                                   ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 43,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[i][j] instanceof Player) {\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 48,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[i][j] instanceof Gem) {\n                                   ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 71,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[row][col] instanceof Player) {\n                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 75,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                    player = (Player) cells[row][col];\n                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 76,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[row][col] instanceof Gem) {\n                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 206,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                if (board[row][col] instanceof Gem) {\n                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 71,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[row][col] instanceof Player) {\n                              ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 75,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                    player = (Player) cells[row][col];\n                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 76,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[row][col] instanceof Gem) {\n                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 206,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                if (board[row][col] instanceof Gem) {\n                              ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 43,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[i][j] instanceof Player) {\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 49,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[i][j] instanceof Gem) {\n                                   ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 43,
+                "message": "error: incompatible types: Cell cannot be converted to Player",
+                "content": "                if (cells[i][j] instanceof Player) {\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/80571-single_class/PA21/GameBoard/src/main/java/pa1/model/GameBoard.java",
+                "line": 49,
+                "message": "error: incompatible types: Cell cannot be converted to Gem",
+                "content": "                } else if (cells[i][j] instanceof Gem) {\n                                   ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Gem.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Mine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveResult.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/MoveStack.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Player.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/Position.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA21/StopCell.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

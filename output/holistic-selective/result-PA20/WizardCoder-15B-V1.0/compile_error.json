@@ -1,0 +1,2765 @@
+[
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y - 1)!= null && game.getPiece(x - 2, y - 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 71,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y + 1)!= null && game.getPiece(x - 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y - 1)!= null && game.getPiece(x + 2, y - 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y + 1)!= null && game.getPiece(x + 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 81,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 2)!= null &&!game.getPiece(x - 1, y - 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 84,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 2)!= null &&!game.getPiece(x - 1, y + 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 87,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 2)!= null &&!game.getPiece(x + 1, y - 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 90,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 2)!= null &&!game.getPiece(x + 1, y + 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y - 1)!= null && game.getPiece(x - 2, y - 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 71,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y + 1)!= null && game.getPiece(x - 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y - 1)!= null && game.getPiece(x + 2, y - 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y + 1)!= null && game.getPiece(x + 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 81,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 2)!= null &&!game.getPiece(x - 1, y - 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 84,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 2)!= null &&!game.getPiece(x - 1, y + 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 87,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 2)!= null &&!game.getPiece(x + 1, y - 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 90,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 2)!= null &&!game.getPiece(x + 1, y + 2).getPlayer().equals(player)) {\n                                                                                                 ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y)!= null && game.getPiece(x - 1, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 72,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y)!= null && game.getPiece(x + 1, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 75,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y + 1)!= null && game.getPiece(x - 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 78,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y + 1)!= null && game.getPiece(x + 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 82,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 1)!= null &&!game.getPiece(x - 1, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 85,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 1)!= null &&!game.getPiece(x + 1, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 88,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y)!= null &&!game.getPiece(x - 2, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 91,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y)!= null &&!game.getPiece(x + 2, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y)!= null && game.getPiece(x - 1, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 72,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y)!= null && game.getPiece(x + 1, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 75,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y + 1)!= null && game.getPiece(x - 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 78,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y + 1)!= null && game.getPiece(x + 2, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 82,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 1)!= null &&!game.getPiece(x - 1, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 85,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 1)!= null &&!game.getPiece(x + 1, y + 1).getPlayer().equals(player)) {\n                                                                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 88,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 2, y)!= null &&!game.getPiece(x - 2, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 91,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 2, y)!= null &&!game.getPiece(x + 2, y).getPlayer().equals(player)) {\n                                                                                         ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 70,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 78,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 82,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 91,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 99,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 103,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 70,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 78,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 82,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 91,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 99,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 103,
+                "message": "error: player has private access in Piece",
+                "content": "        if (piece!= null && piece.getPlayer()!= this.player) {\n                                                    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                    if (move.equals(game.getPreviousMove())) {\n                                        ^\n  symbol:   method getPreviousMove()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                    if (move.equals(game.getPreviousMove())) {\n                                        ^\n  symbol:   method getPreviousMove()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 44,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 2)!= null && game.getPiece(x - 1, y - 2).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 72,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 75,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y - 2)!= null && game.getPiece(x, y - 2).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 78,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 2)!= null && game.getPiece(x + 1, y - 2).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 81,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 1)!= null && game.getPiece(x + 1, y - 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 84,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y)!= null && game.getPiece(x + 1, y).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 87,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 1)!= null && game.getPiece(x + 1, y + 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 90,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y + 2)!= null && game.getPiece(x, y + 2).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 93,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 1)!= null && game.getPiece(x - 1, y + 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 96,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y)!= null && game.getPiece(x - 1, y).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 99,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 103,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 2)!= null && game.getPiece(x - 1, y - 2).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 106,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 109,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y - 2)!= null && game.getPiece(x, y - 2).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 112,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 2)!= null && game.getPiece(x + 1, y - 2).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 115,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 1)!= null && game.getPiece(x + 1, y - 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 118,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y)!= null && game.getPiece(x + 1, y).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 121,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 1)!= null && game.getPiece(x + 1, y + 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 124,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y + 2)!= null && game.getPiece(x, y + 2).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 127,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 1)!= null && game.getPiece(x - 1, y + 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 130,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y)!= null && game.getPiece(x - 1, y).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 133,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 2)!= null && game.getPiece(x - 1, y - 2).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 72,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 75,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y - 2)!= null && game.getPiece(x, y - 2).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 78,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 2)!= null && game.getPiece(x + 1, y - 2).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 81,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 1)!= null && game.getPiece(x + 1, y - 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 84,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y)!= null && game.getPiece(x + 1, y).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 87,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 1)!= null && game.getPiece(x + 1, y + 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 90,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y + 2)!= null && game.getPiece(x, y + 2).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 93,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 1)!= null && game.getPiece(x - 1, y + 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 96,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y)!= null && game.getPiece(x - 1, y).getPlayer() == player) {\n                                                                                     ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 99,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer() == player) {\n                                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 103,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 2)!= null && game.getPiece(x - 1, y - 2).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 106,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 109,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y - 2)!= null && game.getPiece(x, y - 2).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 112,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 2)!= null && game.getPiece(x + 1, y - 2).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 115,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y - 1)!= null && game.getPiece(x + 1, y - 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 118,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y)!= null && game.getPiece(x + 1, y).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 121,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x + 1, y + 1)!= null && game.getPiece(x + 1, y + 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 124,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x, y + 2)!= null && game.getPiece(x, y + 2).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 127,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y + 1)!= null && game.getPiece(x - 1, y + 1).getPlayer()!= player) {\n                                                                                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 130,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y)!= null && game.getPiece(x - 1, y).getPlayer()!= player) {\n                                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 133,
+                "message": "error: player has private access in Piece",
+                "content": "        if (game.getPiece(x - 1, y - 1)!= null && game.getPiece(x - 1, y - 1).getPlayer()!= player) {\n                                                                                            ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, x, y, newX, newY)) {\n                    ^\n  symbol:   method isValidMove(Game,int,int,int,int)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, x, y, newX, newY)) {\n                    ^\n  symbol:   method isValidMove(Game,int,int,int,int)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 71,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 71,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 12,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (this.player.getNumMovesProtection() == 0 ||\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                    if (this.player.getNumMovesProtection() == 0 ||\n                                   ^\n  symbol:   method getNumMovesProtection()\n  location: variable player of type Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 76,
+                "message": "error: player has private access in Piece",
+                "content": "                           !game.isProtected(this.player, move, this.player.getNumMovesProtection())) {\n                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 76,
+                "message": "error: player has private access in Piece",
+                "content": "                           !game.isProtected(this.player, move, this.player.getNumMovesProtection())) {\n                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 76,
+                "message": "error: cannot find symbol",
+                "content": "                           !game.isProtected(this.player, move, this.player.getNumMovesProtection())) {\n                                                                           ^\n  symbol:   method getNumMovesProtection()\n  location: variable player of type Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (this.player.getNumMovesProtection() == 0 ||\n                            ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                    if (this.player.getNumMovesProtection() == 0 ||\n                                   ^\n  symbol:   method getNumMovesProtection()\n  location: variable player of type Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 76,
+                "message": "error: player has private access in Piece",
+                "content": "                           !game.isProtected(this.player, move, this.player.getNumMovesProtection())) {\n                                                 ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 76,
+                "message": "error: player has private access in Piece",
+                "content": "                           !game.isProtected(this.player, move, this.player.getNumMovesProtection())) {\n                                                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 76,
+                "message": "error: cannot find symbol",
+                "content": "                           !game.isProtected(this.player, move, this.player.getNumMovesProtection())) {\n                                                                           ^\n  symbol:   method getNumMovesProtection()\n  location: variable player of type Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 87,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (blockingPiece!= null && blockingPiece.getPlayer()!= this.player) {\n                                                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 100,
+                "message": "error: player has private access in Piece",
+                "content": "                                if (piece!= null && piece.getPlayer() == this.player) {\n                                                                             ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 87,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (blockingPiece!= null && blockingPiece.getPlayer()!= this.player) {\n                                                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 100,
+                "message": "error: player has private access in Piece",
+                "content": "                                if (piece!= null && piece.getPlayer() == this.player) {\n                                                                             ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "            if (isMoveValid(game, move)) {\n                ^\n  symbol:   method isMoveValid(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "            if (isMoveValid(game, move)) {\n                ^\n  symbol:   method isMoveValid(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "                } else if (pieceAtDestination.getPlayer()!= this.player) {\n                                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "                } else if (pieceAtDestination.getPlayer()!= this.player) {\n                                                                ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "                    if (game.validateMove(move)) {\n                            ^\n  symbol:   method validateMove(Move)\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 80,
+                "message": "error: player has private access in Piece",
+                "content": "                } else if (pieceAtDestination.getPlayer()!= this.player) {\n                                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 83,
+                "message": "error: cannot find symbol",
+                "content": "                    if (game.validateMove(move)) {\n                            ^\n  symbol:   method validateMove(Move)\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "                    if (game.validateMove(move)) {\n                            ^\n  symbol:   method validateMove(Move)\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 80,
+                "message": "error: player has private access in Piece",
+                "content": "                } else if (pieceAtDestination.getPlayer()!= this.player) {\n                                                                ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 83,
+                "message": "error: cannot find symbol",
+                "content": "                    if (game.validateMove(move)) {\n                            ^\n  symbol:   method validateMove(Move)\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 68,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "                        if (isValidMove(game, move)) {\n                            ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 68,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "                        if (isValidMove(game, move)) {\n                            ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 74,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, x, y, newX, newY)) {\n                    ^\n  symbol:   method isValidMove(Game,int,int,int,int)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, x, y, newX, newY)) {\n                    ^\n  symbol:   method isValidMove(Game,int,int,int,int)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidCoordinate(newX, newY) && isValidMove(game, x, y, newX, newY)) {\n                ^\n  symbol:   method isValidCoordinate(int,int)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidCoordinate(newX, newY) && isValidMove(game, x, y, newX, newY)) {\n                                                 ^\n  symbol:   method isValidMove(Game,int,int,int,int)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidCoordinate(newX, newY) && isValidMove(game, x, y, newX, newY)) {\n                ^\n  symbol:   method isValidCoordinate(int,int)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidCoordinate(newX, newY) && isValidMove(game, x, y, newX, newY)) {\n                                                 ^\n  symbol:   method isValidMove(Game,int,int,int,int)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, source, newX, newY)) {\n                    ^\n  symbol:   method isValidMove(Game,Place,int,int)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, source, newX, newY)) {\n                    ^\n  symbol:   method isValidMove(Game,Place,int,int)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 68,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 68,
+                "message": "error: player has private access in Piece",
+                "content": "                    if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                           ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                    if (isValidMove(game, source, destination)) {\n                        ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                    if (isValidMove(game, source, destination)) {\n                        ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                    if (isValidMove(game, source, destination)) {\n                        ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                    if (isValidMove(game, source, destination)) {\n                        ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 71,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 71,
+                "message": "error: player has private access in Piece",
+                "content": "                if (pieceAtDestination == null || pieceAtDestination.getPlayer()!= this.player) {\n                                                                                       ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                move = parseMove(input, game, availableMoves);\n                       ^\n  symbol:   method parseMove(String,Game,Move[])\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                move = parseMove(input, game, availableMoves);\n                       ^\n  symbol:   method parseMove(String,Game,Move[])\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Move move = parseInput(input);\n                    ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Move move = parseInput(input);\n                    ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "        Move move = parseInput(input);\n                    ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        while (move == null ||!isValidMove(game, move, availableMoves)) {\n                               ^\n  symbol:   method isValidMove(Game,Move,Move[])\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            move = parseInput(input);\n                   ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "        Move move = parseInput(input);\n                    ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "        while (move == null ||!isValidMove(game, move, availableMoves)) {\n                               ^\n  symbol:   method isValidMove(Game,Move,Move[])\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            move = parseInput(input);\n                   ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            Place source = Place.fromLabel(parts[0]);\n                                ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "            Place destination = Place.fromLabel(parts[1]);\n                                     ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            Place source = Place.fromLabel(parts[0]);\n                                ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "            Place destination = Place.fromLabel(parts[1]);\n                                     ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            Place source = Place.fromLabel(parts[0]);\n                                ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "            Place destination = Place.fromLabel(parts[1]);\n                                     ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            Place source = Place.fromLabel(parts[0]);\n                                ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "            Place destination = Place.fromLabel(parts[1]);\n                                     ^\n  symbol:   method fromLabel(String)\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Move move = parseInput(input);\n                    ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/ConsolePlayer/src/main/java/assignment/player/ConsolePlayer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "        Move move = parseInput(input);\n                    ^\n  symbol:   method parseInput(String)\n  location: class ConsolePlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        while (move.equals(game.getLastMove())) {\n                               ^\n  symbol:   method getLastMove()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 40,
+                "message": "error: cannot find symbol",
+                "content": "        while (move.equals(game.getLastMove())) {\n                               ^\n  symbol:   method getLastMove()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "        return availableMoves[random.nextInt(availableMoves.length)];\n                              ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 38,
+                "message": "error: cannot find symbol",
+                "content": "        return availableMoves[random.nextInt(availableMoves.length)];\n                              ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 164,
+                "message": "error: cannot find symbol",
+                "content": "                        if (this.isValidMove(move)) {\n                                ^\n  symbol: method isValidMove(Move)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 164,
+                "message": "error: cannot find symbol",
+                "content": "                        if (this.isValidMove(move)) {\n                                ^\n  symbol: method isValidMove(Move)"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 173,
+                "message": "error: cannot find symbol",
+                "content": "                        if (this.isValidMove(move)) {\n                                ^\n  symbol: method isValidMove(Move)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 173,
+                "message": "error: cannot find symbol",
+                "content": "                        if (this.isValidMove(move)) {\n                                ^\n  symbol: method isValidMove(Move)"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 150,
+                "message": "error: cannot find symbol",
+                "content": "                        if (isValidMove(move)) {\n                            ^\n  symbol:   method isValidMove(Move)\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 150,
+                "message": "error: cannot find symbol",
+                "content": "                        if (isValidMove(move)) {\n                            ^\n  symbol:   method isValidMove(Move)\n  location: class JesonMor"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 36,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 43,
+                "message": "error: cannot find symbol",
+                "content": "        Player destinationPlayer = destinationPiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 36,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 43,
+                "message": "error: cannot find symbol",
+                "content": "        Player destinationPlayer = destinationPiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 34,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 34,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 35,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 35,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 34,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 34,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class FirstNMovesProtectionRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        if (game.getCurrentPlayer().equals(move.getDestination().getPiece().getPlayer())) {\n                                                                ^\n  symbol:   method getPiece()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 41,
+                "message": "error: cannot find symbol",
+                "content": "        if (game.getCurrentPlayer().equals(move.getSource().getPiece().getPlayer())) {\n                                                           ^\n  symbol:   method getPiece()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        if (game.getCurrentPlayer().equals(move.getDestination().getPiece().getPlayer())) {\n                                                                ^\n  symbol:   method getPiece()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 41,
+                "message": "error: cannot find symbol",
+                "content": "        if (game.getCurrentPlayer().equals(move.getSource().getPiece().getPlayer())) {\n                                                           ^\n  symbol:   method getPiece()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 25,
+                "message": "error: cannot find symbol",
+                "content": "        Player sourcePlayer = sourcePiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 26,
+                "message": "error: cannot find symbol",
+                "content": "        Player piecePlayer = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 25,
+                "message": "error: cannot find symbol",
+                "content": "        Player sourcePlayer = sourcePiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 26,
+                "message": "error: cannot find symbol",
+                "content": "        Player piecePlayer = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 26,
+                "message": "error: cannot find symbol",
+                "content": "        Player sourcePlayer = sourcePiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        Player destinationPlayer = destinationPiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 26,
+                "message": "error: cannot find symbol",
+                "content": "        Player sourcePlayer = sourcePiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        Player destinationPlayer = destinationPiece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 28,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = piece.getPlayer();\n        ^\n  symbol:   class Player\n  location: class KnightBlockRule"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 24,
+                "message": "error: cannot find symbol",
+                "content": "        if (x == knight.getX() + 2 || x == knight.getX() - 2) {\n                       ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 24,
+                "message": "error: cannot find symbol",
+                "content": "        if (x == knight.getX() + 2 || x == knight.getX() - 2) {\n                                                 ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 25,
+                "message": "error: cannot find symbol",
+                "content": "            if (y == knight.getY() + 1 || y == knight.getY() - 1) {\n                           ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 25,
+                "message": "error: cannot find symbol",
+                "content": "            if (y == knight.getY() + 1 || y == knight.getY() - 1) {\n                                                     ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 31,
+                "message": "error: cannot find symbol",
+                "content": "        } else if (y == knight.getY() + 2 || y == knight.getY() - 2) {\n                              ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 31,
+                "message": "error: cannot find symbol",
+                "content": "        } else if (y == knight.getY() + 2 || y == knight.getY() - 2) {\n                                                        ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 32,
+                "message": "error: cannot find symbol",
+                "content": "            if (x == knight.getX() + 1 || x == knight.getX() - 1) {\n                           ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 32,
+                "message": "error: cannot find symbol",
+                "content": "            if (x == knight.getX() + 1 || x == knight.getX() - 1) {\n                                                     ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 24,
+                "message": "error: cannot find symbol",
+                "content": "        if (x == knight.getX() + 2 || x == knight.getX() - 2) {\n                       ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 24,
+                "message": "error: cannot find symbol",
+                "content": "        if (x == knight.getX() + 2 || x == knight.getX() - 2) {\n                                                 ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 25,
+                "message": "error: cannot find symbol",
+                "content": "            if (y == knight.getY() + 1 || y == knight.getY() - 1) {\n                           ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 25,
+                "message": "error: cannot find symbol",
+                "content": "            if (y == knight.getY() + 1 || y == knight.getY() - 1) {\n                                                     ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 31,
+                "message": "error: cannot find symbol",
+                "content": "        } else if (y == knight.getY() + 2 || y == knight.getY() - 2) {\n                              ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 31,
+                "message": "error: cannot find symbol",
+                "content": "        } else if (y == knight.getY() + 2 || y == knight.getY() - 2) {\n                                                        ^\n  symbol:   method getY()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 32,
+                "message": "error: cannot find symbol",
+                "content": "            if (x == knight.getX() + 1 || x == knight.getX() - 1) {\n                           ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/62400-single_class/PA20/KnightBlockRule/src/main/java/assignment/piece/KnightBlockRule.java",
+                "line": 32,
+                "message": "error: cannot find symbol",
+                "content": "            if (x == knight.getX() + 1 || x == knight.getX() - 1) {\n                                                     ^\n  symbol:   method getX()\n  location: variable knight of type Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

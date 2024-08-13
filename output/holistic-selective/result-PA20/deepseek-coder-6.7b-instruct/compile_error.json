@@ -1,0 +1,2247 @@
+[
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, source, destination)) {\n                ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, source, destination)) {\n                ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, source, destination)) {\n                ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, source, destination)) {\n                ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, source, new Place(i, j))) {\n                ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, source, new Place(i, j))) {\n                ^\n  symbol:   method isValidMove(Game,Place,Place)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 90,
+                "message": "error: cannot find symbol",
+                "content": "                        if (validateMove(game, new Move(source, destination))) {\n                            ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 98,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, new Move(source, destination))) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 90,
+                "message": "error: cannot find symbol",
+                "content": "                        if (validateMove(game, new Move(source, destination))) {\n                            ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 98,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, new Move(source, destination))) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "        if (isValidMove(game, move)) {\n            ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 79,
+                "message": "error: cannot find symbol",
+                "content": "        if (isValidMove(game, move)) {\n            ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "        if (isValidMove(game, move)) {\n            ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 79,
+                "message": "error: cannot find symbol",
+                "content": "        if (isValidMove(game, move)) {\n            ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "    Piece[][] board = game.getBoard();\n                          ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "    Piece[][] board = game.getBoard();\n                          ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 72,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "            for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                    ^\n  symbol:   method getRules()\n  location: class Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "            for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                    ^\n  symbol:   method getRules()\n  location: class Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, move)) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, move)) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, potentialMove)) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, potentialMove)) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, potentialMove)) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (validateMove(game, potentialMove)) {\n                    ^\n  symbol:   method validateMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                for (Rule rule : game.getConfiguration().getPlayers()[0].getRules()) {\n                                                                        ^\n  symbol:   method getRules()\n  location: class Player"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 78,
+                "message": "error: incompatible types: Player cannot be converted to Rule",
+                "content": "            for (Rule rule : game.getConfiguration().getPlayers()) {\n                                                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 78,
+                "message": "error: incompatible types: Player cannot be converted to Rule",
+                "content": "            for (Rule rule : game.getConfiguration().getPlayers()) {\n                                                               ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, potentialMove)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, potentialMove)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        return availableMoves[random.nextInt(availableMoves.length)];\n                              ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        return availableMoves[random.nextInt(availableMoves.length)];\n                              ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = this.random.nextInt(availableMoves.length);\n                              ^\n  symbol: variable random"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/RandomPlayer/src/main/java/assignment/player/RandomPlayer.java",
+                "line": 37,
+                "message": "error: cannot find symbol",
+                "content": "        int randomIndex = random.nextInt(availableMoves.length);\n                          ^\n  symbol:   variable random\n  location: class RandomPlayer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getDestination()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                    return this.winner;\n                               ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getDestination()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                    return this.winner;\n                               ^\n  symbol: variable winner"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getSource()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "                    return this.winner;\n                               ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getSource()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "                    return this.winner;\n                               ^\n  symbol: variable winner"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getSource()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "                    return this.winner;\n                               ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getSource()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "                    return this.winner;\n                               ^\n  symbol: variable winner"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 49,
+                "message": "error: cannot find symbol",
+                "content": "        while (this.winner == null) {\n                   ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getSource()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "        return this.winner;\n                   ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 49,
+                "message": "error: cannot find symbol",
+                "content": "        while (this.winner == null) {\n                   ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                this.winner = this.getWinner(player, this.getPiece(move.getSource()), move);\n                    ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "                if (this.winner != null) {\n                        ^\n  symbol: variable winner"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "        return this.winner;\n                   ^\n  symbol: variable winner"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 29,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/FirstNMovesProtectionRule/src/main/java/assignment/piece/FirstNMovesProtectionRule.java",
+                "line": 29,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 20,
+                "message": "error: cannot find symbol",
+                "content": "            Player player = move.getSource().getPlayer();\n                                            ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 20,
+                "message": "error: cannot find symbol",
+                "content": "            Player player = move.getSource().getPlayer();\n                                            ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 24,
+                "message": "error: cannot find symbol",
+                "content": "        if (pieceAtDestination != null && pieceAtDestination.getPlayer().equals(move.getSource().getPlayer())) {\n                                                                                                ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 24,
+                "message": "error: cannot find symbol",
+                "content": "        if (pieceAtDestination != null && pieceAtDestination.getPlayer().equals(move.getSource().getPlayer())) {\n                                                                                                ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 20,
+                "message": "error: cannot find symbol",
+                "content": "            Player player = move.getSource().getPlayer();\n                                            ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 20,
+                "message": "error: cannot find symbol",
+                "content": "            Player player = move.getSource().getPlayer();\n                                            ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            },
+            {
+                "source": "/private/tmp/pre-coder/46752-single_class/PA20/OccupiedRule/src/main/java/assignment/piece/OccupiedRule.java",
+                "line": 22,
+                "message": "error: cannot find symbol",
+                "content": "        Player player = move.getSource().getPlayer();\n                                        ^\n  symbol:   method getPlayer()\n  location: class Place"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

@@ -1,0 +1,3478 @@
+[
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 104,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 104,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 86,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 95,
+                "message": "error: cannot find symbol",
+                "content": "            if (validateMove(game, move)) {\n                ^\n  symbol:   method validateMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Archer/src/main/java/assignment/piece/Archer.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "                if (isValidMove(game, move)) {\n                    ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Archer"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Archer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "            if (isMoveValid(game, move)) {\n                ^\n  symbol:   method isMoveValid(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "            if (isMoveValid(game, move)) {\n                ^\n  symbol:   method isMoveValid(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Knight.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/Knight/src/main/java/assignment/piece/Knight.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "            if (isValidMove(game, potentialMove)) {\n                ^\n  symbol:   method isValidMove(Game,Move)\n  location: class Knight"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ConsolePlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 24,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "        int lastX = lastMove.destination().x();\n                            ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "        int lastY = lastMove.destination().y();\n                            ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 120,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x())\n                                                     ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 120,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x())\n                                                                              ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 121,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.destination().y() - move.source().y());\n                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 121,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.destination().y() - move.source().y());\n                                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 142,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 144,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 144,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 91,
+                "message": "error: cannot find symbol",
+                "content": "        int lastX = lastMove.destination().x();\n                            ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "        int lastY = lastMove.destination().y();\n                            ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 120,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x())\n                                                     ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 120,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x())\n                                                                              ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 121,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.destination().y() - move.source().y());\n                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 121,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.destination().y() - move.source().y());\n                                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 142,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 144,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 144,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 20,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 114,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 114,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 114,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 114,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 28,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "        if (lastPiece instanceof Knight && lastMove.destination().equals(this.getCentralPlace())) {\n                                                   ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                           ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 155,
+                "message": "error: cannot find symbol",
+                "content": "        for (int i = 0; i < this.getSize(); i++) {\n                                ^\n  symbol: method getSize()"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 156,
+                "message": "error: cannot find symbol",
+                "content": "            for (int j = 0; j < this.getSize(); j++) {\n                                    ^\n  symbol: method getSize()"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "        if (lastPiece instanceof Knight && lastMove.destination().equals(this.getCentralPlace())) {\n                                                   ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                           ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 155,
+                "message": "error: cannot find symbol",
+                "content": "        for (int i = 0; i < this.getSize(); i++) {\n                                ^\n  symbol: method getSize()"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 156,
+                "message": "error: cannot find symbol",
+                "content": "            for (int j = 0; j < this.getSize(); j++) {\n                                    ^\n  symbol: method getSize()"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "        if (lastPiece instanceof Knight && lastMove.destination().equals(this.getCentralPlace())) {\n                                                   ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.source().x() - move.destination().x())\n                                                     ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.source().x() - move.destination().x())\n                                                                         ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.source().y() - move.destination().y());\n                               ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.source().y() - move.destination().y());\n                                                   ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 134,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "        if (lastPiece instanceof Knight && lastMove.destination().equals(this.getCentralPlace())) {\n                                                   ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.source().x() - move.destination().x())\n                                                     ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.source().x() - move.destination().x())\n                                                                         ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.source().y() - move.destination().y());\n                               ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                + Math.abs(move.source().y() - move.destination().y());\n                                                   ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 134,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.destination()), move);\n                                                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.destination()), move);\n                                                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 116,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 24,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 171,
+                "message": "error: cannot find symbol",
+                "content": "                        if (isValidMove(move)) {\n                            ^\n  symbol:   method isValidMove(Move)\n  location: class JesonMor"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 171,
+                "message": "error: cannot find symbol",
+                "content": "                        if (isValidMove(move)) {\n                            ^\n  symbol:   method isValidMove(Move)\n  location: class JesonMor"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                                  ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                                  ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(this.currentPlayer, this.getPiece(move.destination()), move);\n                                                                   ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(this.currentPlayer, this.getPiece(move.destination()), move);\n                                                                          ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                           ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 140,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 140,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 142,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 142,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(this.currentPlayer, this.getPiece(move.destination()), move);\n                                                                   ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(this.currentPlayer, this.getPiece(move.destination()), move);\n                                                                          ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                           ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 115,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) + Math.abs(move.source().y() - move.destination().y());\n                                                                                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 138,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 140,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 140,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 142,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 142,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "        if (lastMove.destination().equals(centralPlace)) {\n                    ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x()) +\n                                                     ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x()) +\n                                                                              ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.destination().y() - move.source().y());\n                             ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.destination().y() - move.source().y());\n                                                      ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 134,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "        if (lastMove.destination().equals(centralPlace)) {\n                    ^\n  symbol:   method destination()\n  location: variable lastMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x()) +\n                                                     ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 112,
+                "message": "error: cannot find symbol",
+                "content": "        int score = player.getScore() + Math.abs(move.destination().x() - move.source().x()) +\n                                                                              ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.destination().y() - move.source().y());\n                             ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 113,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.destination().y() - move.source().y());\n                                                      ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 134,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 135,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 136,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                      ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 60,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(move.source()), move);\n                                                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 64,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(move.destination()), move);\n                                                              ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 117,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 118,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 141,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 143,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 145,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/JesonMor.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(nextMove.source()), nextMove);\n                                                           ^\n  symbol:   method source()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                  ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 123,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 123,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 124,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 124,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 147,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 149,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 149,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 151,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 151,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "            this.updateScore(player, this.getPiece(nextMove.source()), nextMove);\n                                                           ^\n  symbol:   method source()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 69,
+                "message": "error: cannot find symbol",
+                "content": "            winner = this.getWinner(player, this.getPiece(nextMove.destination()), nextMove);\n                                                                  ^\n  symbol:   method destination()\n  location: variable nextMove of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 123,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                    ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 123,
+                "message": "error: cannot find symbol",
+                "content": "        int distance = Math.abs(move.source().x() - move.destination().x()) +\n                                                        ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 124,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                             ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 124,
+                "message": "error: cannot find symbol",
+                "content": "                Math.abs(move.source().y() - move.destination().y());\n                                                 ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 147,
+                "message": "error: cannot find symbol",
+                "content": "        Piece piece = this.getPiece(move.source());\n                                        ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 149,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                       ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 149,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.source().x()][move.source().y()] = null;\n                                          ^\n  symbol:   method source()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 151,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                       ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/JesonMor/src/main/java/assignment/JesonMor.java",
+                "line": 151,
+                "message": "error: cannot find symbol",
+                "content": "        this.board[move.destination().x()][move.destination().y()] = piece;\n                                               ^\n  symbol:   method destination()\n  location: variable move of type Move"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/Main.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            },
+            {
+                "source": "/private/tmp/pre-coder/90383-single_class/PA20/ArcherMoveRule/src/main/java/assignment/piece/ArcherMoveRule.java",
+                "line": 27,
+                "message": "error: cannot find symbol",
+                "content": "        Piece[][] board = game.getBoard();\n                              ^\n  symbol:   method getBoard()\n  location: variable game of type Game"
+            }
+        ]
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/ArcherMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/FirstNMovesProtectionRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightBlockRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/KnightMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/NilMoveRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OccupiedRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/OutOfBoundaryRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA20/VacantRule.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

@@ -1,0 +1,2514 @@
+[
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 146,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 201,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 146,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 201,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 145,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: cannot find symbol",
+                "content": "                if (entity instanceof Box && entity.getPlayerId() == playerId) {\n                                                   ^\n  symbol:   method getPlayerId()\n  location: variable entity of type Entity"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 206,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 145,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: cannot find symbol",
+                "content": "                if (entity instanceof Box && entity.getPlayerId() == playerId) {\n                                                   ^\n  symbol:   method getPlayerId()\n  location: variable entity of type Entity"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 206,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 144,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 198,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 143,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 144,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 198,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(Box.class::isInstance).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 204,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(Box.class::isInstance).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 204,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 146,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 147,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 201,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 146,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 147,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 201,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 153,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has invalid player id \" + box.getPlayerId() + \".\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 161,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has no corresponding player.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 163,
+                "message": "error: cannot find symbol",
+                "content": "                box.setPosition(position);\n                   ^\n  symbol:   method setPosition(Position)\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 153,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has invalid player id \" + box.getPlayerId() + \".\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 161,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has no corresponding player.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 163,
+                "message": "error: cannot find symbol",
+                "content": "                box.setPosition(position);\n                   ^\n  symbol:   method setPosition(Position)\n  location: variable box of type Box"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 204,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 150,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 204,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 148,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 203,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 148,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 203,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 147,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 148,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(Box.class::isInstance).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 202,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 147,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 148,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(Box.class::isInstance).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 202,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(Player.class::isInstance).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 145,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 146,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 200,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 145,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> playerIds = map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                                            ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 146,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        Set<Integer> boxPlayerIds = map.values().stream().filter(e -> e instanceof Box).map(Box::getPlayerId).collect(Collectors.toSet());\n                                                                                            ^\n    method getPlayerId in class Box cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 200,
+                "message": "error: incompatible types: invalid method reference",
+                "content": "        return map.values().stream().filter(e -> e instanceof Player).map(Player::getId).collect(Collectors.toSet());\n                                                                          ^\n    method getId in class Player cannot be applied to given types\n      required: no arguments\n      found:    Entity\n      reason: actual and formal argument lists differ in length\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 148,
+                "message": "error: cannot find symbol",
+                "content": "                if (!map.containsKey(box.getDestination())) {\n                                        ^\n  symbol:   method getDestination()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has no corresponding destination.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 152,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has invalid player id.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 155,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has no corresponding player.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 148,
+                "message": "error: cannot find symbol",
+                "content": "                if (!map.containsKey(box.getDestination())) {\n                                        ^\n  symbol:   method getDestination()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 149,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has no corresponding destination.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 152,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has invalid player id.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 155,
+                "message": "error: cannot find symbol",
+                "content": "                    throw new IllegalArgumentException(\"Box \" + box.getId() + \" has no corresponding player.\");\n                                                                   ^\n  symbol:   method getId()\n  location: variable box of type Box"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                    final var direction = Move.Direction.valueOf(args.toUpperCase());\n                                              ^\n  symbol:   variable Direction\n  location: class Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 68,
+                "message": "error: Move is abstract; cannot be instantiated",
+                "content": "                    return new Move(initiator, direction);\n                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                    final var direction = Move.Direction.valueOf(args.toUpperCase());\n                                              ^\n  symbol:   variable Direction\n  location: class Move"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 68,
+                "message": "error: Move is abstract; cannot be instantiated",
+                "content": "                    return new Move(initiator, direction);\n                           ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 58,
+                "message": "error: cannot infer type for local variable action",
+                "content": "        final var action;\n                  ^\n  (cannot use 'var' on variable without initializer)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 58,
+                "message": "error: cannot infer type for local variable action",
+                "content": "        final var action;\n                  ^\n  (cannot use 'var' on variable without initializer)"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 47,
+                "message": "error: cannot find symbol",
+                "content": "        return parseAction(inputLine);\n               ^\n  symbol:   method parseAction(String)\n  location: class TerminalInputEngine"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 47,
+                "message": "error: cannot find symbol",
+                "content": "        return parseAction(inputLine);\n               ^\n  symbol:   method parseAction(String)\n  location: class TerminalInputEngine"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isSuccess()) {\n                      ^\n  symbol:   method isSuccess()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "            } else if (result.isFailed()) {\n                             ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(\"Sorry, you lose. Reason: \" + result.getReason());\n                                                                            ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isSuccess()) {\n                      ^\n  symbol:   method isSuccess()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "            } else if (result.isFailed()) {\n                             ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(\"Sorry, you lose. Reason: \" + result.getReason());\n                                                                            ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isSuccess()) {\n                      ^\n  symbol:   method isSuccess()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            } else if (result.isFailed()) {\n                             ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(\"Game over. Reason: \" + result.getReason());\n                                                                      ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isSuccess()) {\n                      ^\n  symbol:   method isSuccess()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            } else if (result.isFailed()) {\n                             ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(\"Game over. Reason: \" + result.getReason());\n                                                                      ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 54,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isSuccess()) {\n                      ^\n  symbol:   method isSuccess()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isSuccess()) {\n                      ^\n  symbol:   method isSuccess()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 52,
+                "message": "error: cannot find symbol",
+                "content": "            if (result.isFailed()) {\n                      ^\n  symbol:   method isFailed()\n  location: variable result of type ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/TerminalSokobanGame/src/main/java/assignment/tui/TerminalSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "                renderingEngine.message(result.getReason());\n                                              ^\n  symbol:   method getReason()\n  location: variable result of type ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, \"You cannot move onto your own box.\");\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Success(action);\n                                       ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 76,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 79,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 82,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 63,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, \"You cannot move onto your own box.\");\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 66,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Success(action);\n                                       ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 76,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 79,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 82,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 18,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, \"You cannot move boxes on top of each other.\");\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Success(action);\n                                       ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move onto other players.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, \"You cannot move boxes on top of each other.\");\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Success(action);\n                                       ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 77,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move onto other players.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 16,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You can't move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Success(action);\n                                       ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, \"You can't move boxes of other players.\");\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 79,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You can't move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 73,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Success(action);\n                                       ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 75,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, \"You can't move boxes of other players.\");\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 79,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 12,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"Cannot move to a wall.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 62,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 68,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"Cannot move to a wall.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 71,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 22,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.PLAYER_CANNOT_MOVE_TO_WALL);\n                                                                  ^\n  symbol:   variable PLAYER_CANNOT_MOVE_TO_WALL\n  location: class StringResources"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, StringResources.PLAYER_CANNOT_MOVE_TO_OWN_BOX);\n                                                                      ^\n  symbol:   variable PLAYER_CANNOT_MOVE_TO_OWN_BOX\n  location: class StringResources"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 78,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.PLAYER_CANNOT_MOVE_TO_UNKNOWN_ENTITY);\n                                                              ^\n  symbol:   variable PLAYER_CANNOT_MOVE_TO_UNKNOWN_ENTITY\n  location: class StringResources"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 85,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 90,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.UNDO_QUOTA_UNLIMITED);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 94,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.UNKNOWN_ACTION);\n                                                              ^\n  symbol:   variable UNKNOWN_ACTION\n  location: class StringResources"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 59,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 65,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.PLAYER_CANNOT_MOVE_TO_WALL);\n                                                                  ^\n  symbol:   variable PLAYER_CANNOT_MOVE_TO_WALL\n  location: class StringResources"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, StringResources.PLAYER_CANNOT_MOVE_TO_OWN_BOX);\n                                                                      ^\n  symbol:   variable PLAYER_CANNOT_MOVE_TO_OWN_BOX\n  location: class StringResources"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 74,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 78,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 80,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.PLAYER_CANNOT_MOVE_TO_UNKNOWN_ENTITY);\n                                                              ^\n  symbol:   variable PLAYER_CANNOT_MOVE_TO_UNKNOWN_ENTITY\n  location: class StringResources"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 85,
+                "message": "error: cannot find symbol",
+                "content": "                    return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                       ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 88,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Success(action);\n                                   ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 90,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.UNDO_QUOTA_UNLIMITED);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 92,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 94,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.UNKNOWN_ACTION);\n                                                              ^\n  symbol:   variable UNKNOWN_ACTION\n  location: class StringResources"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 12,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 55,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Failed(action, StringResources.INVALID_INPUT_MESSAGE);\n                               ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 58,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, StringResources.UNDO_QUOTA_RUN_OUT);\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 61,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 67,
+                "message": "error: cannot find symbol",
+                "content": "                return ActionResult.Failed(action, \"You cannot move through walls.\");\n                                   ^\n  symbol:   method Failed(Action,String)\n  location: class ActionResult"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/AbstractSokobanGame/src/main/java/assignment/game/AbstractSokobanGame.java",
+                "line": 70,
+                "message": "error: cannot find symbol",
+                "content": "            return ActionResult.Success(action);\n                               ^\n  symbol:   method Success(Action)\n  location: class ActionResult"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 195,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int,Transition)",
+                "content": "        this.history.push(new Transition(entities, undoQuota, transition));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 211,
+                "message": "error: cannot find symbol",
+                "content": "        this.entities.putAll(transition.getEntities());\n                                       ^\n  symbol:   method getEntities()\n  location: variable transition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 212,
+                "message": "error: cannot find symbol",
+                "content": "        this.undoQuota = transition.getUndoQuota();\n                                   ^\n  symbol:   method getUndoQuota()\n  location: variable transition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 213,
+                "message": "error: cannot find symbol",
+                "content": "        this.currentTransition = transition.getTransition();\n                                           ^\n  symbol:   method getTransition()\n  location: variable transition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 195,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int,Transition)",
+                "content": "        this.history.push(new Transition(entities, undoQuota, transition));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 211,
+                "message": "error: cannot find symbol",
+                "content": "        this.entities.putAll(transition.getEntities());\n                                       ^\n  symbol:   method getEntities()\n  location: variable transition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 212,
+                "message": "error: cannot find symbol",
+                "content": "        this.undoQuota = transition.getUndoQuota();\n                                   ^\n  symbol:   method getUndoQuota()\n  location: variable transition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 213,
+                "message": "error: cannot find symbol",
+                "content": "        this.currentTransition = transition.getTransition();\n                                           ^\n  symbol:   method getTransition()\n  location: variable transition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 144,
+                "message": "error: cannot find symbol",
+                "content": "        final var newEntity = entity.move(this, from, to);\n                                    ^\n  symbol:   method move(GameState,Position,Position)\n  location: variable entity of type Entity"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 183,
+                "message": "error: cannot find symbol",
+                "content": "            final var newEntity = entity.move(this, to, from);\n                                        ^\n  symbol:   method move(GameState,Position,Position)\n  location: variable entity of type Entity"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 144,
+                "message": "error: cannot find symbol",
+                "content": "        final var newEntity = entity.move(this, from, to);\n                                    ^\n  symbol:   method move(GameState,Position,Position)\n  location: variable entity of type Entity"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 183,
+                "message": "error: cannot find symbol",
+                "content": "            final var newEntity = entity.move(this, to, from);\n                                        ^\n  symbol:   method move(GameState,Position,Position)\n  location: variable entity of type Entity"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 195,
+                "message": "error: incompatible types: HashMap<Position,Entity> cannot be converted to Map<Position,Position>",
+                "content": "        history.push(new Transition(entitiesCopy));\n                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 213,
+                "message": "error: incompatible types: Transition cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "        entities.putAll(entitiesCopy);\n                        ^\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 195,
+                "message": "error: incompatible types: HashMap<Position,Entity> cannot be converted to Map<Position,Position>",
+                "content": "        history.push(new Transition(entitiesCopy));\n                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 213,
+                "message": "error: incompatible types: Transition cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "        entities.putAll(entitiesCopy);\n                        ^\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 201,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 202,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 201,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 202,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 4,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 168,
+                "message": "error: cannot find symbol",
+                "content": "                    final var playerBoxPosition = player.getPosition().add(to.subtract(from));\n                                                        ^\n  symbol:   method getPosition()\n  location: variable player of type Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 168,
+                "message": "error: cannot find symbol",
+                "content": "                    final var playerBoxPosition = player.getPosition().add(to.subtract(from));\n                                                                             ^\n  symbol:   method subtract(Position)\n  location: variable to of type Position"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 168,
+                "message": "error: cannot find symbol",
+                "content": "                    final var playerBoxPosition = player.getPosition().add(to.subtract(from));\n                                                        ^\n  symbol:   method getPosition()\n  location: variable player of type Player"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 168,
+                "message": "error: cannot find symbol",
+                "content": "                    final var playerBoxPosition = player.getPosition().add(to.subtract(from));\n                                                                             ^\n  symbol:   method subtract(Position)\n  location: variable to of type Position"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 200,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 234,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 235,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 200,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 234,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 235,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 201,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 202,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 201,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 202,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 183,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 206,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 207,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 183,
+                "message": "error: no suitable constructor found for Transition(HashMap<Position,Entity>,int)",
+                "content": "        this.history.push(new Transition(entities, undoQuota));\n                          ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 206,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(transition.moves);\n                                           ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/73836-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 207,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = transition.undoQuota;\n                                       ^\n  symbol:   variable undoQuota\n  location: variable transition of type Transition\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    }
+]

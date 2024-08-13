@@ -1,0 +1,1629 @@
+[
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/Move.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 151,
+                "message": "error: incompatible types: possible lossy conversion from int to char",
+                "content": "        char playerId = box.getPlayerId();\n                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 157,
+                "message": "error: incompatible types: Position cannot be converted to Player",
+                "content": "    for (Player player : playerPositions.values()) {\n                                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 158,
+                "message": "error: incompatible types: possible lossy conversion from int to char",
+                "content": "        char playerId = player.getId();\n                                    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 151,
+                "message": "error: incompatible types: possible lossy conversion from int to char",
+                "content": "        char playerId = box.getPlayerId();\n                                       ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 157,
+                "message": "error: incompatible types: Position cannot be converted to Player",
+                "content": "    for (Player player : playerPositions.values()) {\n                                               ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 158,
+                "message": "error: incompatible types: possible lossy conversion from int to char",
+                "content": "        char playerId = player.getId();\n                                    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        validateMap(map, destinations, undoLimit);\n        ^\n  symbol:   method validateMap(Map<Position,Entity>,Set<Position>,int)\n  location: class GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        validateMap(map, destinations, undoLimit);\n        ^\n  symbol:   method validateMap(Map<Position,Entity>,Set<Position>,int)\n  location: class GameMap"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        validateMap(map, destinations, undoLimit);\n        ^\n  symbol:   method validateMap(Map<Position,Entity>,Set<Position>,int)\n  location: class GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 137,
+                "message": "error: cannot find symbol",
+                "content": "        validateMap(map, destinations, undoLimit);\n        ^\n  symbol:   method validateMap(Map<Position,Entity>,Set<Position>,int)\n  location: class GameMap"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 159,
+                "message": "error: cannot find symbol",
+                "content": "            if (!boxes.containsKey(map.get(position).getPlayerId())) {\n                                                    ^\n  symbol:   method getPlayerId()\n  location: class Entity"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 159,
+                "message": "error: cannot find symbol",
+                "content": "            if (!boxes.containsKey(map.get(position).getPlayerId())) {\n                                                    ^\n  symbol:   method getPlayerId()\n  location: class Entity"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        validateMap(map, destinations, undoLimit);\n        ^\n  symbol:   method validateMap(Map<Position,Entity>,Set<Position>,int)\n  location: class GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 139,
+                "message": "error: cannot find symbol",
+                "content": "        validateMap(map, destinations, undoLimit);\n        ^\n  symbol:   method validateMap(Map<Position,Entity>,Set<Position>,int)\n  location: class GameMap"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 162,
+                "message": "error: cannot find symbol",
+                "content": "        if (!boxMap.containsKey(map.get(position).getPlayerId())) {\n                                                 ^\n  symbol:   method getPlayerId()\n  location: class Entity"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameMap/src/main/java/assignment/game/GameMap.java",
+                "line": 162,
+                "message": "error: cannot find symbol",
+                "content": "        if (!boxMap.containsKey(map.get(position).getPlayerId())) {\n                                                 ^\n  symbol:   method getPlayerId()\n  location: class Entity"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameMap.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 2,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 80,
+                "message": "error: missing return statement",
+                "content": "    }\n    ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/TerminalInputEngine/src/main/java/assignment/tui/TerminalInputEngine.java",
+                "line": 80,
+                "message": "error: missing return statement",
+                "content": "    }\n    ^"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalInputEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/TerminalRenderingEngine.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/AbstractSokobanGame.java",
+        "compile_errors_count": 0,
+        "compile_errors": []
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 167,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 182,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 167,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 182,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 10,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            Position playerPosition = map.getEntityPositions(new Player(id)).iterator().next();\n                                         ^\n  symbol:   method getEntityPositions(Player)\n  location: variable map of type GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "        map.getEntityPositions(new Box(0)).forEach(position -> this.entities.put(position, new Box(0)));\n           ^\n  symbol:   method getEntityPositions(Box)\n  location: variable map of type GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "        map.getEntityPositions(new Empty()).forEach(position -> this.entities.put(position, new Empty()));\n           ^\n  symbol:   method getEntityPositions(Empty)\n  location: variable map of type GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 158,
+                "message": "error: incompatible types: Map<Position,Entity> cannot be converted to Map<Position,Position>",
+                "content": "        this.history.push(new Transition(entitiesSnapshot));\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 172,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(lastTransition.moves);\n                                               ^\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 53,
+                "message": "error: cannot find symbol",
+                "content": "            Position playerPosition = map.getEntityPositions(new Player(id)).iterator().next();\n                                         ^\n  symbol:   method getEntityPositions(Player)\n  location: variable map of type GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 56,
+                "message": "error: cannot find symbol",
+                "content": "        map.getEntityPositions(new Box(0)).forEach(position -> this.entities.put(position, new Box(0)));\n           ^\n  symbol:   method getEntityPositions(Box)\n  location: variable map of type GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 57,
+                "message": "error: cannot find symbol",
+                "content": "        map.getEntityPositions(new Empty()).forEach(position -> this.entities.put(position, new Empty()));\n           ^\n  symbol:   method getEntityPositions(Empty)\n  location: variable map of type GameMap"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 158,
+                "message": "error: incompatible types: Map<Position,Entity> cannot be converted to Map<Position,Position>",
+                "content": "        this.history.push(new Transition(entitiesSnapshot));\n                                         ^"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 172,
+                "message": "error: incompatible types: Map<Position,Position> cannot be converted to Map<? extends Position,? extends Entity>",
+                "content": "            this.entities.putAll(lastTransition.moves);\n                                               ^\nNote: Some messages have been simplified; recompile with -Xdiags:verbose to get full output"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 170,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 184,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entitiesSnapshot);\n                                          ^\n  symbol:   variable entitiesSnapshot\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 185,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 170,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 184,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entitiesSnapshot);\n                                          ^\n  symbol:   variable entitiesSnapshot\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 185,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 163,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 177,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.getEntities());\n                                          ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 178,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.getUndoQuota();\n                                      ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 163,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 177,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.getEntities());\n                                          ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 178,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.getUndoQuota();\n                                      ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 161,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 175,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 176,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 161,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 175,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 176,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 166,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entitiesSnapshot);\n                                          ^\n  symbol:   variable entitiesSnapshot\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 182,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 166,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entitiesSnapshot);\n                                          ^\n  symbol:   variable entitiesSnapshot\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 182,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.getEntities());\n                                          ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.getUndoQuota();\n                                      ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.getEntities());\n                                          ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.getUndoQuota();\n                                      ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 167,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 182,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 183,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 167,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 182,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 183,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 166,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.getEntities());\n                                               ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = lastTransition.getUndoQuota();\n                                           ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 166,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.getEntities());\n                                               ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = lastTransition.getUndoQuota();\n                                           ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 164,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesCopy));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 164,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesCopy));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 166,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesCopy));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.entities);\n                                               ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            this.currentTransition = lastTransition.moves.reverse();\n                                                         ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 166,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesCopy));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.entities);\n                                               ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            this.currentTransition = lastTransition.moves.reverse();\n                                                         ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 8,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 181,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.undoQuota;\n                                      ^\n  symbol:   variable undoQuota\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 164,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 178,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 164,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 178,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 164,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 178,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.getEntities());\n                                          ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.getUndoQuota();\n                                      ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 164,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 178,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.getEntities());\n                                          ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            undoQuota = lastTransition.getUndoQuota();\n                                      ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 157,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 172,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 173,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 157,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Position>,Map<Position,Entity>)",
+                "content": "        history.push(new Transition(currentTransition.moves, entitiesSnapshot));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 172,
+                "message": "error: cannot find symbol",
+                "content": "            entities.putAll(lastTransition.entities);\n                                          ^\n  symbol:   variable entities\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 173,
+                "message": "error: cannot find symbol",
+                "content": "            currentTransition = lastTransition.moves.reverse();\n                                                    ^\n  symbol:   method reverse()\n  location: variable moves of type Map<Position,Position>"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.getEntities());\n                                               ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = lastTransition.getUndoQuota();\n                                           ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 165,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesCopy, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 179,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.getEntities());\n                                               ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 180,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = lastTransition.getUndoQuota();\n                                           ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    },
+    {
+        "task_id": "PA22/GameState.java",
+        "compile_errors_count": 6,
+        "compile_errors": [
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 161,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 175,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.getEntities());\n                                               ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 176,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = lastTransition.getUndoQuota();\n                                           ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 161,
+                "message": "error: no suitable constructor found for Transition(Map<Position,Entity>,int)",
+                "content": "        history.push(new Transition(entitiesSnapshot, undoQuota));\n                     ^\n    constructor Transition.Transition(Map<Position,Position>) is not applicable\n      (actual and formal argument lists differ in length)\n    constructor Transition.Transition() is not applicable\n      (actual and formal argument lists differ in length)"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 175,
+                "message": "error: cannot find symbol",
+                "content": "            this.entities.putAll(lastTransition.getEntities());\n                                               ^\n  symbol:   method getEntities()\n  location: variable lastTransition of type Transition"
+            },
+            {
+                "source": "/private/tmp/pre-coder/56276-single_class/PA22/GameState/src/main/java/assignment/game/GameState.java",
+                "line": 176,
+                "message": "error: cannot find symbol",
+                "content": "            this.undoQuota = lastTransition.getUndoQuota();\n                                           ^\n  symbol:   method getUndoQuota()\n  location: variable lastTransition of type Transition"
+            }
+        ]
+    }
+]
