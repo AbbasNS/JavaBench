@@ -54,7 +54,14 @@ public class Pipe implements MapElement {
      * Converts a String to a Pipe.
      *
      * <p>
-     * Refer to README for the list of ASCII representation to the pipes.
+     * Here is the list of ASCII representation to the pipes:
+     * TL: Top-Left (╝)
+     * TR: Top-Right (╚)
+     * BL: Bottom-Left (╗)
+     * BR: Bottom-Right (╔)
+     * HZ: Horizontal (═)
+     * VT: Vertical (║)
+     * CR: Cross (╬)
      * </p>
      *
      * @param rep String representation of the pipe. For example, "HZ" corresponds to a pipe of horizontal shape.

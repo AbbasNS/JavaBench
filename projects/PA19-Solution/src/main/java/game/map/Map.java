@@ -35,7 +35,10 @@ public class Map {
      * Creates a map with size of rows x cols.
      *
      * <p>
-     * You should make sure that the map generated adheres to the specifications as stated in the README.
+     * The map should only contain one source tile in any non-edge cell.
+     * The map should only contain one sink tile in any edge cell.
+     * The source tile must not point into a wall.
+     * The sink tile must point outside the map.
      * </p>
      *
      * @param rows Number of rows.
@@ -74,7 +77,10 @@ public class Map {
      * Creates a map with the given cells.
      *
      * <p>
-     * You should make sure that the map generated adheres to the specifications as stated in the README.
+     * The map should only contain one source tile in any non-edge cell.
+     * The map should only contain one sink tile in any edge cell.
+     * The source tile must not point into a wall.
+     * The sink tile must point outside the map.
      * </p>
      *
      * @param rows  Number of rows.
@@ -425,8 +431,8 @@ public class Map {
      * Checks whether there exists a path from {@code sourceCell} to {@code sinkCell}.
      *
      * <p>
-     * Hint: This problem is similar to finding a specific node in a graph. As stated in the README, one of the ways you
-     * could approach this is to use Breadth-First Search.
+     * The game is won when the player must place pipes on the map such that a path is formed from the source tile to the sink tile. One of the approaches to check this is to use Breadth First Search to search for the sink tile along the pipes. You may also use other algorithms or create your own, provided it achieves the same goal.
+     * The game is lost when no additional pipes are filled in each round after the Nth round. The value of N' can be configured in the loaded map. In the example maps, N` is set to 10.
      * </p>
      *
      * @return {@code true} if a path exists, else {@code false}.
@@ -470,7 +476,7 @@ public class Map {
 
     /**
      * <p>
-     * Hint: From the README: {@code The game is lost when a round ends and no pipes are filled during the round.} Is
+     * Hint: The game is lost when a round ends and no pipes are filled during the round. Is
      * there a way to check whether pipes are filled during a round?
      * </p>
      *

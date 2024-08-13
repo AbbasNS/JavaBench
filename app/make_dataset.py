@@ -5,7 +5,7 @@ from typing import Any, Dict
 
 from tqdm import tqdm
 
-from util.io import read_code, write_jsonl
+from app.util.io import read_code, write_jsonl
 
 def export_problems(project_id: str, project: Dict[str, Any], args: Dict[str, str]):
     def get_code_context(context_root: str, related_source_list: list[str]):

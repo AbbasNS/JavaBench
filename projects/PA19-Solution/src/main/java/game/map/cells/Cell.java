@@ -22,8 +22,14 @@ public abstract class Cell implements MapElement {
      * Parses a {@link Cell} from a character.
      *
      * <p>
-     * Refer to README for the list of characters to their corresponding map element. If the character does not
-     * represent a {@link TerminationCell}, the {@code terminationType} parameter can be ignored.
+     * Here is the list of characters to their corresponding map element:
+     * W: Wall
+     * .: Cell
+     * ^: Source/Sink pipe pointing upward
+     * v: Source/Sink pipe pointing downward
+     * <: Source/Sink pipe pointing leftward
+     * >: Source/Sink pipe pointing rightward
+     * If the character does not represent a {@link TerminationCell}, the {@code terminationType} parameter can be ignored.
      * </p>
      *
      * @param c Character to parse.
