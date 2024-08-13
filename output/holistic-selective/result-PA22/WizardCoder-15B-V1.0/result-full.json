@@ -209,6 +209,46 @@
                 2,
                 11
             ],
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/TerminalInputEngineTest",
+            "compilable": true,
+            "n_pass": [
+                0,
+                11
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/TerminalInputEngineTest",
+            "compilable": true,
+            "n_pass": [
+                0,
+                11
+            ],
+            "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/TerminalInputEngineTest",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/TerminalInputEngineTest",
+            "compilable": true,
+            "n_pass": [
+                0,
+                11
+            ],
             "has_todo": true,
             "can_replace": true
         },
@@ -239,47 +279,7 @@
                 0,
                 0
             ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/TerminalInputEngineTest",
-            "compilable": true,
-            "n_pass": [
-                0,
-                11
-            ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/TerminalInputEngineTest",
-            "compilable": true,
-            "n_pass": [
-                0,
-                11
-            ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/TerminalInputEngineTest",
-            "compilable": true,
-            "n_pass": [
-                0,
-                11
-            ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/TerminalInputEngineTest",
-            "compilable": false,
-            "n_pass": [
-                0,
-                0
-            ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -299,7 +299,7 @@
                 2,
                 11
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -349,7 +349,7 @@
                 1,
                 11
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -399,7 +399,7 @@
                 0,
                 11
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -885,7 +885,27 @@
                 0,
                 0
             ],
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/TerminalSokobanGameTest",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
             "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/TerminalSokobanGameTest",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -935,7 +955,7 @@
                 0,
                 0
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -985,27 +1005,7 @@
                 0,
                 0
             ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/TerminalSokobanGameTest",
-            "compilable": false,
-            "n_pass": [
-                0,
-                0
-            ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/TerminalSokobanGameTest",
-            "compilable": false,
-            "n_pass": [
-                0,
-                0
-            ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -1289,7 +1289,27 @@
                 0,
                 0
             ],
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/SokobanGameFactoryTest",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
             "has_todo": true,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA22/SokobanGameFactoryTest",
+            "compilable": false,
+            "n_pass": [
+                0,
+                0
+            ],
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -1339,7 +1359,7 @@
                 0,
                 0
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -1389,27 +1409,7 @@
                 0,
                 0
             ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/SokobanGameFactoryTest",
-            "compilable": false,
-            "n_pass": [
-                0,
-                0
-            ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA22/SokobanGameFactoryTest",
-            "compilable": false,
-            "n_pass": [
-                0,
-                0
-            ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         }
     ]

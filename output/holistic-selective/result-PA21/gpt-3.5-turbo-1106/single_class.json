@@ -1076,16 +1076,6 @@
             0,
             0
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA21/GameBoard.java",
-        "compile_errors": 8,
-        "test_result": [
-            0,
-            0
-        ],
         "has_todo": false,
         "can_replace": true
     },
@@ -1146,7 +1136,17 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA21/GameBoard.java",
+        "compile_errors": 8,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {

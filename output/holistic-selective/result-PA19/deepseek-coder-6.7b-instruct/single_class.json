@@ -1136,7 +1136,7 @@
             50,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1156,7 +1156,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {

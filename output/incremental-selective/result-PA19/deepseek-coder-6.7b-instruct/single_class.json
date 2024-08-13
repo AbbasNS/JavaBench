@@ -1066,7 +1066,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1136,7 +1136,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1646,7 +1646,7 @@
             51,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1655,56 +1655,6 @@
         "test_result": [
             52,
             55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Game.java",
-        "compile_errors": 0,
-        "test_result": [
-            51,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Game.java",
-        "compile_errors": 2,
-        "test_result": [
-            0,
-            0
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Game.java",
-        "compile_errors": 0,
-        "test_result": [
-            52,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Game.java",
-        "compile_errors": 2,
-        "test_result": [
-            0,
-            0
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Game.java",
-        "compile_errors": 4,
-        "test_result": [
-            0,
-            0
         ],
         "has_todo": false,
         "can_replace": true
@@ -1721,6 +1671,56 @@
     },
     {
         "task_id": "PA19/Game.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Game.java",
+        "compile_errors": 0,
+        "test_result": [
+            52,
+            55
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Game.java",
+        "compile_errors": 2,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Game.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Game.java",
+        "compile_errors": 0,
+        "test_result": [
+            51,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Game.java",
         "compile_errors": 4,
         "test_result": [
             0,
@@ -1766,7 +1766,7 @@
             52,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1796,7 +1796,7 @@
             52,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {

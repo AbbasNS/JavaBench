@@ -7,7 +7,7 @@
                 0,
                 0
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -17,7 +17,7 @@
                 5,
                 5
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -47,7 +47,7 @@
                 4,
                 5
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -59,17 +59,7 @@
                 2,
                 7
             ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA19/CellTest",
-            "compilable": true,
-            "n_pass": [
-                2,
-                7
-            ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -89,7 +79,7 @@
                 2,
                 7
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -99,7 +89,17 @@
                 2,
                 7
             ],
-            "has_todo": true,
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA19/CellTest",
+            "compilable": true,
+            "n_pass": [
+                2,
+                7
+            ],
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -111,17 +111,7 @@
                 2,
                 4
             ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA19/FillableCellTest",
-            "compilable": true,
-            "n_pass": [
-                2,
-                4
-            ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -141,7 +131,7 @@
                 2,
                 4
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -151,7 +141,17 @@
                 2,
                 4
             ],
-            "has_todo": true,
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA19/FillableCellTest",
+            "compilable": true,
+            "n_pass": [
+                2,
+                4
+            ],
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -163,17 +163,7 @@
                 3,
                 3
             ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA19/TerminationCellTest",
-            "compilable": true,
-            "n_pass": [
-                3,
-                3
-            ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -193,7 +183,7 @@
                 3,
                 3
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -203,7 +193,17 @@
                 3,
                 3
             ],
-            "has_todo": true,
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA19/TerminationCellTest",
+            "compilable": true,
+            "n_pass": [
+                3,
+                3
+            ],
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -215,17 +215,7 @@
                 2,
                 2
             ],
-            "has_todo": true,
-            "can_replace": true
-        },
-        {
-            "test_id": "PA19/WallTest",
-            "compilable": true,
-            "n_pass": [
-                2,
-                2
-            ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -245,7 +235,7 @@
                 2,
                 2
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -255,7 +245,17 @@
                 2,
                 2
             ],
-            "has_todo": true,
+            "has_todo": false,
+            "can_replace": true
+        },
+        {
+            "test_id": "PA19/WallTest",
+            "compilable": true,
+            "n_pass": [
+                2,
+                2
+            ],
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -267,7 +267,7 @@
                 5,
                 8
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -277,7 +277,7 @@
                 7,
                 8
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -297,7 +297,7 @@
                 6,
                 8
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -307,7 +307,7 @@
                 7,
                 8
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         }
     ],
@@ -329,7 +329,7 @@
                 0,
                 4
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -381,7 +381,7 @@
                 0,
                 5
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {

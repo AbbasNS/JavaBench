@@ -7,11 +7,34 @@ import pandas as pd
 
 from typing import List
 from app.schema.schemas import CompilerError
+from app.static_analyzer.class_compose_tool import get_todo_methods
 
 
 def to_code_path(root, code_path):
     return os.path.join(root, "src", "main", "java", code_path)
 
+def check_todo(todo_code, com_code):
+    todo_methods = get_todo_methods(todo_code)
+    com_methods = get_todo_methods(com_code)
+    for tm in todo_methods: 
+        cm = None
+        for _cm in com_methods:
+            if _cm['name'] == tm["name"] and _cm['seq'] == tm["seq"]:
+                cm = _cm
+        if cm == None:
+            continue
+
+        tm_body = todo_code[tm["body_start"]:tm["body_end"]]
+        cm_body = com_code[cm["body_start"]:cm["body_end"]]
+        tm_body = '\n'.join([line for line in tm_body.split('\n') if not line.strip().startswith("//")])
+        cm_body = '\n'.join([line for line in cm_body.split('\n') if not line.strip().startswith("//")])
+        tm_len = len(tm_body)
+        cm_len = len(cm_body)
+
+        if cm_len - tm_len < 10:
+            return True
+        
+    return False
 
 class TestEnv:
     def __init__(self, root: str, todo_src: str, src: str) -> None:
@@ -46,7 +69,7 @@ class TestEnv:
             fp.write(todo_content[:todo_content_start] + content[content_start:])
 
         return {
-            "has_todo": "// TODO" in content[content_start:],
+            "has_todo": check_todo(todo_content, content),
             "can_replace": True
         }
 

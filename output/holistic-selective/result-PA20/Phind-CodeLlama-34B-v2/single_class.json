@@ -406,7 +406,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -416,7 +416,7 @@
             48,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -426,7 +426,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -436,7 +436,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -446,7 +446,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -456,7 +456,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -466,7 +466,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -476,7 +476,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -496,7 +496,7 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -506,7 +506,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -516,7 +516,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -526,7 +526,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -536,7 +536,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -546,7 +546,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -556,7 +556,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -566,7 +566,7 @@
             48,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -576,7 +576,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -586,7 +586,7 @@
             40,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -596,16 +596,6 @@
             40,
             49
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA20/RandomPlayer.java",
-        "compile_errors": 0,
-        "test_result": [
-            49,
-            49
-        ],
         "has_todo": false,
         "can_replace": true
     },
@@ -706,7 +696,7 @@
             49,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -716,7 +706,17 @@
             49,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA20/RandomPlayer.java",
+        "compile_errors": 0,
+        "test_result": [
+            49,
+            49
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -796,7 +796,7 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1216,7 +1216,7 @@
             48,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1286,7 +1286,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1346,7 +1346,7 @@
             47,
             49
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {

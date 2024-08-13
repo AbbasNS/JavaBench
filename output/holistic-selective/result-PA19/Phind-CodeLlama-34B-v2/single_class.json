@@ -1016,7 +1016,17 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Pipe.java",
+        "compile_errors": 0,
+        "test_result": [
+            50,
+            55
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1046,16 +1056,6 @@
             50,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Pipe.java",
-        "compile_errors": 0,
-        "test_result": [
-            50,
-            55
-        ],
         "has_todo": false,
         "can_replace": true
     },
@@ -1066,7 +1066,7 @@
             50,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1086,7 +1086,7 @@
             51,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1176,7 +1176,7 @@
             50,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1186,7 +1186,7 @@
             50,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {

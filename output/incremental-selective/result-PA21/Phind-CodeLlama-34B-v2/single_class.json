@@ -226,7 +226,7 @@
             203,
             222
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1896,7 +1896,7 @@
             222,
             222
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {

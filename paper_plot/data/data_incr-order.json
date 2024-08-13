@@ -2,27 +2,33 @@
   "completion": [
     {
       "Context": "selective",
-      "Method": "incremental",
-      "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.8642857143
-    },
-    {
-      "Context": "selective",
       "Method": "incremental_random",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.8514285714
+      "Pass_at_1": 0.8835714286
     },
     {
       "Context": "selective",
       "Method": "incremental",
-      "Model": "gpt-3.5-turbo-1106",
-      "Pass_at_1": 0.8392857143
+      "Model": "deepseek-coder-6.7b-instruct",
+      "Pass_at_1": 0.88
     },
     {
       "Context": "selective",
       "Method": "incremental_rev",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.8257142857
+      "Pass_at_1": 0.8578571429
+    },
+    {
+      "Context": "selective",
+      "Method": "incremental",
+      "Model": "gpt-3.5-turbo-1106",
+      "Pass_at_1": 0.8528571429
+    },
+    {
+      "Context": "selective",
+      "Method": "incremental",
+      "Model": "deepseek-coder-33b-instruct",
+      "Pass_at_1": 0.8142857143
     },
     {
       "Context": "selective",
@@ -39,23 +45,23 @@
     {
       "Context": "selective",
       "Method": "incremental",
-      "Model": "deepseek-coder-33b-instruct",
-      "Pass_at_1": 0.7485714286
-    },
-    {
-      "Context": "selective",
-      "Method": "incremental",
       "Model": "Phind-CodeLlama-34B-v2",
-      "Pass_at_1": 0.5992857143
+      "Pass_at_1": 0.7014285714
     },
     {
       "Context": "selective",
       "Method": "incremental",
       "Model": "WizardCoder-15B-V1.0",
-      "Pass_at_1": 0.5057142857
+      "Pass_at_1": 0.5535714286
     }
   ],
   "compilation_class_wise": [
+    {
+      "Context": "selective",
+      "Method": "incremental",
+      "Model": "deepseek-coder-6.7b-instruct",
+      "Pass_at_1": 0.7407142857
+    },
     {
       "Context": "selective",
       "Method": "incremental_random",
@@ -64,27 +70,21 @@
     },
     {
       "Context": "selective",
-      "Method": "incremental",
-      "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.725
-    },
-    {
-      "Context": "selective",
-      "Method": "incremental",
-      "Model": "gpt-3.5-turbo-1106",
-      "Pass_at_1": 0.7
-    },
-    {
-      "Context": "selective",
       "Method": "incremental_random",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.695
+      "Pass_at_1": 0.7271428571
     },
     {
       "Context": "selective",
       "Method": "incremental_rev",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.6864285714
+      "Pass_at_1": 0.7185714286
+    },
+    {
+      "Context": "selective",
+      "Method": "incremental",
+      "Model": "gpt-3.5-turbo-1106",
+      "Pass_at_1": 0.71
     },
     {
       "Context": "selective",
@@ -96,39 +96,39 @@
       "Context": "selective",
       "Method": "incremental",
       "Model": "deepseek-coder-33b-instruct",
-      "Pass_at_1": 0.5778571429
+      "Pass_at_1": 0.635
     },
     {
       "Context": "selective",
       "Method": "incremental",
       "Model": "Phind-CodeLlama-34B-v2",
-      "Pass_at_1": 0.5021428571
+      "Pass_at_1": 0.5942857143
     },
     {
       "Context": "selective",
       "Method": "incremental",
       "Model": "WizardCoder-15B-V1.0",
-      "Pass_at_1": 0.3507142857
+      "Pass_at_1": 0.3757142857
     }
   ],
   "compilation_test_wise": [
     {
       "Context": "selective",
-      "Method": "incremental",
-      "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.2621848739
-    },
-    {
-      "Context": "selective",
       "Method": "incremental_rev",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.2589381207
+      "Pass_at_1": 0.4316653934
     },
     {
       "Context": "selective",
       "Method": "incremental_random",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.2505252101
+      "Pass_at_1": 0.4005252101
+    },
+    {
+      "Context": "selective",
+      "Method": "incremental",
+      "Model": "deepseek-coder-6.7b-instruct",
+      "Pass_at_1": 0.2621848739
     },
     {
       "Context": "selective",
@@ -145,20 +145,20 @@
     {
       "Context": "selective",
       "Method": "incremental",
-      "Model": "gpt-3.5-turbo-1106",
-      "Pass_at_1": 0.0955357143
+      "Model": "deepseek-coder-33b-instruct",
+      "Pass_at_1": 0.1727941176
     },
     {
       "Context": "selective",
       "Method": "incremental",
       "Model": "Phind-CodeLlama-34B-v2",
-      "Pass_at_1": 0.0701680672
+      "Pass_at_1": 0.1014180672
     },
     {
       "Context": "selective",
       "Method": "incremental",
-      "Model": "deepseek-coder-33b-instruct",
-      "Pass_at_1": 0.0352941176
+      "Model": "gpt-3.5-turbo-1106",
+      "Pass_at_1": 0.0955357143
     },
     {
       "Context": "selective",
@@ -178,25 +178,25 @@
       "Context": "selective",
       "Method": "incremental",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.7036481325
-    },
-    {
-      "Context": "selective",
-      "Method": "incremental",
-      "Model": "gpt-3.5-turbo-1106",
-      "Pass_at_1": 0.6846699639
+      "Pass_at_1": 0.7197424559
     },
     {
       "Context": "selective",
       "Method": "incremental_random",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.6816620162
+      "Pass_at_1": 0.7140663913
     },
     {
       "Context": "selective",
       "Method": "incremental_rev",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.6650646981
+      "Pass_at_1": 0.6960027227
+    },
+    {
+      "Context": "selective",
+      "Method": "incremental",
+      "Model": "gpt-3.5-turbo-1106",
+      "Pass_at_1": 0.6946699639
     },
     {
       "Context": "selective",
@@ -208,33 +208,33 @@
       "Context": "selective",
       "Method": "incremental",
       "Model": "deepseek-coder-33b-instruct",
-      "Pass_at_1": 0.5603969625
+      "Pass_at_1": 0.617581516
     },
     {
       "Context": "selective",
       "Method": "incremental",
       "Model": "Phind-CodeLlama-34B-v2",
-      "Pass_at_1": 0.4878321662
+      "Pass_at_1": 0.5801133323
     },
     {
       "Context": "selective",
       "Method": "incremental",
       "Model": "WizardCoder-15B-V1.0",
-      "Pass_at_1": 0.3468474087
+      "Pass_at_1": 0.3711270917
     }
   ],
   "pass_test_wise": [
     {
       "Context": "selective",
-      "Method": "incremental_random",
+      "Method": "incremental_rev",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.2107590067
+      "Pass_at_1": 0.3342496255
     },
     {
       "Context": "selective",
-      "Method": "incremental_rev",
+      "Method": "incremental_random",
       "Model": "deepseek-coder-6.7b-instruct",
-      "Pass_at_1": 0.2085373337
+      "Pass_at_1": 0.308553127
     },
     {
       "Context": "selective",
@@ -250,6 +250,12 @@
     },
     {
       "Context": "selective",
+      "Method": "incremental",
+      "Model": "deepseek-coder-33b-instruct",
+      "Pass_at_1": 0.1447414612
+    },
+    {
+      "Context": "selective",
       "Method": "incremental_random",
       "Model": "gpt-3.5-turbo-1106",
       "Pass_at_1": 0.1179619378
@@ -258,19 +264,13 @@
       "Context": "selective",
       "Method": "incremental",
       "Model": "Phind-CodeLlama-34B-v2",
-      "Pass_at_1": 0.061012122
+      "Pass_at_1": 0.092262122
     },
     {
       "Context": "selective",
       "Method": "incremental",
       "Model": "gpt-3.5-turbo-1106",
       "Pass_at_1": 0.0514928193
-    },
-    {
-      "Context": "selective",
-      "Method": "incremental",
-      "Model": "deepseek-coder-33b-instruct",
-      "Pass_at_1": 0.0350620781
     },
     {
       "Context": "selective",

@@ -56,16 +56,6 @@
             55,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/FillableCell.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
         "has_todo": false,
         "can_replace": true
     },
@@ -86,7 +76,17 @@
             55,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/FillableCell.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {

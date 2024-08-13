@@ -501,7 +501,7 @@
                 15,
                 15
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -2117,7 +2117,7 @@
                 7,
                 7
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {
@@ -2723,7 +2723,7 @@
                 3,
                 23
             ],
-            "has_todo": true,
+            "has_todo": false,
             "can_replace": true
         },
         {

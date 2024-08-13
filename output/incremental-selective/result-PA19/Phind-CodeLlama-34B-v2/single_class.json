@@ -206,27 +206,7 @@
             0,
             0
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/FillableCell.java",
-        "compile_errors": 4,
-        "test_result": [
-            0,
-            0
-        ],
         "has_todo": false,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/FillableCell.java",
-        "compile_errors": 4,
-        "test_result": [
-            0,
-            0
-        ],
-        "has_todo": true,
         "can_replace": true
     },
     {
@@ -296,7 +276,7 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -306,7 +286,7 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -336,7 +316,17 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/FillableCell.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -366,7 +356,7 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -386,7 +376,7 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -396,7 +386,17 @@
             0,
             0
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/FillableCell.java",
+        "compile_errors": 4,
+        "test_result": [
+            0,
+            0
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -606,87 +606,7 @@
             55,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -706,27 +626,7 @@
             55,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -746,17 +646,7 @@
             55,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/Wall.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -776,7 +666,7 @@
             55,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -796,7 +686,117 @@
             55,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/Wall.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1006,7 +1006,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1016,7 +1016,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1026,7 +1026,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1036,7 +1036,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1046,7 +1046,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1056,7 +1056,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1066,7 +1066,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1076,7 +1076,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1086,7 +1086,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1096,7 +1096,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1106,7 +1106,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1116,7 +1116,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1126,7 +1126,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1136,7 +1136,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1146,7 +1146,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1156,7 +1156,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1166,7 +1166,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1176,7 +1176,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1186,7 +1186,7 @@
             49,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1194,46 +1194,6 @@
         "compile_errors": 0,
         "test_result": [
             49,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/CellStack.java",
-        "compile_errors": 0,
-        "test_result": [
-            53,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/CellStack.java",
-        "compile_errors": 0,
-        "test_result": [
-            53,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/CellStack.java",
-        "compile_errors": 0,
-        "test_result": [
-            53,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/CellStack.java",
-        "compile_errors": 0,
-        "test_result": [
-            53,
             55
         ],
         "has_todo": false,
@@ -1283,6 +1243,46 @@
         "task_id": "PA19/CellStack.java",
         "compile_errors": 0,
         "test_result": [
+            53,
+            55
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/CellStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            53,
+            55
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/CellStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            53,
+            55
+        ],
+        "has_todo": true,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/CellStack.java",
+        "compile_errors": 0,
+        "test_result": [
+            53,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/CellStack.java",
+        "compile_errors": 0,
+        "test_result": [
             55,
             55
         ],
@@ -1416,16 +1416,6 @@
             55,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/DelayBar.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
         "has_todo": false,
         "can_replace": true
     },
@@ -1446,37 +1436,7 @@
             55,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/DelayBar.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
         "has_todo": false,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/DelayBar.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/DelayBar.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
         "can_replace": true
     },
     {
@@ -1516,7 +1476,7 @@
             55,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1526,7 +1486,57 @@
             55,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/DelayBar.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/DelayBar.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/DelayBar.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/DelayBar.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
+        "can_replace": true
+    },
+    {
+        "task_id": "PA19/DelayBar.java",
+        "compile_errors": 0,
+        "test_result": [
+            55,
+            55
+        ],
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1576,7 +1586,7 @@
             55,
             55
         ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
@@ -1586,17 +1596,7 @@
             55,
             55
         ],
-        "has_todo": true,
-        "can_replace": true
-    },
-    {
-        "task_id": "PA19/DelayBar.java",
-        "compile_errors": 0,
-        "test_result": [
-            55,
-            55
-        ],
-        "has_todo": true,
+        "has_todo": false,
         "can_replace": true
     },
     {
