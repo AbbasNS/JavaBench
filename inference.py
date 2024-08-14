@@ -130,6 +130,8 @@ def inference(args):
                 completion=result,
                 mediate=mediate,
             ))
+        if os.path.dirname(args.output):
+            os.makedirs(os.path.dirname(args.output), exist_ok=True)
         write_jsonl(args.output, samples)
 
 
