@@ -60,9 +60,9 @@ def replace_method(source: str, target: str, method: str, seq: int) -> str:
     source_todo_methods = get_todo_methods(source)
     target_methods = get_todo_methods(target, todo_only=False)
 
-    source_todo_method = next(filter(lambda decl: decl["name"] == method and decl["seq"] == seq, source_todo_methods))
+    source_todo_method = next(filter(lambda decl: decl["name"] == method and decl["seq"] == seq, source_todo_methods), None)
     target_method = next(filter(lambda decl: decl["name"] == method and decl["seq"] == seq, target_methods), None)
 
-    if target_method is not None and not target_method["node"].has_error:
+    if source_todo_method is not None and target_method is not None and not target_method["node"].has_error:
         source = source[:source_todo_method['body_start']+1] + target[target_method['body_start']+1:target_method['body_end']-1] + source[source_todo_method['body_end']-1:]
     return source
