@@ -25,7 +25,7 @@ def inference(args):
             revision=args.revision,
             debug=args.debug,
         )
-        tokenizer.pad_token = tokenizer.bos_token
+        tokenizer.pad_token = tokenizer.eos_token
 
     def query(code, code_context):
         lc_messages = complete_template.format_messages(
