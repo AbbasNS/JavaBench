@@ -54,6 +54,8 @@ def inference(args):
                 temperature=args.temperature,
                 repetition_penalty=args.repetition_penalty,
                 max_new_tokens=args.max_new_tokens,
+                eos_token_id=tokenizer.eos_token_id,  # Explicit stopping at EOS
+                pad_token_id=tokenizer.pad_token_id,  # Ensures padding does not cause looping
             )
             if model.config.is_encoder_decoder:
                 output_ids = output_ids[0]
