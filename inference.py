@@ -36,7 +36,7 @@ def inference(args):
             prompt = lc_messages[0].content + "\n" + lc_messages[1].content
             outputs = model.invoke(lc_messages).content
         else:
-            prompt = lc_messages[0].content + "\n" + lc_messages[1].conten
+            prompt = lc_messages[0].content + "\n" + lc_messages[1].content
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
             output_ids = model.generate(
                 **inputs,
@@ -44,8 +44,6 @@ def inference(args):
                 temperature=args.temperature,
                 repetition_penalty=args.repetition_penalty,
                 max_new_tokens=args.max_new_tokens,
-                eos_token_id=tokenizer.convert_tokens_to_ids("<|im_end|>"),  # Forces model to stop
-                pad_token_id=tokenizer.pad_token_id,  # Ensures padding doesn't interfere
             )
             if model.config.is_encoder_decoder:
                 output_ids = output_ids[0]
