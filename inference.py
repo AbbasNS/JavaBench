@@ -36,7 +36,9 @@ def inference(args):
             prompt = lc_messages[0].content + "\n" + lc_messages[1].content
             outputs = model.invoke(lc_messages).content
         else:
-            prompt = lc_messages[0].content + "\n" + lc_messages[1].content
+            prompt = tokenizer.apply_chat_template([
+                {"role": "user", "content": lc_messages[0].content + "\n" + lc_messages[1].content},
+            ], tokenize=False, add_generation_prompt=True)
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
             output_ids = model.generate(
                 **inputs,
