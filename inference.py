@@ -42,6 +42,7 @@ def inference(args):
             ], tokenize=False, add_generation_prompt=True)
 
 
+            inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
             output_ids = model.generate(
                 **inputs,
                 do_sample=True if args.temperature > 1e-5 else False,
