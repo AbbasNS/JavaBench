@@ -26,7 +26,10 @@ def inference(args):
             revision=args.revision,
             debug=args.debug,
         )
-        tokenizer.pad_token = tokenizer.eos_token
+        if tokenizer.pad_token == tokenizer.eos_token:
+            tokenizer.pad_token = "<PAD>"  # Assign a distinct padding token
+            model.resize_token_embeddings(len(tokenizer))  # Adjust model embedding size
+
 
     def query(code, code_context):
         lc_messages = complete_template.format_messages(
