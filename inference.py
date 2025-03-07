@@ -45,9 +45,15 @@ def inference(args):
             conv.append_message(conv.roles[0], lc_messages[1].content)
             conv.append_message(conv.roles[1], None)
             prompt = conv.get_prompt()
+            prompt += tokenizer.eos_token
 
             # Run inference
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
+            class StopOnEOS(StoppingCriteria):
+                def __call__(self, input_ids, scores, **kwargs):
+                    if tokenizer.eos_token_id in input_ids[:, -1]:
+                        return True  # Stop if EOS is found at the end of generation
+                    return False
             output_ids = model.generate(
                 **inputs,
                 do_sample=True if args.temperature > 1e-5 else False,
@@ -56,6 +62,7 @@ def inference(args):
                 max_new_tokens=args.max_new_tokens,
                 eos_token_id=tokenizer.eos_token_id,  # Explicit stopping at EOS
                 pad_token_id=tokenizer.pad_token_id,  # Ensures padding does not cause looping
+                stopping_criteria=StoppingCriteriaList([StopOnEOS()]),
             )
             if model.config.is_encoder_decoder:
                 output_ids = output_ids[0]
