@@ -37,7 +37,7 @@ def inference(args):
             outputs = model.invoke(lc_messages).content
         else:
             prompt = tokenizer.apply_chat_template([
-                {"role": "user", "content": lc_messages[0].content + "\n" + lc_messages[1].content},
+                {"role": "user", "content": "\n" + lc_messages[0].content + "\n\n" + lc_messages[1].content},
             ], tokenize=False, add_generation_prompt=True)
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
             output_ids = model.generate(
@@ -146,7 +146,7 @@ if __name__ == "__main__":
     parser.add_argument("--incremental-mode", type=str, choices=["seq", "rev", "rand"], default="seq")
 
     parser.add_argument("--temperature", type=float, default=0.2)
-    parser.add_argument("--repetition_penalty", type=float, default=1.0)
+    parser.add_argument("--repetition_penalty", type=float, default=1.2)
     parser.add_argument("--max-new-tokens", type=int, default=4096)
     parser.add_argument("--debug", action="store_true")
     args = parser.parse_args()
