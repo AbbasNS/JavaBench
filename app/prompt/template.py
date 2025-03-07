@@ -18,8 +18,7 @@ The first thing you need to do is to summarize the requirements below and extrac
 complete_template = ChatPromptTemplate.from_messages(
     [
         SystemMessagePromptTemplate.from_template(
-            """You are a helpful java programmer that write the project based on the following context. 
-Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+            """You are an experienced Java developer. Your task is to complete methods with `// TODO` in a Java project. Do not provide explanations, only Java code.
 {code_context}
 """
         ),

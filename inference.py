@@ -26,6 +26,7 @@ def inference(args):
             debug=args.debug,
         )
         tokenizer.pad_token = tokenizer.eos_token
+        i = 0
     def query(code, code_context):
         lc_messages = complete_template.format_messages(
             code_context=code_context,
@@ -40,6 +41,10 @@ def inference(args):
                 {"role": "user", "content": "\n" + lc_messages[0].content + "\n\n" + lc_messages[1].content},
             ], tokenize=False, add_generation_prompt=True)
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
+            num_tokens = len(tokenizer.encode(prompt))
+
+p           print(f"{i} - Total input tokens: {num_tokens}")
+            i = i + 1
             output_ids = model.generate(
                 **inputs,
                 do_sample=True if args.temperature > 1e-5 else False,
@@ -47,6 +52,14 @@ def inference(args):
                 repetition_penalty=args.repetition_penalty,
                 max_new_tokens=args.max_new_tokens,
             )
+            # Count total tokens in the output
+            total_output_tokens = output_ids.shape[1]  # Total tokens after generation
+
+            # Compute new tokens generated
+            generated_tokens = total_output_tokens - input_ids.shape[1]
+
+            print(f"Total output tokens: {total_output_tokens}")
+            print(f"Newly generated tokens: {generated_tokens}")
             if model.config.is_encoder_decoder:
                 output_ids = output_ids[0]
             else:
