@@ -9,7 +9,6 @@ from app.prompt.template import complete_template
 from app.static_analyzer.class_compose_tool import get_todo_methods, replace_method, retain_todo_method
 from app.util.io import extract_code, stream_jsonl, write_jsonl
 from langchain_openai.chat_models import ChatOpenAI
-from transformers import StoppingCriteria, StoppingCriteriaList
 
 def inference(args):
     is_openai = args.model_path.startswith("gpt")
@@ -37,31 +36,20 @@ def inference(args):
             prompt = lc_messages[0].content + "\n" + lc_messages[1].content
             outputs = model.invoke(lc_messages).content
         else:
-            conv = get_conversation_template(args.model_path)
-            if "{system_message}" in conv.system_template:
-                conv.system_message = lc_messages[0].content
-            else:
-                conv.append_message(conv.roles[0], lc_messages[0].content)
-            conv.append_message(conv.roles[0], lc_messages[1].content)
-            conv.append_message(conv.roles[1], None)
-            prompt = conv.get_prompt()
+            prompt = tokenizer.apply_chat_template([
+                {"role": "user", "content": lc_messages[0].content + "\n" + lc_messages[1].content},
+                {"role": "assistant", "content": ""}
+            ], tokenize=False, add_generation_prompt=True)
 
-            # Run inference
-            inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
-            class StopOnEOS(StoppingCriteria):
-                def __call__(self, input_ids, scores, **kwargs):
-                    if tokenizer.eos_token_id in input_ids[:, -1]:
-                        return True  # Stop if EOS is found at the end of generation
-                    return False
+
             output_ids = model.generate(
                 **inputs,
                 do_sample=True if args.temperature > 1e-5 else False,
                 temperature=args.temperature,
                 repetition_penalty=args.repetition_penalty,
                 max_new_tokens=args.max_new_tokens,
-                eos_token_id=tokenizer.eos_token_id,  # Explicit stopping at EOS
-                pad_token_id=tokenizer.pad_token_id,  # Ensures padding does not cause looping
-                stopping_criteria=StoppingCriteriaList([StopOnEOS()]),
+                eos_token_id=tokenizer.convert_tokens_to_ids("<|im_end|>"),  # Forces model to stop
+                pad_token_id=tokenizer.pad_token_id,  # Ensures padding doesn't interfere
             )
             if model.config.is_encoder_decoder:
                 output_ids = output_ids[0]
@@ -142,7 +130,6 @@ def inference(args):
         if os.path.dirname(args.output):
             os.makedirs(os.path.dirname(args.output), exist_ok=True)
         write_jsonl(args.output, samples)
-
 
 if __name__ == "__main__":
     os.makedirs("logs", exist_ok=True)
