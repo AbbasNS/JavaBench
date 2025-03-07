@@ -26,11 +26,7 @@ def inference(args):
             revision=args.revision,
             debug=args.debug,
         )
-        if tokenizer.pad_token == tokenizer.eos_token:
-            tokenizer.pad_token = "<PAD>"  # Assign a distinct padding token
-            model.resize_token_embeddings(len(tokenizer))  # Adjust model embedding size
-
-
+        tokenizer.pad_token = tokenizer.eos_token
     def query(code, code_context):
         lc_messages = complete_template.format_messages(
             code_context=code_context,
@@ -49,7 +45,6 @@ def inference(args):
             conv.append_message(conv.roles[0], lc_messages[1].content)
             conv.append_message(conv.roles[1], None)
             prompt = conv.get_prompt()
-            prompt += tokenizer.eos_token
 
             # Run inference
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
