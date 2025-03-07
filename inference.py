@@ -9,6 +9,7 @@ from app.prompt.template import complete_template
 from app.static_analyzer.class_compose_tool import get_todo_methods, replace_method, retain_todo_method
 from app.util.io import extract_code, stream_jsonl, write_jsonl
 from langchain_openai.chat_models import ChatOpenAI
+from transformers import StoppingCriteria
 
 def inference(args):
     is_openai = args.model_path.startswith("gpt")
