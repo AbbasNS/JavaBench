@@ -57,7 +57,7 @@ def inference(args):
             total_output_tokens = output_ids.shape[1]  # Total tokens after generation
 
             # Compute new tokens generated
-            generated_tokens = total_output_tokens - inputs.shape[1]
+            generated_tokens = total_output_tokens - inputs["input_ids"].shape[1]
 
             print(f"Total output tokens: {total_output_tokens}")
             print(f"Newly generated tokens: {generated_tokens}")
