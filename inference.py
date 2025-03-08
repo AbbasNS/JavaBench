@@ -28,7 +28,7 @@ def inference(args):
         tokenizer.pad_token = tokenizer.eos_token
     i = 0
     def query(code, code_context):
-        global i 
+        nonlocal i
         lc_messages = complete_template.format_messages(
             code_context=code_context,
             code=code,
