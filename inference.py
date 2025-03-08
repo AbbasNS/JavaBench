@@ -39,7 +39,7 @@ def inference(args):
             outputs = model.invoke(lc_messages).content
         else:
             # Construct a well-formatted prompt
-            prompt = f"<|im_start|>system\nYou are an experienced Java developer. Complete the given Java class methods.\n<|im_end|>\n"
+            prompt = f"<|im_start|>system\nYou are an experienced Java developer. Complete the methods in the Java class by replacing all `// TODO` sections with correct implementations. Only return Java code. Do not provide explanations.\n<|im_end|>\n"
             prompt += f"<|im_start|>user\n{lc_messages[0].content}\n\n{lc_messages[1].content}\n<|im_end|>\n"
             prompt += "<|im_start|>assistant\n"
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
