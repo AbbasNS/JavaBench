@@ -43,7 +43,7 @@ def inference(args):
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
             num_tokens = len(tokenizer.encode(prompt))
 
-p           print(f"{i} - Total input tokens: {num_tokens}")
+            print(f"{i} - Total input tokens: {num_tokens}")
             i = i + 1
             output_ids = model.generate(
                 **inputs,
