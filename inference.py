@@ -38,9 +38,10 @@ def inference(args):
             prompt = lc_messages[0].content + "\n" + lc_messages[1].content
             outputs = model.invoke(lc_messages).content
         else:
-            prompt = tokenizer.apply_chat_template([
-                {"role": "user", "content": "\n" + lc_messages[0].content + "\n\n" + lc_messages[1].content},
-            ], tokenize=False, add_generation_prompt=True)
+            # Construct a well-formatted prompt
+            prompt = f"<|im_start|>system\nYou are an experienced Java developer. Complete the given Java class methods.\n<|im_end|>\n"
+            prompt += f"<|im_start|>user\n{lc_messages[0].content}\n\n{lc_messages[1].content}\n<|im_end|>\n"
+            prompt += "<|im_start|>assistant\n"
             inputs = tokenizer([prompt], return_tensors="pt").to(args.device)
             num_tokens = len(tokenizer.encode(prompt))
 
@@ -66,7 +67,7 @@ def inference(args):
             else:
                 output_ids = output_ids[0][len(inputs["input_ids"][0]) :]
             outputs = tokenizer.decode(
-                output_ids, skip_special_tokens=True, spaces_between_special_tokens=False
+                output_ids, skip_special_tokens=False, spaces_between_special_tokens=True
             )
         return prompt, outputs
 
